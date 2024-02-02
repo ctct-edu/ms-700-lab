@@ -2,7 +2,7 @@
 
 # **Lab 02: Prepare the environment for a Microsoft Teams deployment**
 
-# **Student lab answer key**
+# 
 
 ## **Lab Scenario**
 
@@ -134,7 +134,7 @@ As a part of your system administrator role, you need to review access to resour
 		* Select **Next: Reviews**.
 
 	2. On the **Reviews** tab:
-	 
+	
 		* In the **Select reviewers** section, select **Group owner(s)**.* In the **Specify recurrence of review** section, select **Weekly** and keep rest as default. 
 		* Select on **Next: Settings**.
 
@@ -308,27 +308,25 @@ After activating sensitivity labels for groups, you will now create three sensit
 		* Select **Assign permissions**, and select **+ Add all users and groups in your organization**.
 		* Scroll down and select **Save** to apply the changes.
 		
-
-	5. In the **Content marking** sections, 
-
-		* Select the slider and the checkbox **Add a watermark**.
+5. In the **Content marking** sections, 
+	
+	* Select the slider and the checkbox **Add a watermark**.
 		* Select **Customize text** and enter the following to the **Watermark text** box: **Internal use only**
 		* Click **Save** to apply the changes.
 		
-
 	6. In the **Auto-labeling** section, leave the settings as default.
-	
+
 	7. In the **Groups & sites** section, select both checkboxes. 
 	
 		* **Privacy and external user access settings** 
 		* **External sharing and Conditional Access settings** 
-
+	
 	8. In the **Privacy & external user access** section, select **None**. 
 
 	9. In the **External sharing & device access** section
-	
-		* Select **Control external sharing from labeled SharePoint sites** and select **Existing guests**.
 
+		* Select **Control external sharing from labeled SharePoint sites** and select **Existing guests**.
+	
 		* Select **Use Azure AD Conditional Access to protect labeled SharePoint sites** and select  **Allow limited, web-only access**.
 
 	10. In the **Schematized data assets (preview)** section, leave the settings as default. 
@@ -517,9 +515,9 @@ After configuring a retention policy to protect data from deletion, you also nee
 		- **Name**: Teams Rollout deletion policy
 		- **Description**: Retention policy for the Teams Rollout team to delete messages older than a day.
 		- Select **Next**
-
+	
 	2. In the **Type** section,select **Static** and select **Next** then configure the following settings:
-
+	
 		- **Exchange email**: Off
 		- **SharePoint sites**: Off
 		- **OneDrive accounts**: Off
@@ -533,9 +531,9 @@ After configuring a retention policy to protect data from deletion, you also nee
 		- **Yammer user messages**: Off
 		- Select **Edit** in the **Included** column (under the current *All teams* choice) for the **Teams channel messages** line to open the right-side pane.
 		- Select the checkbox left from **Teams Rollout** and select **Done**.
-
+	
 			![Picture 4](media/MS-700-lab_M02_ak_image4.png)
-
+	
 	3. In the **Retention settings** section, 
 		- Select **Only delete items when they reach a certain age** 
 		- Delete items older than: Select **Custom** > **1 days**
@@ -689,34 +687,35 @@ After creating a DLP Policy for protecting GDPR relevant data, you will create a
 	1. In the **Customize Advanced DLP rules** section, select **+ Create rule** and enter the following information:
 		- **Name**: Credit card numbers found
 		- **Description**: Basic rule for protecting credit card numbers forms being shared in Teams.
-
+	
 	2. Below **Conditions**, 
 		- Select **+ Add condition** and **Content contains**.
 		- Leave the group name of **Default**, select **Add** and **Sensitive info types**.
 		- From the right-side pane, check the box left of **Credit Card Number** and select **Add**.
 		- Leave the high **High confidence** and **Instance count (1)** unchanged.
-
+	
 			![Graphical user interface, application Description automatically generated](media/MS-700-lab_M02_ak_image6.png)
-
+	
 	3. Below **Action**, 
 		- Select **+ Add an action** and **Restrict access or encrypt the content in Microsoft 365 locations**.
 		- Select the checkbox of **Restrict access or encrypt the content in Microsoft 365 locations** again and select **Block everyone** 
-
+	
 			![Graphical user interface, text, application Description automatically generated](media/MS-700-lab_M02_ak_image8.png)
-
+	
 	4. Below **User notification**, 
 		- Select the slider to **On** 
 		- Select **Notify the user who sent, shared or last modified the content**.
 		- Select **Customize the policy tip text**.
 		- Enter the following text to the textbox: **Credit card numbers are not allowed to be shared!**
-
+	
 	5. Below **Incident reports**, 
 		- Set the slider **Send an alert to admins when a rule match occurs** to **Off**.
 		- Select **Save**.
 	
 	6. Review the rule settings and select **Next**.
 
-		
+
+​		
 8. In the **Test or turn on the policy** section, select **Turn it on right away** and select **Next**.
 
 9. On the Review your settings page, review your settings, select **Submit** then **Done**.

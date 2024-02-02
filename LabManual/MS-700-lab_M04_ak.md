@@ -2,7 +2,7 @@
 
 # **Lab 04: - Manage Teams meetings and calling experiences**
 
-# **Student lab answer key**
+# 
 
 ## **Lab Scenario**
 
@@ -163,7 +163,7 @@ The IT department wants to host a company-wide meeting to answer employees’ qu
 	- Under **Form** select **+ Add field** > **Custom question** > **Text input** and enter the following in the textbox below **Custom question**:
 
 		*What is your question about the new reporting system?*
-		 
+		
 
 6. Preview the registration site by selecting **View draft**. The preview of the registration page opens in a new tab. After reviewing the site, close the tab.
 
@@ -178,7 +178,7 @@ The IT department wants to host a company-wide meeting to answer employees’ qu
 	4. On the left navigation pane, select **General** under the **IT-Department**. Select **New Conversation** and paste the copied registration link in the new conversation text box and select send.
 
 	5. Sign out and close all browser windows.
-		
+	
 8. Test the meeting registration. 
 
 	1. Stay in the **Client 1 VM** and browse to **[Microsoft Teams web client (https://teams.microsoft.com/)](https://teams.microsoft.com/)** as **MOD Administrator**.
@@ -303,7 +303,7 @@ Your organization has ordered devices for Microsoft Teams room. In the meantime,
 5. Sign out and close all open windows.
 
 You have successfully created, configured, and licensed a Microsoft Teams Room service account, which is a prerequisite for deploying a Microsoft Teams Room system.
- 
+
 
 ### **Exercise 3: Set up a Calling Plan (Optional)**
 

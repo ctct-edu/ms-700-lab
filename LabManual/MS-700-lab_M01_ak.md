@@ -2,7 +2,7 @@
 
 # **Lab 01: Manage Microsoft Teams**
 
-# **Student lab answer key**
+# 
 
 ## **Microsoft 365 user interface**
 
@@ -287,41 +287,41 @@ You will create a new Microsoft 365 Group named “IT-Department,” and then ad
 
 
 	- Basics:
-
+	
 		- Name: **IT-Department**
-
+	
 		- Description: **All staff of the IT-Department**
-
+	
 		- Select **Next**
-
+	
 	- Owners:
-
+	
 		- Select **+ Assign owners**
-
+	
 		- Search and select **Joni Sherman**
-
+	
 		- Select **Add(1)**, and then select **Next**.
-
+	
 	- Members:
-
+	
 		- Select **+ Add Members**, and add the following users:
-
+	
 			- Patti Fernandez
-
+	
 			- Allan Deyoung
-
+	
 			- MOD Administrator
-
+	
 		- Select **Add(3)**, and then select **Next**.
-
+	
 	- Settings:
-
+	
 		- Enter **IT-Department** for Group email address.
-
+	
 		- Privacy: **Private**
-
+	
 		- Uncheck **Create a team for this group**.
-
+	
 		- Select **Next**
 
 5. Select **Create group** > **Close**.
@@ -537,9 +537,9 @@ You are an administrator for your Team’s organization. You need to limit which
         ```powershell
         $Setting = $Template.CreateDirectorySetting()
         ```
-  
+    
     4.	Apply the configured settings, to revert previous changes:
-         
+        
         ```powershell
         Set-AzureADDirectorySetting -Id (Get-AzureADDirectorySetting | where {$_.DisplayName -eq "Group.Unified"}).id -DirectorySetting $Setting
         ```
@@ -547,11 +547,12 @@ You are an administrator for your Team’s organization. You need to limit which
 
     ```powershell
     Disconnect-AzureAD
-    ``` 
+    ```
 	
 9. Close the PowerShell window and continue to the next task.
 	
 	
+
 In this task, you have successfully created a new security group and configured Azure AD settings to restrict the creation of new groups to members of this group only. At the end of the task, you have successfully tested the new group creation restrictions.
 
 #### Task 3 - Configure a new naming policy
@@ -577,17 +578,17 @@ As part of your Teams planning project, you will configure the naming policy whe
     5. Select **Save** to apply the new blocked words setting.
 
 5. Configure **Group naming policy**
-    
+   
     1. On the **Groups | Naming policy** page, select the **Group naming policy** tab.
 
     2. Add **Group_** string as prefix 
-        
+       
         1. Select the checkbox **Add prefix**. 
         2. Select the dropdown menu of **Select the type of prefix** and choose **String**. 
         3. Enter **Group_** to the text box.
 
     3. Add **Country or region** string as the suffix 
-        
+       
         1. Select the checkbox **Add suffix**. 
         2. Select the dropdown menu of **Select the type of suffix**, choose **String**, and enter **_** to the text box. 
         3. Select the dropdown menu of **Select the type of suffix**, choose **Attribute**, and Select **Country or region** from the dropdown menu. 
@@ -679,7 +680,7 @@ To avoid administrative overhead with managing large numbers of policies individ
 	3. You can see the **Frontline worker** under policy package section.
 
 You have successfully modified included policies from an existing policy package and assigned the package to a single user. This will help you assign the same set of policies to a group of users working in the same role or requiring the same access.
- 
+
 
 ### **Exercise 5: Enable access to Teams public preview features using Teams update policies**
 
@@ -703,7 +704,7 @@ In this exercise, you will configure users to explore and evaluate upcoming feat
 	- Select **Apply** 
 
 You now completed creating a custom **Teams Update policy.**
- 
+
 
 #### Task 2 - Assign the custom Update policy to users
 
