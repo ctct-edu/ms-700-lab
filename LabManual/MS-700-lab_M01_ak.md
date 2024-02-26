@@ -16,12 +16,12 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 
   パイロット プロジェクトを開始したばかりで、Teams デスクトップ クライアントがプレインストールされた 2 つの仮想マシンと、異なるユーザーを持つテナントが既にあります。
 
-  - ジョニ・シャーマン(JoniS@<YourTenant>。OnMicrosoft.com) **Teams 管理者**
-  - パティ・フェルナンデス(PattiF@<YourTenant>。OnMicrosoft.com) **Teams デバイス管理者**
-  - アラン・デヤング(AllanD@<YourTenant>。OnMicrosoft.com)**Teamsコミュニケーションサポートエンジニア**
-  - アレックス・ウィルバー (AlexW@<YourTenant>.OnMicrosoft.com) **カナダのレギュラーパイロットユーザー**
-  - リン・ロビンズ(LynneR@<YourTenant>。OnMicrosoft.com) **通常のパイロットユーザー**
-  - ディエゴ・シチリアーニ(DiegoS@<YourTenant>。OnMicrosoft.com) **通常のパイロットユーザー**
+  - ジョニ・シャーマン(JoniS@<YourTenant>。OnMicrosoft.com)  **Teams 管理者**
+  - パティ・フェルナンデス(PattiF@<YourTenant>。OnMicrosoft.com)  **Teams デバイス管理者**
+  - アラン・デヤング(AllanD@<YourTenant>。OnMicrosoft.com) **Teamsコミュニケーションサポートエンジニア**
+  - アレックス・ウィルバー (AlexW@<YourTenant>.OnMicrosoft.com)  カナダのレギュラーパイロットユーザー**
+  - リン・ロビンズ(LynneR@<YourTenant>。OnMicrosoft.com)  **通常のパイロットユーザー**
+  - ディエゴ・シチリアーニ(DiegoS@<YourTenant>。OnMicrosoft.com)  **通常のパイロットユーザー**
 
 - ## **目標**
 
@@ -56,9 +56,9 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
   - クライアント 1 VM: Microsoft Teams がプレインストールされたスタンドアロンの Windows 10 クライアント仮想マシン。
   - クライアント 2 VM: Microsoft Teams がプレインストールされたスタンドアロンの Windows 10 クライアント仮想マシン。
 
-  **手記：**ラボ仮想マシンのサインイン手順は、インストラクターから提供されます。
+  **手記：** ラボ仮想マシンのサインイン手順は、インストラクターから提供されます。
 
-  **大事な：**MS-700 ラボの演習は、クラウドのみの展開です。ローカル管理者アカウントがクライアント VM に作成されている。ドメイン アカウントではなく、ローカル管理者として VM にログインします。ログイン後、デスクトップには、使用しているマシンに応じて、**CLIENT1\*または**CLIENT2*としてログインしていることが表示されます。
+  **大事な：** MS-700 ラボの演習は、クラウドのみの展開です。ローカル管理者アカウントがクライアント VM に作成されている。ドメイン アカウントではなく、ローカル管理者として VM にログインします。ログイン後、デスクトップには、使用しているマシンに応じて、CLIENT1またはCLIENT2としてログインしていることが表示されます。
 
   #### **2. インストールされているアプリケーションを確認する**
 
@@ -76,17 +76,17 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
     
     - 1 人のグローバル管理者 (MOD 管理者) と 9 人の標準ユーザーが事前に作成されています。
     
-    - **手記：**Microsoft 365 のサインイン手順は、インストラクターから提供されます。
+    - **手記：** Microsoft 365 のサインイン手順は、インストラクターから提供されます。
     
     - グローバル管理者 (MOD 管理者) のユーザー名は **admin@<YourTenant>.onmicrosoft.com** です。
     
     - **<YourTenant>.onmicrosoft.com** - これは、ラボ ホスティング プロバイダーによって提供された Microsoft 365 テナントに関連付けられているドメインです。このドメイン名の最初の部分 (<YourTenant>) は、ラボ ホスティング プロバイダーによって提供される一意のテナント ID です。テナント サフィックス ID であるテナント ID の <YourTenant> の部分は、学生ごとに一意になります。
     
-    - **大事な：**このラボでは、特定のユーザー名 (JoniS@<YourTenant>.onmicrosoft.com など) でアプリにサインインするときに、**<YourTenant>.onmicrosoft.com** ドメイン名の入力を求められるため、これは非常に重要です。その場合は、**<YourTenant>** の代わりにテナント ID に割り当てられている一意のテナント サフィックス ID を入力する必要があります。
+    - **大事な：** このラボでは、特定のユーザー名 (JoniS@<YourTenant>.onmicrosoft.com など) でアプリにサインインするときに、**<YourTenant>.onmicrosoft.com** ドメイン名の入力を求められるため、これは非常に重要です。その場合は、**<YourTenant>** の代わりにテナント ID に割り当てられている一意のテナント サフィックス ID を入力する必要があります。
     
     - たとえば、テナントの電子メールが **[admin@contosolab.onmicrosoft.com](mailto:admin@contosolab.onmicrosoft.com)** の場合、一意のテナント サフィックス ID (<YourTenant>) は **contosolab** です。このドメインに入るときに Joni としてサインインする場合は、<YourTenant> を contosolab に置き換えます (例: [JoniS@contosolab.onmicrosoft.com](mailto:JoniS@contosolab.onmicrosoft.com))。
     
-    - **勧告：**このラボでは <YourTenant> として記載され、トレーニング プロバイダーから提供された一意のテナント サフィックスを書き留める必要があります。しばらくすると、この名前または番号を暗記して、このコースのラボを進みます。
+    - **勧告：** このラボでは <YourTenant> として記載され、トレーニング プロバイダーから提供された一意のテナント サフィックスを書き留める必要があります。しばらくすると、この名前または番号を暗記して、このコースのラボを進みます。
     
     - **WWLテナント - 利用規約**
     
