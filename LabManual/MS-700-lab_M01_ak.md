@@ -16,12 +16,12 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 
   パイロット プロジェクトを開始したばかりで、Teams デスクトップ クライアントがプレインストールされた 2 つの仮想マシンと、異なるユーザーを持つテナントが既にあります。
 
-  - ジョニ・シャーマン(JoniS@<YourTenant>。OnMicrosoft.com)  **Teams 管理者**
-  - パティ・フェルナンデス(PattiF@<YourTenant>。OnMicrosoft.com)  **Teams デバイス管理者**
-  - アラン・デヤング(AllanD@<YourTenant>。OnMicrosoft.com) **Teamsコミュニケーションサポートエンジニア**
-  - アレックス・ウィルバー (AlexW@<YourTenant>.OnMicrosoft.com)  カナダのレギュラーパイロットユーザー**
-  - リン・ロビンズ(LynneR@<YourTenant>。OnMicrosoft.com)  **通常のパイロットユーザー**
-  - ディエゴ・シチリアーニ(DiegoS@<YourTenant>。OnMicrosoft.com)  **通常のパイロットユーザー**
+  - ジョニ・シャーマン(JoniS@YourTenant.OnMicrosoft.com)  **Teams 管理者**
+  - パティ・フェルナンデス(PattiF@YourTenant.OnMicrosoft.com)  **Teams デバイス管理者**
+  - アラン・デヤング(AllanD@YourTenant.OnMicrosoft.com) **Teamsコミュニケーションサポートエンジニア**
+  - アレックス・ウィルバー (AlexW@YourTenant.OnMicrosoft.com)  **カナダのレギュラーパイロットユーザー**
+  - リン・ロビンズ(LynneR@YourTenant.OnMicrosoft.com)  **通常のパイロットユーザー**
+  - ディエゴ・シチリアーニ(DiegoS@YourTenant.OnMicrosoft.com)  **通常のパイロットユーザー**
 
 - ## **目標**
 
@@ -78,15 +78,15 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
     
     - **手記：** Microsoft 365 のサインイン手順は、インストラクターから提供されます。
     
-    - グローバル管理者 (MOD 管理者) のユーザー名は **admin@<YourTenant>.onmicrosoft.com** です。
+    - グローバル管理者 (MOD 管理者) のユーザー名は **admin@YourTenantYourTenant.onmicrosoft.com** です。
     
-    - **<YourTenant>.onmicrosoft.com** - これは、ラボ ホスティング プロバイダーによって提供された Microsoft 365 テナントに関連付けられているドメインです。このドメイン名の最初の部分 (<YourTenant>) は、ラボ ホスティング プロバイダーによって提供される一意のテナント ID です。テナント サフィックス ID であるテナント ID の <YourTenant> の部分は、学生ごとに一意になります。
+    - **YourTenant.onmicrosoft.com** - これは、ラボ ホスティング プロバイダーによって提供された Microsoft 365 テナントに関連付けられているドメインです。このドメイン名の最初の部分 (YourTenant) は、ラボ ホスティング プロバイダーによって提供される一意のテナント ID です。テナント サフィックス ID であるテナント ID の YourTenantの部分は、学生ごとに一意になります。
     
-    - **大事な：** このラボでは、特定のユーザー名 (JoniS@<YourTenant>.onmicrosoft.com など) でアプリにサインインするときに、**<YourTenant>.onmicrosoft.com** ドメイン名の入力を求められるため、これは非常に重要です。その場合は、**<YourTenant>** の代わりにテナント ID に割り当てられている一意のテナント サフィックス ID を入力する必要があります。
+    - **大事な：** このラボでは、特定のユーザー名 (JoniS@YourTenant.onmicrosoft.com など) でアプリにサインインするときに、**YourTenant.onmicrosoft.com** ドメイン名の入力を求められるため、これは非常に重要です。その場合は、**YourTenant** の代わりにテナント ID に割り当てられている一意のテナント サフィックス ID を入力する必要があります。
     
-    - たとえば、テナントの電子メールが **[admin@contosolab.onmicrosoft.com](mailto:admin@contosolab.onmicrosoft.com)** の場合、一意のテナント サフィックス ID (<YourTenant>) は **contosolab** です。このドメインに入るときに Joni としてサインインする場合は、<YourTenant> を contosolab に置き換えます (例: [JoniS@contosolab.onmicrosoft.com](mailto:JoniS@contosolab.onmicrosoft.com))。
+    - たとえば、テナントの電子メールが **[admin@contosolab.onmicrosoft.com](mailto:admin@contosolab.onmicrosoft.com)** の場合、一意のテナント サフィックス ID (YourTenant) は **contosolab** です。このドメインに入るときに Joni としてサインインする場合は、YourTenant を contosolab に置き換えます (例: [JoniS@contosolab.onmicrosoft.com](mailto:JoniS@contosolab.onmicrosoft.com))。
     
-    - **勧告：** このラボでは <YourTenant> として記載され、トレーニング プロバイダーから提供された一意のテナント サフィックスを書き留める必要があります。しばらくすると、この名前または番号を暗記して、このコースのラボを進みます。
+    - **勧告：** このラボでは YourTenant として記載され、トレーニング プロバイダーから提供された一意のテナント サフィックスを書き留める必要があります。しばらくすると、この名前または番号を暗記して、このコースのラボを進みます。
     
     - **WWLテナント - 利用規約**
     
@@ -106,7 +106,7 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 
 1. **MOD 管理者**として Microsoft 365 管理センター (https://admin.microsoft.com/) を参照します。
    - 提供された資格情報を使用して**クライアント 1 VM** に接続します。
-   - Microsoft **Edge** を開き、グローバル管理者資格情報 ( **MOD 管理者** : admin@<YourTenant>.onmicrosoft.com) を使用して [**https://admin.microsoft.com/**](https://admin.microsoft.com/) の **Microsoft 365 管理センター**を参照します。
+   - Microsoft **Edge** を開き、グローバル管理者資格情報 ( **MOD 管理者** : admin@YourTenant.onmicrosoft.com) を使用して [**https://admin.microsoft.com/**](https://admin.microsoft.com/) の **Microsoft 365 管理センター**を参照します。
 2. **Teams 管理者**ロールを **Joni Sherman** に割り当てるには
    - 左上のナビゲーション メニューを選択し、その下から [**ユーザー**] と [**アクティブ ユーザー**] を選択します。
    - [アクティブ ユーザー] の一覧で、 **[Joni Sherman**] を検索して選択し、右側の設定ウィンドウを開きます。
@@ -150,13 +150,13 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 
 この演習では、Teams 管理センターを探索し、テナント内の Teams のチーム、ポリシー パッケージ、通話機能、その他すべての設定を管理するために必要な Teams PowerShell モジュールをインストールします。Teams 管理センターと PowerShell から可能なタスクのほとんどは実行できます。自動化用のスクリプトを作成したり、GUIでは使用できないいくつかの設定にアクセスしたりすることもできます。
 
-これらのタスクを実行するには、Joni Sherman のアカウント (JoniS@*<YourTenant>*.onmicrosoft.com) を使用します。
+これらのタスクを実行するには、Joni Sherman のアカウント (JoniS@YourTenant.onmicrosoft.com) を使用します。
 
 #### **タスク 1 - Teams 管理センターの探索**
 
 Teams 管理センターで Teams を管理するために使用できる設定を確認します。
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 
    **手記：**Microsoft Edge の **InPrivate ウィンドウ**を使用して、さまざまな資格情報でログインできます。
 
@@ -189,7 +189,7 @@ Teams 管理センターから、テナントでチームを管理し、ポリ�
 
    - PowerShell ウィンドウに次のコマンドレットを入力し、**Enter** キーを押します。
      - Connect-MicrosoftTeams
-   - [サインイン] ウィンドウで、Teams 管理者 - Joni Sherman (JoniS@<YourTenant>.onmicrosoft.com) としてサインインします。
+   - [サインイン] ウィンドウで、Teams 管理者 - Joni Sherman (JoniS@YourTenant.onmicrosoft.com) としてサインインします。
    - サインインが成功すると、サインインしているユーザーとテナントに関するいくつかの情報が表示されます。
 
 5. **Microsoft Teams PowerShell モジュール**の詳細
@@ -226,7 +226,7 @@ Microsoft Teams PowerShell モジュールを使用して Teams に接続し、�
 
 "IT-Department" という名前の新しい Microsoft 365 グループを作成し、将来のチームとライセンスの基礎となるパイロット メンバーを追加します。
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として **Microsoft 365 管理センター** (https://admin.microsoft.com/) を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として **Microsoft 365 管理センター** (https://admin.microsoft.com/) を参照します。
 2. Microsoft 365 管理センターで、[**Teams &** グループ] > **[アクティブなチームとグループ**] を選択します。
 3. [**アクティブなチームとグループ**] ページで、[**+ Microsoft 365 グループの追加**] を選択します。
 4. **グループの追加**ウィザードに従って、次の情報を入力します。
@@ -263,7 +263,7 @@ Teams のセルフサービス機能をテストするために、このタス�
 
 2. タスク バーの [Teams] アイコンを選択して、**Teams** デスクトップ クライアントを起動します。
 
-3. **[はじめに]** を選択し、**Alex Wilber** (AlexW@<YourTenant>.onmicrosoft.com) としてサインインします。[すべてのアプリにサインインしたままにする] ウィンドウで、[**いいえ、このアプリにのみサインイン**します] を選択します。
+3. **[はじめに]** を選択し、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) としてサインインします。[すべてのアプリにサインインしたままにする] ウィンドウで、[**いいえ、このアプリにのみサインイン**します] を選択します。
 
    **注**: Alex のパスワードをお持ちでない場合は、次の手順で Alex のパスワードをリセットできます。
 
@@ -297,7 +297,7 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 このタスクでは、**Lynne Robbins** は、Teams Web クライアントを使用して **Sales** という名前の別のチームを作成することで、Teams のセルフサービス機能のテストを続行します。また、**アレックス・ウィルバー**もメンバーとして加わります。
 
 1. 提供された資格情報を使用して**クライアント 2 VM** に接続します。
-2. https://teams.microsoft.com で **Microsoft Teams Web クライアント**を参照し[**、**](https://teams.microsoft.com/)**Lynne Robbins** (LynneR@<YourTenant>.onmicrosoft.com) としてサインインします。
+2. https://teams.microsoft.com で **Microsoft Teams Web クライアント**を参照し[**、**](https://teams.microsoft.com/)**Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) としてサインインします。
 3. Teams デスクトップ アプリのダウンロードを求められたら、[**代わりに Web アプリを使用する**] を選択します。[すべてのアプリにサインインしたままにする] ウィンドウで、[**いいえ、このアプリにのみサインイン**します] を選択します。
 4. 左上隅から **[+**] を選択します。
 5. [**チームの作成**] >[**プライベート****>**最初から作成] を選択します。チーム名「**Sales**」を入力し、 [**作成]** を選択します。
@@ -321,7 +321,7 @@ Teams デスクトップ クライアントから新しいチームを正常に�
   3. グループについて **|[すべてのグループ**] ページで、[**有効期限**] を選択します。
   4. グループについて **|[有効期限**] ページで、次の設定を構成します。
      - **[グループの有効期間 (日数)]** のドロップダウン メニューで [**カスタム**] を選択し、テキスト ボックスに**「90**」と入力します。
-     - **[所有者のいないグループの連絡先にメールを送信する**] の右側のテキスト ボックスに、「(JoniS@<YourTenant>.onmicrosoft.com)」と入力します。
+     - **[所有者のいないグループの連絡先にメールを送信する**] の右側のテキスト ボックスに、「(JoniS@YourTenant.onmicrosoft.com)」と入力します。
      - [**Office 365 グループの有効期限を有効にする**] の右側で、[**選択済み**] を選択します。
      - **[+ 追加**] を選択して、右側の [**グループの選択**] ウィンドウを開きます。
      - [**グループの選択**] ウィンドウで、テキスト ボックスに「**Teams ロールアウト**」と入力し、グループを選択します。
@@ -334,7 +334,7 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
   あなたはチームの組織の管理者です。Microsoft 365 グループを作成できるユーザーを制限する必要があります。グループのメンバーのみが Microsoft 365 グループを作成できる **GroupCreators** という名前のセキュリティ グループを作成します。
 
-  1. **クライアント 1 VM** に接続し、グローバル管理者 - MOD 管理者 (admin@<YourTenant>.onmicrosoft.com) として **Microsoft 365 管理センター** (https://admin.microsoft.com/) を参照します。
+  1. **クライアント 1 VM** に接続し、グローバル管理者 - MOD 管理者 (admin@YourTenant.onmicrosoft.com) として **Microsoft 365 管理センター** (https://admin.microsoft.com/) を参照します。
   2. Microsoft 365 管理センターで、[**Teams &** グループ] > **[アクティブなチームとグループ**] を選択します。
   3. **[アクティブなチームとグループ**] ページ。
   4. セキュリティ グループを作成します。
@@ -371,7 +371,7 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
      3. AAD テナントに接続します。
 
-        PowerShell ウィンドウに次のコマンドレットを入力し、**Enter** キーを押します。[サインイン] ウィンドウで、グローバル管理者 - MOD Administrator(admin@<YourTenant>.onmicrosoft.com) としてサインインします。
+        PowerShell ウィンドウに次のコマンドレットを入力し、**Enter** キーを押します。[サインイン] ウィンドウで、グローバル管理者 - MOD Administrator(admin@YourTenant.onmicrosoft.com) としてサインインします。
 
         ```
         Connect-AzureAD
@@ -511,7 +511,7 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
   **手記：**ブロックする単語の設定が有効になるまで、最大で 24 時間かかることがあります。したがって、構成された命名ポリシーのみをテストし、すぐに有効になります。
 
-  1. **クライアント 2 VM** に接続し、**Alex Wilber** (AlexW@<YourTenant>.onmicrosoft.com) として **Teams デスクトップ クライアント** (https://teams.microsoft.com/) を開きます。
+  1. **クライアント 2 VM** に接続し、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) として **Teams デスクトップ クライアント** (https://teams.microsoft.com/) を開きます。
 
   2. Teams デスクトップ クライアントで、左側のメニューから [**Teams**] を選択します。
 
@@ -544,7 +544,7 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
   異なるユーザーのグループに対して多数のポリシーを個別に管理することによる管理オーバーヘッドを回避するには、ポリシー パッケージを使用してポリシーを論理ユニットにグループ化することを評価する必要があります。このタスクでは、既定のポリシー パッケージを確認し、第一線の作業者の既定のポリシー パッケージを変更する必要があります。
 
-  1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
+  1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 
   2. Teams 管理センターの左側のナビゲーションで、[**ポリシー パッケージ**] を選択します。
 
