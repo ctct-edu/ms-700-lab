@@ -281,7 +281,7 @@ Teams のセルフサービス機能をテストするために、このタス�
 
 5. 左上の **[+]**  ボタンを選択します。
 
-6.  **[Create Team] > > [From scratch(最初から)] > > [Public] ** と 選択します。チーム名に「**Teams Rollout**」と入力し、 **[Create]** を選択します。
+6.  **[Create Team]**  > >  **[From scratch(最初から)]** > > **[Public]** と 選択します。チーム名に「**Teams Rollout**」と入力し、 **[Create]** を選択します。
 
 7. **[Add membtes to Teams Rollout]** ウィンドウで、次の名前を入力します。
 
