@@ -2,7 +2,7 @@
 
 # **ラボ 01: Microsoft Teams を管理する**
 
-# 
+
 
 ## **Microsoft 365 ユーザー インターフェイス**
 
@@ -320,7 +320,7 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
   組織の要件に基づいて、不要なグループは 90 日後に自動的に削除する必要があります。Teams の有効期限機能を評価するには、90 日後に Teams ロールアウト グループを期限切れにするグループ有効期限ポリシーを構成します。
 
-  1. **クライアント 1 VM** に接続し、**MOD 管理者**として Entra ID 管理センター (https://aad.portal.azure.com/) を参照します。
+  1. **クライアント 1 VM** に接続し、**MOD 管理者**として Entra ID 管理センター (https://entra.microsoft.com/) を参照します。
 
      Entra ID 管理センターが英語表示の場合は、次の手順で日本語表記に変更してください。
 
@@ -356,7 +356,7 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
   1. **クライアント 1 VM** に接続し、グローバル管理者 - MOD 管理者 (admin@YourTenant.onmicrosoft.com) として **Microsoft 365 管理センター** (https://admin.microsoft.com/) を参照します。
   2. Microsoft 365 管理センターで、[**Teams & Group**] > **[Active Teams and groups]** を選択します。
-    3. セキュリティ グループを作成します。
+        3. セキュリティ グループを作成します。
        - [**Security Groups**] タブに移動します。
          - [**+ Add a security group**] ボタンを選択します。
 
