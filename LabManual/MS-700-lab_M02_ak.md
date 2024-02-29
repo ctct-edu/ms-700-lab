@@ -42,7 +42,7 @@
    - **コラボレーションの制限**: 招待を任意のドメインに送信することをを許可する (許可の範囲が最大)
 3. **MOD 管理者**として Microsoft 365 管理センター (https://admin.microsoft.com/) を参照します。
 4. Microsoft 365 管理センターの左側のナビゲーションで、[**すべて表示(Show all)**] を選択し、[**設定(Settings)**] > **[組織の設定(Org Settings)]** を選択します。
-   - [**サービス(Services)**] タブで、[**Microsoft 365 グループ(Microsoft 365 Groups)**] を選択します。**[グループ所有者が組織外のユーザーを Microsoft 365 グループに追加できるようにする(Let group owners add people outside your organiaztion to Microsoft 365 Groups as guests)**] チェック ボックスがオンになっていることを確認します。**[Microsoft 365 グループ(Microsoft 365 Groups)**] ページを閉じるには、[**X**] ボタンを選択します。
+   - **[サービス(Services)]** タブで、[**Microsoft 365 グループ(Microsoft 365 Groups)**] を選択します。**[グループ所有者が組織外のユーザーを Microsoft 365 グループに追加できるようにする(Let group owners add people outside your organiaztion to Microsoft 365 Groups as guests)**] チェック ボックスがオンになっていることを確認します。[Microsoft 365 グループ(Microsoft 365 Groups)] ページを閉じるには、[**X**] ボタンを選択します。
    - [**セキュリティとプライバシー(Security & privacy)**] タブで、[**共有(Sharing)**] を選択します。[**ユーザーが新しいゲストを組織に追加できるようにする(Let users add new guests to the organization)**] チェックボックスがオンになっていることを確認します。
 
 これで、さまざまな管理センターのゲスト アクセス設定を確認しました。これで、コラボレーションのためにゲストを招待する準備が整いました。
@@ -54,14 +54,14 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 2. Teams 管理センターの左側のナビゲーションで、[**ユーザー**] > **[ゲスト アクセス**] を選択します。
 3. [**ゲスト アクセス**] ページで、[**ゲスト アクセス**] が有効になっているかどうかを確認します。そうでない場合は、[**オン**] を選択します。
-4. 下にスクロールして、[メッセージング]セクションで、**[送信済メッセージを削除]**を無効にします
+4. 下にスクロールして、[メッセージング]セクションで、**[送信済メッセージを削除]** を無効にします
 5. 下にスクロールして [**保存**] を選択します。**[確認]** ボタンが表示された場合はクリックします。
 
 これで、ゲスト アクセスが正常にアクティブ化され、ゲストがテナント内の Teams の送信済みメッセージを削除できないようになりました。
 
 #### タスク 3 - チームにゲストを追加する
 
-このタスクでは、ラボ 1 で作成したチーム **Group_Afterwork_**にゲストを招待して、ゲスト ユーザーを追加します。
+このタスクでは、ラボ 1 で作成したチーム  **Group_Afterwork_** にゲストを招待して、ゲスト ユーザーを追加します。
 
 ゲスト ユーザーを招待/作成するための既定の設定を変更し、個人 Outlook アカウントをゲスト ユーザーとしてテナントに追加します。
 
@@ -70,11 +70,11 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 1. **クライアント 2 VM** に接続し、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) として **Teams デスクトップ クライアント** (https://teams.microsoft.com/) を開きます。
 2. ゲストをチームに追加します**Group_Afterwork_**。
    - **[Teams]** を選択し>**Group_Afterwork_** チームの横にある **[...**] を選択します。
-   - [**Add member**] を選択し、Outlook アカウントを入力します。
+   -  **[Add member]** を選択し、Outlook アカウントを入力します。
    - **Add <Outlook アカウント> as a guest ? ** のメッセージが表示されます。メッセージを選択し、[**Add**] を選択 します。「Done」のウィンドウが表示されたら、右上の **[X]** をクリックして閉じます。
 3. ゲストの招待を承諾する
    - **新しい InPrivate ウィンドウ**を開き、**Outlook Web ポータル** (https://outlook.live.com/owa/) にMicrosoft Teams で Contoso にゲストとして追加された **Outlookアカウントでサインインします。**
-   - 「You have been added as a guest to Contoso in Microsoft Teams」という件名のメールから **[Open Microsoft Teams] ** をクリックします。サインイン ページにリダイレクトされ、アクセス許可の同意が要求されます。
+   - 「You have been added as a guest to Contoso in Microsoft Teams」という件名のメールから **[Open Microsoft Teams]** をクリックします。サインイン ページにリダイレクトされ、アクセス許可の同意が要求されます。
    - **[Accept]** を選択します。その後[Use the web app instead] をクリックして、Outlook アカウントで Teams Web クライアントにサインインします。
    - Teams Web クライアントから **[Teams**] を選択すると、チーム **Group_Afterwork_**が表示されます。
 4. ゲスト アクセスをテストする
@@ -113,8 +113,8 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 4. アクセス レビューを確認し、ゲスト ユーザーを承認します。
 
    1. **クライアント 2 VM** に接続し、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) として **Outlook.com** (https://outlook.office.com/) を参照します。InPrivate ウィンドウを開くことができます。
-   2. 件名が **「Action required: Review group access」**のメールを確認します。
-   3.  **[Start review] **を選択します。
+   2. 件名が **「Action required: Review group access」** のメールを確認します。
+   3.  **[Start review] ** を選択します。
    4. [マイ アクセス ([Https://myaccess.microsoft.com](https://myaccess.microsoft.com/))] ページで、[**Microsoft 365 グループ間のゲスト アクセスをレビューする**] を選択します。
    5. [Microsoft 365 グループ間のゲスト アクセスをレビューする] ページで、 **ゲスト アカウントを選択** し、**[Approve]** を選択します。
    6. Reason欄に「**Approved**」と入力します。 をテキストボックスに入力し、**[Submit]** を選択します
@@ -191,7 +191,7 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 
    
 
-   **手記：**テナントにディレクトリ設定オブジェクトがまだない場合。ディレクトリ設定オブジェクトを初めて作成する場合に、 を使用する必要があります。`New-AzureADDirectorySetting`
+   **手記：** テナントにディレクトリ設定オブジェクトがまだない場合。ディレクトリ設定オブジェクトを初めて作成する場合に、 を使用する必要があります。`New-AzureADDirectorySetting`
 
 8. 現在のセッションを Azure Active Directory テナントから切断し、PowerShell ウィンドウを閉じます。
 
@@ -219,7 +219,7 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 
    [**Genaral**] ラベルを選択し、その上にある [**ラベルの編集**] ボタンを選択すると起動するウィザードに従って次の情報を入力し、各手順の後に [**次へ**] を選択します。
 
-   ある。[**名前と説明**] セクションで、次の情報を入力します。 
+   a. [**名前と説明**] セクションで、次の情報を入力します。 
 
    - **名前**: 変更しない 
 
@@ -791,9 +791,9 @@ Microsoft Teams 展開の計画段階にあります。組織に Microsoft Teams
 
 2. 右上隅にある [**Sign in**] を選択します。
 
-3. 場所を指定し、[**Add your location**] を選択します。
+3. 場所を指定し、[**Autmatically detect location**] を選択します。
 
-   都市、州、国ごとに場所を入力するか、Webブラウザから検出することができます。次に、[**Run test**]を押します。
+   都市、州、国ごとに場所を入力するか、Webブラウザから検出することができます。次に、[**Run test**]を押します。ブラウザーから現在地情報を求めるポップアップが出た場合は許可してください。
 
 4. アドバンスト・クライアント・テスト・アプリケーションのダウンロード後にプロンプトが表示されたら、「**Open file**」を選択します。
 
