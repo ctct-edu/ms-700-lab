@@ -55,7 +55,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 #### タスク 2 - PowerShell を使用してチームを作成する
 
-このタスクでは、Teams PowerShell を使用して新しいチーム "**CA-Office"** を作成します。パブリックチャンネル **「Support」** と**「Recruiting」**を作成します。さらに、Teams PowerShell を使用してプライベート チャネル **「Administration」** を作成します。
+このタスクでは、Teams PowerShell を使用して新しいチーム "**CA-Office"** を作成します。パブリックチャンネル **「Support」** と **「Recruiting」** を作成します。さらに、Teams PowerShell を使用してプライベート チャネル **「Administration」** を作成します。
 
 1. 提供された資格情報を使用して**クライアント 1 VM** に接続します。
 
@@ -133,7 +133,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 15. すべてのブラウザー ウィンドウと Teams デスクトップ クライアントを閉じます。
 
-これで、Alex Wilber と Allan Deyoung というメンバーからなる **CA-Office** という名前のチームが作成されました。ジョニ・シャーマンは唯一のチームオーナーです。PowerShell コマンドレットで所有者を指定しておらず、Joni のコンテキストで実行されたため、Joni が自動的に所有者として追加されたことに注意してください。さらに、**「Support」** と**「Recruiting」**という名前のパブリックチャンネルと、 **「Administration」** という名前のプライベートチャンネルを作成しました。
+これで、Alex Wilber と Allan Deyoung というメンバーからなる **CA-Office** という名前のチームが作成されました。ジョニ・シャーマンは唯一のチームオーナーです。PowerShell コマンドレットで所有者を指定しておらず、Joni のコンテキストで実行されたため、Joni が自動的に所有者として追加されたことに注意してください。さらに、**「Support」** と **「Recruiting」** という名前のパブリックチャンネルと、 **「Administration」** という名前のプライベートチャンネルを作成しました。
 
 #### タスク 3 - Graph API を使用してチームを作成する
 
