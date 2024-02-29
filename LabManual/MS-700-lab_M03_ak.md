@@ -15,8 +15,8 @@ Microsoft Teams でのコラボレーションの管理では、チーム設定�
 このラボを完了すると、次のことができるようになります。
 
 - Microsoft 365 グループからチームを作成する
-- PowerShell を使用してチームを作成するCreate a Team by using PowerShell
-- Microsoft Graph API を使用してチームを作成するCreate a Team by using Microsoft Graph API
+- PowerShell を使用してチームを作成する
+- Microsoft Graph API を使用してチームを作成する
 - 動的メンバーシップを持つチームを作成する
 - Teams のアーカイブとアーカイブ解除
 - チームの削除と復元
@@ -41,27 +41,25 @@ Microsoft Teams でのコラボレーションの管理では、チーム設定�
 Contoso のパイロット プロジェクトの一環として、以前のラボで作成した **IT 部門の** Microsoft 365 グループを変更し、Teams 機能を追加する必要があります。
 
 1. 提供された資格情報を使用して**クライアント 1 VM** に接続します。
-2. タスク バーの Teams アイコンを選択して **Teams** デスクトップ クライアントを起動し、**Joni Sherman** (JoniS@<YourTenant> としてサインインします。OnMicrosoft.com)です。
-3. Microsoft Teams デスクトップ クライアントが起動します。**[チームをまとめる**] または [**Teams モバイル アプリを取得する**] ウィンドウが表示された場合は、両方のウィンドウを閉じます。
-4. 左側のナビゲーション ウィンドウで、[**チーム**] を選択し、[チーム**に参加または作成する**] を選択し、ウィンドウの中央から [**チームの作成**] を選択します。
-5. **[ チームの作成** ] ダイアログで、[ **グループまたはチームから**] を選択します。
-6. [**既に所有しているものから新しいチームを作成する**] ダイアログで、[**Microsoft 365 グループ**] を選択します。
-7. [**使用する Microsoft 365** グループの選択] ダイアログで、グループ "**IT-Department"** を選択し、[**作成**] を選択します。**「チームの作成...**」プロセスが完了するまで待ちます。
-8. 左側のウィンドウで新しいチームから 3 つのドット (**...**) を選択し、[**チームの管理**] を選択します。
-9. チームの所有者とメンバーを確認します。
-   - オーナー:**ジョニ・シャーマン**
-   - メンバーとゲスト:**アラン・デヤング**、**国防省長官**、**パティ・フェルナンデスル**
-10. Teams デスクトップ クライアントを開いたままにして、次のタスクに進みます。
+2. タスク バーの Teams アイコンを選択して **Teams** デスクトップ クライアントを起動し、**Joni Sherman** (JoniS@YourTenant.OnMicrosoft.com)でサインインします。「Stay signed in to all your apps」のウィンドウでは **「No,sign in to this app only」** をクリックします。
+3. 左側のナビゲーション ウィンドウで、[**Teams**] を選択し、画面上の方に表示される **[+]** を選択し、ウィンドウの中央から [**Create Team**] を選択します。
+4. [Create Team] 画面の左側にあるで、 **[From group]** を選択します。
+5.  **[Which Microsoft 365 group do you want to use?]** ダイアログで、グループ "**IT-Department"** を選択し、**[Add team]** を選択します。**「Creating the team...」** プロセスが完了するまで待ちます。
+6. 左側のウィンドウで新しい"**IT-Department"**チーム名の右に表示されるから 3 つのドット (**...**) を選択し、[**Manage team**] を選択します。
+7. チームの所有者とメンバーを確認します。
+   - オーナー: **Joni Sherman**
+   - メンバーとゲスト:　**Allan Deyoung** , **MOD Administrator** and **Patti Fernandezr**
+8. Teams デスクトップ クライアントを開いたままにして、次のタスクに進みます。
 
 既存の Microsoft 365 グループを使用して、Teams デスクトップ クライアントで新しいチームを正常に作成しました。Teams クライアントを開いたままにして、次のタスクに進みます。
 
 #### タスク 2 - PowerShell を使用してチームを作成する
 
-このタスクでは、Teams PowerShell を使用して新しいチーム "**CA-Office"** を作成します。パブリックチャンネル「**サポート**」と**「リクルーティング」**を作成します。さらに、Teams PowerShell を使用してプライベート チャネル "**管理"** を作成します。
+このタスクでは、Teams PowerShell を使用して新しいチーム "**CA-Office"** を作成します。パブリックチャンネル **「Support」** と**「Recruiting」**を作成します。さらに、Teams PowerShell を使用してプライベート チャネル **「Administration」** を作成します。
 
 1. 提供された資格情報を使用して**クライアント 1 VM** に接続します。
 
-2. ページ下部のタスク バーで、[スタート] ボタンを右クリックし、[**Windows PowerShell****]** を選択します。
+2. ページ下部のタスク バーで、[スタート] ボタンを右クリックし、**[Windows PowerShell]** を選択します。
 
 3. 次のコマンドレットを実行して、テナント内の Microsoft Teams に接続します。
 
@@ -69,9 +67,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
    Connect-MicrosoftTeams
    ```
 
-   
-
-4. **[サインイン**] ダイアログ ボックスが開きます。提供された **Joni Sherman** の資格情報の **UPN** (例: JoniS@<YourTenant>.onmicrosoft.com) を入力し、[**次へ**] を選択します。
+4. **[サインイン**] ダイアログ ボックスが開きます。提供された **Joni Sherman** の資格情報の **UPN** (例: JoniS@YourTenant.onmicrosoft.com) を入力し、[**次へ**] を選択します。
 
 5. [**パスワードの入力**] ダイアログ ボックスで、提供された **Joni Sherman** の資格情報の**パスワード**を入力し、[**サインイン**] を選択します。
 
@@ -83,18 +79,18 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
    
 
-7. ユーザー **Alex Wilber** をチームに追加するには、次のコマンドレットを入力します (提供された Microsoft 365 テナントの名前に置き換えます)。
+7. ユーザー **Alex Wilber** をチームに追加するには、次のコマンドレットを入力します (「YourTenant」は提供された Microsoft 365 テナントの名前に置き換えます)。
 
    ```
-   Get-Team -Displayname "CA-Office" | Add-TeamUser -User AlexW@<YourTenant>.OnMicrosoft.com
+   Get-Team -Displayname "CA-Office" | Add-TeamUser -User AlexW@YourTenant.OnMicrosoft.com
    ```
 
    
 
-8. ユーザー **Allan Deyoung** をチームに追加するには、次のコマンドレットを入力します (提供された Microsoft 365 テナントの名前に置き換えます)。
+8. ユーザー **Allan Deyoung** をチームに追加するには、次のコマンドレットを入力します  (「YourTenant」は提供された Microsoft 365 テナントの名前に置き換えます)。
 
    ```
-   Get-Team -Displayname "CA-Office" | Add-TeamUser -User AllanD@<YourTenant>.onmicrosoft.com
+   Get-Team -Displayname "CA-Office" | Add-TeamUser -User AllanD@YourTenant.onmicrosoft.com
    ```
 
    
@@ -137,7 +133,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 15. すべてのブラウザー ウィンドウと Teams デスクトップ クライアントを閉じます。
 
-これで、Alex Wilber と Allan Deyoung というメンバーからなる **CA-Office** という名前のチームが作成されました。ジョニ・シャーマンは唯一のチームオーナーです。PowerShell コマンドレットで所有者を指定しておらず、Joni のコンテキストで実行されたため、Joni が自動的に所有者として追加されたことに注意してください。さらに、「**サポート**」および「**採用」**という名前のパブリックチャンネルと、「**管理**」という名前のプライベートチャンネルを作成しました。
+これで、Alex Wilber と Allan Deyoung というメンバーからなる **CA-Office** という名前のチームが作成されました。ジョニ・シャーマンは唯一のチームオーナーです。PowerShell コマンドレットで所有者を指定しておらず、Joni のコンテキストで実行されたため、Joni が自動的に所有者として追加されたことに注意してください。さらに、**「Support」** と**「Recruiting」**という名前のパブリックチャンネルと、 **「Administration」** という名前のプライベートチャンネルを作成しました。
 
 #### タスク 3 - Graph API を使用してチームを作成する
 
@@ -147,29 +143,29 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 2. Microsoft Edge を開き、ブラウザーを最大化して、次の **Graph エクスプローラー**に移動します https://developer.microsoft.com/graph/graph-explorer
 
-3. ページの左側にある [**Graph エクスプローラーに**サインイン] ボタンを選択し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) としてサインインします。
+3. ページの右上にある人の形のアイコンをを選択し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) としてサインインします。
 
-4. Graph エクスプローラーに初めてアクセスすると、 **[アクセス許可が要求されました**] ページが表示されます。[**同意する]** を選択します。
+4. Graph エクスプローラーに初めてアクセスすると、 **[アクセス許可が要求されました(Permissions requested)]** ページが表示されます。 **[同意する(Accept)]** を選択します。
 
-5. **[GET**]ボタンを選択し、ドロップダウンメニューから**[POST**]を選択します。
+5. ページの上の方にある **[GET]** ボタンを選択し、ドロップダウンメニューから **[POST]** を選択します。
 
 6. 真ん中のボックスから**v1.0**を変更しないでください。
 
-7. [**クエリの実行**] ボタンの前のテキスト ボックスに次のように入力します。
+7. ページの中央上の方にあるテキスト ボックス ([POST]の右]) に次のように入力します。
 
-   - https://graph.microsoft.com/v1.0/teams
+   - **https://graph.microsoft.com/v1.0/teams**
 
-8. 上部のウィンドウから [**アクセス許可の変更 (プレビュー)]** を選択します。
+8. 上部のウィンドウから [**Modify permissions]** を選択します。
 
    [![Graphical user interface, text, application, email Description automatically generated](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/raw/master/Instructions/Labs/media/MS-700-lab_M03_ak_image1.png)](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/blob/master/Instructions/Labs/media/MS-700-lab_M03_ak_image1.png)
 
-9. 右にスクロールし、アクセス許可 **Team.Create** の **[同意**] ボタンを選択します。
+9. 右にスクロールし、アクセス許可 **Team.Create** の **[Consent**] ボタンを選択します。
 
-10. 別の **[アクセス許可が要求されました**] ページが表示されます。[**同意する]** を選択します。
+10. 別の **[アクセス許可が要求されました(Permissions requested)]** ページが表示されます。 **[同意する(Accept)]** を選択します。
 
 11. Microsoft Developers サイトにリダイレクトされた場合は、次の **Graph エクスプローラー**に戻ります https://developer.microsoft.com/graph/graph-explorer
 
-12. [**要求本文**] タブを選択し、次のコードを入力します。
+12. [**Request body**] タブを選択し、次のコードを入力します。(ラボ環境に転記した際、下記の通りになっているか、例えば余計な { } がないか等確認してください。)
 
     ```
     {
@@ -187,11 +183,11 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
     
 
-13. ページの右上にある [**クエリ****の実行**] を選択します。
+13. ページの右上にある **[Run query]**  を選択します。
 
-14. しばらくすると、 [要求本文] ウィンドウの下に緑色のバーが表示され、チェックマークと **[承認済み**] メッセージが表示されます。
+14. しばらくすると、 [要求本文] ウィンドウの下に緑色のバーが表示され、チェックマークと **[Accepted]** のメッセージが表示されます。
 
-15. **要求本文**のテキストボックス内のテキストボックスの内容全体を削除し、チームを作成して次のコンテンツに置き換えます。
+15. **Request body**のテキストボックス内のテキストボックスの内容全体を削除し、チームを作成して次のコンテンツに置き換えます。
 
     ```
     {
@@ -319,14 +315,14 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
 
 このラボでさまざまなチームを作成したら、チームを削除するさまざまな方法を再度評価する必要もあります。このタスクでは、アーカイブ機能をテストし、営業チームのコンテンツを削除せずに非アクティブ化状態に変更します。この機能は、チーム内で保存されたデータを保持するという一部の企業のコンプライアンス要件に必要です。このタスクに十分な特権を持つ唯一の Teams 管理者ロールは、現在 Joni Sherman に割り当てられている Teams 管理者であるため、このタスクには Joni のアカウントを使用します。
 
-1. **クライアント 1 VM** とブラウザーを **Teams 管理センター**に接続します: **Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)。
+1. **クライアント 1 VM** とブラウザーを **Teams 管理センター**に接続します: **Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)。
 2. 左側のウィンドウから [**チーム**] を選択し、[**チームの管理**] を選択します。
 3. **営業**チームのアーカイブ
    1. **営業**チームから左のチェックマークを選択し、上部のウィンドウから **アーカイブ** を選択します。
    2. [**SharePoint サイトをチーム メンバーに対して読み取り専用にする**] チェック ボックスをオンにし、[**アーカイブ**] を選択します。
    3. [**ステータス**] 列が **[アーカイブ済み**] に変わり、オレンジ色で表示されます。ブラウザを開いたままにして続行します。**営業**チームに問題がある場合は、別のチームをアーカイブします(このアクションはアーカイブ解除手順で元に戻すことができます)。
 4. アーカイブされたチームを確認する
-   1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**](https://teams.microsoft.com/) を **Lynne Robbins** (LynneR@<YourTenant>.onmicrosoft.com) として参照します。
+   1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**](https://teams.microsoft.com/) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
    2. [チーム] を選択し、**[...]** を選択して、[**チームの管理**] をクリックします。
    3. **[アーカイブ済み**] セクションを展開し、[**営業**チーム] を選択します。**営業**チームは [**非表示のチーム]** セクションの下に表示されます。
    4. **営業**チーム の **一般**チャネル を選択し、**新しい会話** オプションが使用できないことを確認します。
@@ -334,7 +330,7 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
    1. **クライアント 1 VM** に再度接続し、**Joni Sherman** として Teams 管理センターを参照します。
    2. **[Sales**] の左側にあるチェックボックスをもう一度選択し、上部のメニューから [**アーカイブ解除**] を選択します。[**状態**] フィールドが再び **[アクティブ**] に変わります。
 6. アーカイブされていないチームを確認する
-   1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**](https://teams.microsoft.com/) を **Lynne Robbins** (LynneR@<YourTenant>.onmicrosoft.com) として参照します。
+   1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**](https://teams.microsoft.com/) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
    2. 左側にある **[チーム**] を選択します。
    3. **営業****チームと一般チャネル**のテキストはしばらくすると通常に戻りますが、チームは非表示になっています。
    4. 営業チームから 3 つのドット (...) を直接選択し、**表示** を選択します。
@@ -346,7 +342,7 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
 
 このタスクでは、前のレッスンで作成したチームの 1 つを削除し、復元する方法を学習します。
 
-1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**](https://teams.microsoft.com/) を **Lynne Robbins** (LynneR@<YourTenant>.onmicrosoft.com) として参照します。
+1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**](https://teams.microsoft.com/) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
 2. Teams Web クライアントの左側のナビゲーション ウィンドウで、**営業**チームから 3 つのドット (...) を選択し、一覧から [**チームの削除**] を選択します。
 3. 営業**チームの削除**で、**すべてが削除されることを理解しています**。をクリックし、[**チームの削除**] を選択します。
 4. リストア・グループ
@@ -356,7 +352,7 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
    4. これで、**Sales** グループを含むすべての削除されたグループが表示されます。
    5. **[営業**] グループの左側にあるチェック ボックスをオンにし、上部のウィンドウから [**グループの復元**] を選択します。[**削除したグループを復元しますか] ダイアログ**で **[はい**] を選択して確認します。
 5. 復元されたグループを確認します。
-   1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/**](https://teams.microsoft.com/)) を **Lynne Robbins** (LynneR@<YourTenant>.onmicrosoft.com) として参照します。
+   1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/**](https://teams.microsoft.com/)) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
    2. **営業**チームがチームの一覧に再び表示されます。必要に応じて、**F5** キーを押してページを更新します。
    3. チーム名から 3 つのドット (...) を選択し、[**チームの管理**] を選択します。所有者とすべてのメンバーを [**メンバー**] タブで再度確認できます。
 
@@ -418,7 +414,7 @@ Microsoft 365 グループを静的 (割り当て済み) から動的メンバ�
 
 会社は、Teams 通信でのグラフィック要素の使用を制限したいと考えています。Teams サービス管理者は、パイロット ユーザーが Teams チャットとチャネルの会話で GIF ファイル、ミーム、ステッカーを使用することを禁止する新しいメッセージ ポリシーを作成します。
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 
 2. Teams 管理センターの左側のナビゲーションで、左側のナビゲーションから *[*メッセージング*] を選択し、[**メッセージング ポリシー**] を選択します。
 
@@ -449,7 +445,7 @@ Microsoft 365 グループを静的 (割り当て済み) から動的メンバ�
 
 Contoso の Teams 管理者は、一部のチーム メンバーのみがアクセスできる **confidential** という名前のプライベート チャネルを営業チームに作成します。
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 2. Teams 管理センターの左側のナビゲーションで、[**Teams**] > **[チームの管理**] を選択します。
 3. **営業**チーム > **チャネル** タブを選択します。
 4. プライベート チャネルを追加する
@@ -461,7 +457,7 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
       - **チャンネル所有者**: Lynne Robbins
 5. [**適用]** を選択します。
 6. プライベートチャンネルを確認する
-   1. **クライアント 2 VM** に接続し、**Lynne Robbins** (LynneR@<YourTenant>.onmicrosoft.com) として **Teams Web クライアント** [(https://teams.microsoft.com)](https://teams.microsoft.com/) を参照します。
+   1. **クライアント 2 VM** に接続し、**Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として **Teams Web クライアント** [(https://teams.microsoft.com)](https://teams.microsoft.com/) を参照します。
    2. **[チーム**] を選択すると、小さな南京錠のアイコンが付いた新しいプライベート チャネル [**機密販売**] が表示されます。
 
 このタスクでは、Microsoft Teams 管理センターでプライベート チャネルを作成する方法と、アクセスを構成および確認する方法について説明しました。
@@ -472,7 +468,7 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
 
 これまで、ユーザーはサードパーティのストレージプロバイダーを含むさまざまな場所にデータを保存していました。最近、同社はすべてのユーザーにOneDriveを導入し、すべてのファイルコラボレーションの代替手段としてBoxを使用して、SharePointとOneDriveを主要なデータストレージの場所として使用するようにユーザーをガイドしたいと考えています。Teams 管理者は、方向に合わせて、Microsoft Teams の Box を除くすべてのサードパーティ ストレージ プロバイダーを非アクティブ化するように求められます。
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 2. Teams 管理センターの左側のナビゲーションで、[Teams] > **[Teams の設定**] を選択します。
 3. **[Teams の設定**] ページで、[**ファイル**] セクションに移動します。
 4. 次のファイル共有とクラウドファイルストレージのオプションを設定します。
@@ -491,7 +487,7 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
 
 このタスクでは、すべてのテナントに対して Google アナリティクス アプリをブロックします
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 
 2. Teams 管理センターの左側のナビゲーションで、[**Teams アプリ**] > [**アプリの管理**] を選択します。
 
@@ -517,7 +513,7 @@ Teams 管理者は、ユーザーにとって最も重要なアプリを強調�
 
 パイロット プロジェクトでは、**Planner と To Do によるタスク**をすべてのユーザーの既定のアプリとして追加したいと考えています。これを行うには、既定の組織全体のアプリ ポリシーを編集します。このタスクは、テナント全体に伝達されるまでに時間がかかる場合があります。
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 2. Teams 管理センターの左側のナビゲーションで、[**Teams アプリ**] > [**セットアップ ポリシー**] を選択します。
 3. [**アプリのセットアップ ポリシー**] ページの [ポリシー**の管理**] で、[**グローバル (組織全体の既定値)] を選択して、組織全体の**アプリ ポリシーを開きます。
 4. [**ピン留めされたアプリ**] セクションで、[**アプリの追加**] を選択します。
@@ -580,7 +576,7 @@ Teams 管理者は、ユーザーにとって最も重要なアプリを強調�
 
 このタスクでは、演習 1 で構成された**メッセージング ポリシー**をテストし、影響を受けるユーザー (Lynne Robbins) と通常のユーザー (Joni Sherman) の違いを比較します。
 
-1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/**](https://teams.microsoft.com/)) を **Lynne Robbins** (LynneR@<YourTenant>.onmicrosoft.com) として参照します。
+1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/**](https://teams.microsoft.com/)) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
 
 2. 左側のナビゲーション ウィンドウで、[**チャット**] > **[新しいチャット]** アイコンを選択します。
 
@@ -594,7 +590,7 @@ Teams 管理者は、ユーザーにとって最も重要なアプリを強調�
 
 このタスクでは、ブロックされたアプリをテストします。
 
-1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/**](https://teams.microsoft.com/)) を **Lynne Robbins** (LynneR@<YourTenant>.onmicrosoft.com) として参照します。
+1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/**](https://teams.microsoft.com/)) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
 
 2. 左側のナビゲーションで **[アプリ**] を選択します。
 
