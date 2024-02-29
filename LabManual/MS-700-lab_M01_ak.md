@@ -78,7 +78,7 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 
   - **手記：** Microsoft 365 のサインイン手順は、インストラクターから提供されます。
 
-  - グローバル管理者 (MOD 管理者) のユーザー名は **admin@YourTenantYourTenant.onmicrosoft.com** です。
+  - グローバル管理者 (MOD 管理者) のユーザー名は **admin@YourTenant.onmicrosoft.com** です。
 
   - **YourTenant.onmicrosoft.com** - これは、ラボ ホスティング プロバイダーによって提供された Microsoft 365 テナントに関連付けられているドメインです。このドメイン名の最初の部分 (YourTenant) は、ラボ ホスティング プロバイダーによって提供される一意のテナント ID です。テナント サフィックス ID であるテナント ID の YourTenantの部分は、学生ごとに一意になります。
 
