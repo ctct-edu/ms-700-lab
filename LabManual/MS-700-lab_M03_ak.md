@@ -578,7 +578,7 @@ Teams 管理者は、ユーザーにとって最も重要なアプリを強調�
 
 1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/**](https://teams.microsoft.com/)) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
 
-2. 左側のナビゲーション ウィンドウで、[**チャット**] > **[新しいチャット]** アイコンを選択します。
+2. 左側のナビゲーション ウィンドウで、[**Chat**] > **[New chat]** アイコンを選択します。
 
    [![Graphical user interface, application Description automatically generated with medium confidence](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/raw/master/Instructions/Labs/media/MS-700-lab_M03_ak_image8.png)](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/blob/master/Instructions/Labs/media/MS-700-lab_M03_ak_image8.png)
 
@@ -591,26 +591,13 @@ Teams 管理者は、ユーザーにとって最も重要なアプリを強調�
 このタスクでは、ブロックされたアプリをテストします。
 
 1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/**](https://teams.microsoft.com/)) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
-
-2. 左側のナビゲーションで **[アプリ**] を選択します。
-
+2. 左側のナビゲーションで **[Apps**] を選択します。
 3. 検索ボックスから**Google**を検索します。
-
-4. 検索結果で **[Google アナリティクス**] を選択します。ロックアイコンと「リクエスト」ボタンに注意してください。
-
-5. 左側のナビゲーション ウィンドウで、**チーム** を選択し、**営業**チームの **全般** チャネルに移動します。
-
-6. **[ファイル**] タブを選択し、下のナビゲーション ウィンドウで [**+ クラウド ストレージの追加**] を選択します。
-
-   **注**: タブをリロードするか、...オプションが表示されなかった場合。このオプションは、クラシック Teams 専用です。
-
-   - Teams の新しい lient バージョンでは、次の操作を行います。
-     - **「ファイル**」タブを選択します。
-     - [**共有**] アイコンを選択します
-     - [**リンクをコピー**] を選択します
-
-7. オプションとして SharePoint と Box のみが表示され、Teams 設定のクラウド ファイル ストレージ設定が期待どおりに機能したことに注意してください。
-
-8. Teams からサインアウトし、開いているウィンドウをすべて閉じます。
+4. 検索結果で **[Google Analytics]** を選択します。ロックアイコンと「リクエスト」ボタンに注意してください。
+5. 左側のナビゲーション ウィンドウで、**Teams** を選択し、**Sales**チームの **General** チャネルに移動します。
+6. **[FIles]** タブを選択し、[**Share**] アイコンを選択します
+7. [**Copy link**] を選択します
+8. オプションとして SharePoint と Box のみが表示され、Teams 設定のクラウド ファイル ストレージ設定が期待どおりに機能したことに注意してください。
+9. Teams からサインアウトし、開いているウィンドウをすべて閉じます。
 
 ラボ終了
