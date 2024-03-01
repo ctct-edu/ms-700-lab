@@ -44,7 +44,7 @@ Contoso 組織は Microsoft 365 を展開し、ビジネス要件を満たすた
 
 組織内のイベントと会議を設定するためのパイロット プロジェクトの一環として、会議の記録の禁止など、Teams のすべての会議の要件を満たす必要があります。既定の会議ポリシーを編集して、この要件が満たされるようにします。
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 2. Teams 管理センターの左側のナビゲーションで、[会議**]** > **[会議ポリシー**] を選択します。
 3. [**ポリシーの管理**] で [**グローバル (組織全体の既定)]** ポリシーを選択します。
 4. [**記録と文字起こし**] セクションの **[会議の記録**] 設定**をオフに**します。
@@ -56,7 +56,7 @@ Contoso 組織は Microsoft 365 を展開し、ビジネス要件を満たすた
 
 このタスクでは、2 番目のクライアントにサインインし、ユーザーとの会議を作成する必要があります。構成されたポリシーがどのように機能し、ユーザーは会議を記録できなくなります。
 
-1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**](https://teams.microsoft.com/) を **Lynne Robbins** (LynneR@<YourTenant>.onmicrosoft.com) として参照します。
+1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**](https://teams.microsoft.com/) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
 2. 左側のナビゲーション ウィンドウから [**カレンダー**] を選択します。
 3. 右上隅から **[今すぐミーティング]** > [**ミーティングを開始**] を選択します。
 4. [**今すぐ参加]** を選択して会議を開始します。
@@ -69,7 +69,7 @@ Contoso 組織は Microsoft 365 を展開し、ビジネス要件を満たすた
 
 Contoso Ltd. は複数の外部パートナーと連携しており、ユーザーは多くの場合、プロジェクトのコラボレーションのために外部パートナーとの会議をスケジュールします。ただし、会社の規制によると、外部パートナーは有効なアカウントで身分証明する必要があり、匿名アクセスを禁止する必要があります。会議への匿名アクセスを無効にするように Microsoft Teams を構成する必要があります。
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 2. Teams 管理センターの左側のナビゲーションで、[会議] > **[会議の設定**] を選択します。
 3. **[ミーティングの設定**] ページで、[参加者] セクションの [**匿名ユーザーはミーティングに参加できます**] オプション**をオフに**します。
 4. [**保存**して**確認**] を選択します。
@@ -80,7 +80,7 @@ Contoso Ltd. は複数の外部パートナーと連携しており、ユーザ�
 
 Contoso Ltd. は、ビデオと会議のコンテンツを多数のオンライン視聴者にブロードキャストしたいと考えています。Teams 管理者は、ライブ イベントの作成やライブ イベント ポリシーの構成など、ライブ イベント機能を評価する必要があります。Contoso Ltd. のビジネス要件に従って、会議の参加者の録画オプションを制限し、ユーザーを管理するための録画オプションのみを許可する必要があります。ライブ イベントの開催者のみが会議を記録できる必要があります。
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として **[Microsoft Teams 管理センター (https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com/)** を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として **[Microsoft Teams 管理センター (https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com/)** を参照します。
 2. Teams 管理センターの左側のナビゲーションで、[**会議**] > **[ライブ イベント ポリシー**] を選択します。
 3. **[ポリシーの管理]** タブで **[+ 追加**] を選択します。
 4. [**ライブ イベント ポリシー\追加**] ページで、次の情報を入力します。
@@ -101,7 +101,7 @@ Contoso Ltd. は、ビデオと会議のコンテンツを多数のオンライ�
 
 IT 部門は、新しい報告システムに関する従業員の質問に答えるために、全社会議を開催したいと考えています。Teams 管理者は、従業員が会議の前に質問を送信できるウェビナーを作成します。
 
-1. **クライアント 1 VM** に接続しMicrosoft Teams **Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として **[Web クライアント (https://teams.microsoft.com/)](https://teams.microsoft.com/)** を参照します。
+1. **クライアント 1 VM** に接続しMicrosoft Teams **Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として **[Web クライアント (https://teams.microsoft.com/)](https://teams.microsoft.com/)** を参照します。
 
 2. Teams 予定表で、ドロップダウン メニューの [**新しい会議**] を選択し、[**ウェビナー**] を選択します。**新しいウェビナー |Microsoft Teams** タブが開きます。
 
@@ -156,7 +156,7 @@ Teams 管理者は、組織内の Teams デバイスの設定と機能を管理�
 
 組織内の Teams 電話デバイスの計画段階では、Teams 管理センターで構成プロファイルを使用して Teams デバイスに適用できる設定を評価する必要があります。Teams デバイスの構成プロファイルを作成し、構成プロファイルに含まれる設定を分析します。デバイスが組織に展開されると、それらのデバイスに構成プロファイルを適用する準備が整います。
 
-1. **クライアント 1 VM** に接続し、Teams デバイス管理者 - **Patti Fernandez** (PattiF@<YourTenant>.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
+1. **クライアント 1 VM** に接続し、Teams デバイス管理者 - **Patti Fernandez** (PattiF@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 2. Teams **管理センターの**左側のナビゲーション ウィンドウで、[**Teams デバイス**] の [**電話**] を選択します。
 3. [ **電話** ] ページで、[ **構成プロファイル** ] タブを選択し、[ **+ 追加**] を選択します。
 4. 新しい構成プロファイルについて、次の情報を入力します。
@@ -205,8 +205,8 @@ Teams 管理者は、組織内の Teams デバイスの設定と機能を管理�
       - 会議出席依頼を自動承諾する
 3. Teams Rooms アカウントにライセンスを割り当てます。
    1. 左側のナビゲーション ウィンドウから **Microsoft 365 管理センターで**、[ユーザー] を選択し、[**アクティブ ユーザー**] を選択します。
-   2. NY-TeamsRoom1@<YourTenant>.onmicrosoft.com アカウントを選択し、[**ライセンスとアプリ**] タブを選択します。
-   3. [NY-TeamsRoom1@<YourTenant>.onmicrosoft.com ページの [**ライセンスとアプリ**] タブで、[**Microsoft Teams Rooms Pro**] を選択し、[**変更の保存**] を選択します。
+   2. NY-TeamsRoom1@YourTenant.onmicrosoft.com アカウントを選択し、[**ライセンスとアプリ**] タブを選択します。
+   3. [NY-TeamsRoom1@YourTenant.onmicrosoft.com ページの [**ライセンスとアプリ**] タブで、[**Microsoft Teams Rooms Pro**] を選択し、[**変更の保存**] を選択します。
 4. サインアウトして、開いているすべてのウィンドウを閉じます。
 
 Microsoft Teams Room システムを展開するための前提条件である Microsoft Teams Room サービス アカウントの作成、構成、およびライセンスが正常に完了しました。
@@ -223,7 +223,7 @@ Microsoft Teams Room システムを展開するための前提条件である M
 
    このタスクでは、米国のユーザー向けに新しい緊急対応住所 "One Microsoft Way, Redmond, WA 98052, USA" を追加します。これは、緊急コールを適切なディスパッチ機関にルーティングし、緊急発信者の特定を支援するために使用されます。
 
-   1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) として [**https://admin.teams.microsoft.com/**](https://admin.teams.microsoft.com/) の **Teams 管理センター**を参照します。
+   1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として [**https://admin.teams.microsoft.com/**](https://admin.teams.microsoft.com/) の **Teams 管理センター**を参照します。
 
    2. 左側のナビゲーション ウィンドウで、**場所** > **緊急対応の住所** を選択します。
 
@@ -252,7 +252,7 @@ Microsoft Teams Room システムを展開するための前提条件である M
    このタスクでは、通話プラン ライセンスをユーザーに割り当てて、公衆交換電話網経由で国内通話を発信できるようにします。
 
    1. **クライアント 1 VM** に接続し、提供された資格情報でサインインします。
-   2. **引き続き Microsoft 365 管理センター**にいて、**MOD 管理者** (Admin@<YourTenant>.onmicrosoft.com) としてサインインする必要があります。
+   2. **引き続き Microsoft 365 管理センター**にいて、**MOD 管理者** (Admin@YourTenant.onmicrosoft.com) としてサインインする必要があります。
    3. 左上隅のナビゲーションメニューを開き、[**ユーザー**]を選択します。
    4. [**アクティブ ユーザー**] を選択します。
    5. **Lynne Robbins** を検索し、彼女の名前を選択して追加設定を開きます。
@@ -268,7 +268,7 @@ Microsoft Teams Room システムを展開するための前提条件である M
 
    1. **クライアント 1 VM** に接続し、提供された資格情報でサインインします。
 
-   2. **Microsoft Teams クライアント**で、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) としてサインインし、指定された資格情報でサインインします。
+   2. **Microsoft Teams クライアント**で、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) としてサインインし、指定された資格情報でサインインします。
 
    3. [**https://admin.teams.microsoft.com/**](https://admin.teams.microsoft.com/) の **Teams 管理センター**に移動します。
 
@@ -315,7 +315,7 @@ Microsoft Teams Room システムを展開するための前提条件である M
    このタスクでは、既存の電話番号をユーザーに割り当てます。
 
    1. **クライアント 1 VM** に接続し、提供された資格情報でサインインします。
-   2. 引き続き **Teams 管理センター**にいて、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) としてサインインする必要があります。
+   2. 引き続き **Teams 管理センター**にいて、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) としてサインインする必要があります。
    3. 左側のナビゲーション ウィンドウで、 **[音声**] を選択し、 [下の**電話番号**] を選択します。
    4. 割り当てる電話番号を選択し、[**編集**] を選択してオプションを開きます。
    5. [**割り当て済み**] で [**Lynne Robbins**] を検索し、 [**割り当て**] を選択します。
@@ -332,7 +332,7 @@ Contoso 組織は、従来の PBX システムを使用しています。Microso
 Microsoft Teams で機能を呼び出すためのパイロット プロジェクトの一環として、すべてのパイロット ユーザーがボイスメール機能にアクセスできるようにする必要があります。新しい通話ポリシーを作成して割り当て、設定を構成します。ただし、他のすべてのユーザは、テスト期間中はボイスメール機能を受信しないでください。したがって、デフォルト ポリシーを編集して、他のすべてのユーザに対してボイスメールが無効になるようにします。
 
 1. **クライアント 1 VM** に接続し、提供された資格情報でサインインします。
-2. 引き続き **Teams 管理センター**にいて、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) としてサインインする必要があります。
+2. 引き続き **Teams 管理センター**にいて、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) としてサインインする必要があります。
 3. 左側のナビゲーション ウィンドウで、 **[音声**] を選択し、 [下の**通話ポリシー**] を選択します。
 4. **グローバル (組織全体の既定)** ポリシーを選択して、既定の設定を編集します。
 5. **[通話ポリシー\グローバル**] で、[**ボイスメールは着信通話に使用できます**] の右側にあるドロップダウン メニューを使用して、[**オフ**] を選択します。次に、 [**保存**して**確認**] を選択します。
@@ -360,7 +360,7 @@ Teams 管理者は、通話キューを作成し、最大キュー サイズ、�
 
 1. **クライアント 1 VM** に接続し、提供された資格情報でサインインします。
 
-2. 引き続き **Teams 管理センター**にいて、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) としてサインインする必要があります。
+2. 引き続き **Teams 管理センター**にいて、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) としてサインインする必要があります。
 
 3. 左側のナビゲーション ウィンドウで [**音声**] を選択し、次に [リソース アカウント] を選択して**、リソース アカウント**を作成します。
 
@@ -411,7 +411,7 @@ Teams 管理者は、通話キューを作成し、最大キュー サイズ、�
 Teams 管理者は、営業時間外に顧客に応答する文字起こしされたウェルカム メッセージを含む自動応答を作成する任務を負いました。一部の従業員は異なるタイム ゾーンで働いているため、自動応答は、サブスクライバーが現在休暇中であり、組織内の別の人に電話をかけるように発信者に通知します。さらに、自動応答は発信者に営業時間を通知します。
 
 1. **クライアント 1 VM** に接続し、提供された資格情報でサインインします。
-2. 引き続き **Teams 管理センター**にいて、**Joni Sherman** (JoniS@<YourTenant>.onmicrosoft.com) としてサインインする必要があります。
+2. 引き続き **Teams 管理センター**にいて、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) としてサインインする必要があります。
 3. 左側のナビゲーション ウィンドウで、 **[音声**] を選択し、次に [リソース アカウント] を選択して**、最初にリソース アカウント**を作成します。
 4. [**リソース アカウント**] ページで、上部のウィンドウから [**+ 追加**] を選択します。
 5. 右側のペインで、次の情報を入力します。
