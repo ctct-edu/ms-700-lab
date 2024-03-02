@@ -535,7 +535,7 @@ Teams の保持設定は、会社データのライフサイクルを管理す�
 
       - **Teams チャネル メッセージ** 行の **含まれる** 列 (「すべて teams」の下) で **編集** を選択して、右側のウィンドウを開きます。
 
-      - **[Teams ロールアウト**] の左側にあるチェック ボックスをオンにし、[**完了]** を選択します。
+      - **[Teams Rollout**] の左側にあるチェック ボックスをオンにし、[**完了]** を選択します。
 
         [![Picture 4](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/raw/master/Instructions/Labs/media/MS-700-lab_M02_ak_image4.png)](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/blob/master/Instructions/Labs/media/MS-700-lab_M02_ak_image4.png)
 
@@ -565,7 +565,7 @@ Teams の保持設定は、会社データのライフサイクルを管理す�
 
 1. 提供された資格情報を使用して**クライアント 2 VM** に接続します。
 2. タスク バーから Teams デスクトップ クライアントを開き、Alex **Wilber** としてサインインしたままにします。
-3. **[Teams ロールアウト**] チームと [**General**] チャネルを選択します。
+3. **[Teams Rollout**] チームの [**General**] チャネルを選択します。
 4. メインウィンドウの下端から **[Start a post]** を選択します。
 5. テキストボックスに 	Hello world！ とテキストを書き込み、投稿します。
 6. クライアントを開いたままにして、必要に応じて他のコンテンツをチームに追加します。
