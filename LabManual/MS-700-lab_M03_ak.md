@@ -524,7 +524,7 @@ Teams 管理者は、ユーザーにとって最も重要なアプリを強調�
 
 このタスクでは、Microsoft Teams 管理センターから既定のアプリをピン留めする方法について説明しました。
 
-#### タスク 2 - カスタム アプリ設定ポリシーを作成するTask 2 - Create a custom app setup policy
+#### タスク 2 - カスタム アプリ設定ポリシーを作成する
 
 1. **クライアント 1 VM** に接続し、**Joni Sherman** ([**JoniS@.onmicrosoft.com**](mailto:JoniS@.onmicrosoft.com)) として Teams 管理センター (**[https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)**) を参照します。
 
