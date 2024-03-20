@@ -268,48 +268,41 @@ Microsoft Teams PowerShell モジュールを使用して Teams に接続し、�
 
 "IT-Department" という名前の新しい Microsoft 365 グループが正常に作成されました。ブラウザウィンドウを閉じて、次のタスクに進みます。
 
-#### **タスク 2 - デスクトップ クライアントを使用して新しいチームを作成する**
+#### **タスク 2 - Teams Rollout チームを作成する**
 
 Teams のセルフサービス機能をテストするために、このタスクでは、**Alex Wilber** が Teams デスクトップ クライアントにサインインし、Teams ロールアウトという名前の新しいチームを作成し、**Teams** 評価プロジェクトに参加しているすべてのメンバーを追加します。
 
 1. 提供された資格情報を使用して**クライアント 2 VM** に接続します。
 
-2. タスク バーの [Teams] アイコンを選択して、**Teams** デスクトップ クライアントを起動します。
+2. Edgeブラウザーを起動し、 https://teams.microsoft.com で **Microsoft Teams Web クライアント(https://teams.microsoft.com/)** を参照し 、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) としてサインインします。
 
-3. **[Get started]** を選択し、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) としてサインインします。[すべてのアプリにサインインしたままにする] ウィンドウで、**[No, sign in to this app only]**  を選択します。
-
-   **注**: 最新の Teams デスクトップ クライアントをダウンロードしてインストールする必要がある場合があります。
-
-4. Teams デスクトップ クライアントで、左側のメニューから [**Teams**] を選択します。
+   **注**: 「今すぐ切り替え」ボタンをクリックして、最新の Teams  クライアントに切り替えてください。
 
 5. 左上の **[+]**  ボタンを選択します。
 
-6.  **[Create Team]**  > >  **[From scratch(最初から)]** > > **[Public]** と 選択します。チーム名に「**Teams Rollout**」と入力し、 **[Create]** を選択します。
+6.  **[Create Team(チームを作成)]**  > >  **[From scratch(最初から)]** > > **[Public(パブリック)]** と 選択します。チーム名に「**Teams Rollout**」と入力し、 **[Create(作成)]** を選択します。
 
-7. **[Add membtes to Teams Rollout]** ウィンドウで、次の名前を入力します。
+7. **[Add membtes to Teams Rollout(Teams Rolloutにメンバーを追加)]** ウィンドウで、次の名前を入力します。
 
    - Joni Sherman
    - Lynne Robbins
    - Diego Siciliani
 
-8. [Joni Sherman] の横にあるドロップダウン メニューを選択し、 **[Member] から[Owner]** に切り替えます。
+8. [Joni Sherman] の横にあるドロップダウン メニューを選択し、 **[Member(メンバー)] から[Owner(所有者)]** に切り替えます。
 
 9.  **[Add]** を選択します。
 
 Teams デスクトップ クライアントから新しいチームを正常に作成し、プロジェクト チーム メンバーを追加し、Joni Sherman をチーム所有者にしました。
 
-#### **タスク 3 - Web クライアントを使用して新しいチームを作成する**
+#### **タスク 3 - Sales チームを作成する**
 
-このタスクでは、**Lynne Robbins** は、Teams Web クライアントを使用して **Sales** という名前の別のチームを作成することで、Teams のセルフサービス機能のテストを続行します。また、**アレックス・ウィルバー**もメンバーとして加わります。
+このタスクでは、**Alex Wilber** は、Teams Web クライアントを使用して **Sales** という名前の別のチームを作成することで、Teams のセルフサービス機能のテストを続行します。また、**アレックス・ウィルバー**もメンバーとして加わります。
 
-1. 提供された資格情報を使用して**クライアント 2 VM** に接続します。
-2. Edgeブラウザーを起動し、 https://teams.microsoft.com で **Microsoft Teams Web クライアント(https://teams.microsoft.com/)** を参照し **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) としてサインインします。
-3. 左側のメニューから [**Teams**] を選択します。
-4. 左上の **[+]**  ボタンを選択します。
-5. **[Create Team] > > [From scratch(最初から)] > > [Private] **と 選択します。チーム名に**[Sales]**と入力し、**[Create]** を選択します。
-6. **[Add membtes to Teams Rollout]**  ウィンドウで、次の名前を入力します。
+1. 左上の **[+]**  ボタンを選択します。
+2. **[Create Team(チームを作成)] > > [From scratch(最初から)] > > [Private(プライベート)] **と 選択します。チーム名に**[Sales]**と入力し、**[Create(作成)]** を選択します。
+3. **[Add membtes to Teams Rollout]**  ウィンドウで、次の名前を入力します。
    - Alex Wilber
-7.  **[Add]** を選択します。
+4. **[Add]** を選択します。
 
 新しく作成されたチームがチームのリストに表示されます。Teams Web クライアントで新しいチームが正常に作成されました。
 
