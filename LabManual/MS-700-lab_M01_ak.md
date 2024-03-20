@@ -350,11 +350,11 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
   あなたはチームの組織の管理者です。Microsoft 365 グループを作成できるユーザーを制限する必要があります。グループのメンバーのみが Microsoft 365 グループを作成できる **GroupCreators** という名前のセキュリティ グループを作成します。
 
-    1. **クライアント 1 VM** に接続し、グローバル管理者 - MOD 管理者 (admin@YourTenant.onmicrosoft.com) として **Microsoft 365 管理センター** (https://admin.microsoft.com/) を参照します。
-    2. Microsoft 365 管理センターで、[**チームとグループ(Teams & Group)**] > **[アクティブなチームとグループ(Active Teams and groups)]** を選択します。
-    3. セキュリティ グループを作成します。
-        - [**セキュリティ グループ(Security Groups)**] タブに移動します。
-          - [**+ セキュリティ グループを追加(Add a security group)**] ボタンを選択します。
+  1. **クライアント 1 VM** に接続し、グローバル管理者 - MOD 管理者 (admin@YourTenant.onmicrosoft.com) として **Microsoft 365 管理センター** (https://admin.microsoft.com/) を参照します。
+  2. Microsoft 365 管理センターで、[**チームとグループ(Teams & Group)**] > **[アクティブなチームとグループ(Active Teams and groups)]** を選択します。
+  3. セキュリティ グループを作成します。
+    - [**セキュリティ グループ(Security Groups)**] タブに移動します。
+    - [**+ セキュリティ グループを追加(Add a security group)**] ボタンを選択します。
 
   - 次の情報を入力します。
     - 基本設定(Basics):
