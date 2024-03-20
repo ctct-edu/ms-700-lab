@@ -530,19 +530,17 @@ Disconnect-AzureAD
 
   1. **クライアント 2 VM** に接続し、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) として **Teams Web クライアント** (https://teams.microsoft.com/) を開きます。
 
-  2. Teams デスクトップ クライアントで、左側のメニューから [**Teams**] を選択します。
+  2. Teams デスクトップ クライアントで、左側のメニューから [**Teams(チーム)**] を選択します。
 
-  3. 左下の **[+]  - [Create team]** を選択します。
+  3. 左下の **[+]  - [Create team(チームを作成)]** を選択します。
 
-  4.  **[From scratch] > [Public]** 選択します。
+  4.  **[From scratch(最初から)] > [Public(パブリック)]** 選択します。
 
-  5. **[Team Name**] に **「Afterwork」** と入力します。
+  5. **[Team Name(チーム名)**] に **「Afterwork」** と入力します。
 
      入力した名前の下に、新しいチーム用に設定されたプレフィックスとサフィックスが表示されます。
 
-     
-
-  6. **[Create**] を選択して、新しいチームを作成します。
+  6. **[Create(作成)**] を選択して、新しいチームを作成します。
 
   7. **Lynne Robbins** をチーム メンバーに追加します。
 
