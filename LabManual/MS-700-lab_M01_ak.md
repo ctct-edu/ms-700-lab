@@ -105,24 +105,34 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 このタスクでは、既定のグローバル管理者を使用して Microsoft 365 管理センターにサインインし、複数の Teams 管理者ロールを異なるユーザーに割り当てます。このタスクは、Joni Sherman のアカウントのコンテキストでほとんどのタスクを実行するため、後のタスクや演習で重要です。
 
 1. **MOD 管理者**として Microsoft 365 管理センター (https://admin.microsoft.com/) を参照します。
+
    - 提供された資格情報を使用して**クライアント 1 VM** に接続します。
+
    - Microsoft **Edge** を開き、グローバル管理者資格情報 ( **MOD 管理者** : admin@YourTenant.onmicrosoft.com) を使用して [**https://admin.microsoft.com/**](https://admin.microsoft.com/) の **Microsoft 365 管理センター**を参照します。
-2. **Teams 管理者**ロールを **Joni Sherman** に割り当てるには
+
+     
+
+2. 画面右上の歯車をクリックし、Microsoft 365 管理センターを日本語表記に変更してください。（詳細は別紙）
+
+3. **Teams 管理者**ロールを **Joni Sherman** に割り当てるには
+
    - 左上のナビゲーション メニューを選択し、その下から [**ユーザー(Users)**] と [**アクティブ ユーザー(Active users)**] を選択します。
    - [アクティブ ユーザー(Active users)] の一覧で、 **[Joni Sherman**] を検索して選択し、右側の設定ウィンドウを開きます。
    - [アカウント(Account)] タブの下の設定で、[**ロールの管理(Manage roles)**] を選択します。
    - [**管理者ロールの管理(Manage admin roles)**] ウィンドウで、[**管理センターのアクセス(Admin center access)**] を選択し、下にスクロールして [**カテゴリ別にすべて表示(Show all by category)**] を展開し、使用可能なすべてのロールを表示します。
    - **[Teams 管理者(Teams Administrator)**] チェック ボックスをオンにし、[**変更の保存(Save Changes)**] を選択します。ウィンドウの上部に管理者の役割が更新された旨のメッセージが表示され、更新が確認されます。 **ウィンドウの右上にある [X] ボタンを選択** して、[管理者ロールの管理(Manage admin roles) ]ウィンドウを閉じます。
-3. **Teams デバイス管理者**ロールを **Patti Fernandez** に割り当てるには
+
+4. **Teams デバイス管理者**ロールを **Patti Fernandez** に割り当てるには
    - 上記と同じ手順を繰り返し、[**アクティブ ユーザー] の一覧**で Patti Fernandez を検索して選択し、**Teams デバイス管理者(Teams Device Administrator)** ロールを **Patti Fernandez** に割り当てます。
-4. **Teams のコミュニケーション サポート エンジニア**の役割を **Allan Deyoung** に割り当てるには
-   - 上記と同じ手順を繰り返し、**Teams のコミュニケーション サポート エンジニア(Teams Communication Supprt Engineer)** の役割を **Allan Deyoung** に割り当てます。
+
+5. **Teams のコミュニケーション サポート エンジニア**の役割を **Allan Deyoung** に割り当てるには
+   - 上記と同じ手順を繰り返し、**Teams 通信サポート エンジニア(Teams Communication Supprt Engineer)** の役割を **Allan Deyoung** に割り当てます。
 
 これで、Teams 管理者ロールが正常に割り当てられました。
 
 - チーム管理者: Joni Sherman
 - Teams デバイス管理者: Patti Fernandez
-- Teams コミュニケーション サポート エンジニア: Allan Deyoung
+- Teams 通信 サポート エンジニア: Allan Deyoung
 
 次のタスクに進みます。
 
@@ -131,7 +141,7 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 このタスクでは、パイロットに参加しているすべてのユーザーのライセンス割り当てを確認します。タスクの最後に、すべてのパイロット ユーザーが正しくライセンスされていることと、後のタスクの準備として Alex Wilber の場所がカナダに更新されていることを確認します。
 
 1. **クライアント 1 VM** に接続し、**MOD 管理者**として Microsoft 365 管理センター (https://admin.microsoft.com/) を参照します。
-2. **Alex Wilber の**ロケーションを**カナダ**に更新
+2. Alex Wilber のロケーションをカナダに更新
    - **[ユーザー(User)**] > **[アクティブなユーザー(Active users)**] ページで、**Alex Wilber** の名前を選択します。
    - [**ライセンスとアプリ(License and apps)**]タブを選択します。
    - **[場所を選択(Select location)**]の下のドロップダウンメニューを選択し、**カナダ(Canada)** に更新します。
