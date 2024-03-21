@@ -698,7 +698,7 @@ Microsoft Teams は、さまざまなネットワーク条件でチャット、�
 
 Microsoft Teams 展開の計画段階にあります。組織に Microsoft Teams を展開する前に、ネットワーク品質と Microsoft Teams への接続をテストする必要があります。テストが完了したら、結果を解釈し、潜在的なネットワークの問題に関する洞察を得ることができます。
 
-1. **クライアント 1 VM** に接続し、**MOD 管理者**としてMicrosoft 365 ネットワーク接続テスト ツール (https://connectivity.office.com)を参照します。
+1. **クライアント 1 VM** に接続し、**MOD 管理者**としてMicrosoft 365 ネットワーク接続テスト ツール ( https://connectivity.office.com )を参照します。
 
 2. 右上隅にある [**Sign in**] を選択します。
 
