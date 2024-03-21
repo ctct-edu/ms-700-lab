@@ -42,8 +42,8 @@
    - **コラボレーションの制限**: 招待を任意のドメインに送信することをを許可する (許可の範囲が最大)
 3. **MOD 管理者**として Microsoft 365 管理センター (https://admin.microsoft.com/) を参照します。
 4. Microsoft 365 管理センターの左側のナビゲーションで、[**すべて表示(Show all)**] を選択し、[**設定(Settings)**] > **[組織の設定(Org Settings)]** を選択します。
-   - **[サービス(Services)]** タブで、[**Microsoft 365 グループ(Microsoft 365 Groups)**] を選択します。**[グループ所有者が組織外のユーザーを Microsoft 365 グループに追加できるようにする(Let group owners add people outside your organiaztion to Microsoft 365 Groups as guests)**] チェック ボックスがオンになっていることを確認します。[Microsoft 365 グループ(Microsoft 365 Groups)] ページを閉じるには、[**X**] ボタンを選択します。
-   - [**セキュリティとプライバシー(Security & privacy)**] タブで、[**共有(Sharing)**] を選択します。[**ユーザーが新しいゲストを組織に追加できるようにする(Let users add new guests to the organization)**] チェックボックスがオンになっていることを確認します。
+   - **[サービス(Services)]** タブで、[**Microsoft 365 グループ(Microsoft 365 Groups)**] を選択します。[グループ所有者が組織外のユーザーを Microsoft 365 グループに追加できるようにする(Let group owners add people outside your organiaztion to Microsoft 365 Groups as guests)] チェック ボックスがオンになっていることを確認します。[Microsoft 365 グループ(Microsoft 365 Groups)] ページを閉じるには、[**X**] ボタンを選択します。
+   - [**セキュリティとプライバシー(Security & privacy)**] タブで、[**共有(Sharing)**] を選択します。[ユーザーが新しいゲストを組織に追加できるようにする(Let users add new guests to the organization)] チェックボックスがオンになっていることを確認します。
 
 これで、さまざまな管理センターのゲスト アクセス設定を確認しました。これで、コラボレーションのためにゲストを招待する準備が整いました。
 
