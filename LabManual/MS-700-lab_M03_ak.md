@@ -163,7 +163,9 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 10. 別の **[アクセス許可が要求されました(Permissions requested)]** ページが表示されます。 **[同意する(Accept)]** を選択します。
 
-11. Microsoft Developers サイトにリダイレクトされた場合は、次の **Graph エクスプローラー**に戻ります https://developer.microsoft.com/graph/graph-explorer
+    ※ もしMicrosoft Developers サイトにリダイレクトされた場合は、次のURLから **Graph エクスプローラー**に戻ります。
+
+    ​     https://developer.microsoft.com/graph/graph-explorer
 
 12. [**Request body**] タブを選択し、次のコードを入力します。(ラボ環境に転記時に余計な文字が入ることがあるため、転記方法は講師の指示に従ってください。ラボ内のブラウザーに本手順のURLを転記して開き、ラボ内でコピー＆ペーストする等の手段が考えられます。)
 
@@ -307,7 +309,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 17. しばらくすると、チェックマークが付いた緑色のバーが表示され、再び **[承認済み**] が表示されます。
 
-18. Teams デスクトップ アプリを開き、左側のウィンドウから **[Teams**] を選択し、新しく作成されたチーム "**Early Adopters**" と "**Tech Meetings**" を調べます。
+18. Teams Web アプリを開き、左側のウィンドウから **[Teams(チーム)**] を選択し、新しく作成されたチーム "**Early Adopters**" と "**Tech Meetings**" を調べます。
 
 Graph API を使用して 2 つのチームを正常に作成しました。グラフ機能のテストが完了したので、次の演習に進むことができます。
 
