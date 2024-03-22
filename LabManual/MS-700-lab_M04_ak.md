@@ -56,7 +56,7 @@ Contoso 組織は Microsoft 365 を展開し、ビジネス要件を満たすた
 
 このタスクでは、2 番目のクライアントにサインインし、ユーザーとの会議を作成する必要があります。構成されたポリシーがどのように機能し、ユーザーは会議を記録できなくなります。
 
-1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**](https://teams.microsoft.com/) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
+1. **クライアント 2 VM** に接続し、**Microsoft Teams Web クライアント (https://teams.microsoft.com/)** を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
 2. 左側のナビゲーション ウィンドウから **[Calender]** を選択します。
 3. 右上にあるボタン **[Meet now]** > [**Start meeting**] を選択します。
 4. **[Join now]** を選択して会議を開始します。
