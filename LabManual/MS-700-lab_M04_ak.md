@@ -57,12 +57,12 @@ Contoso 組織は Microsoft 365 を展開し、ビジネス要件を満たすた
 このタスクでは、2 番目のクライアントにサインインし、ユーザーとの会議を作成する必要があります。構成されたポリシーがどのように機能し、ユーザーは会議を記録できなくなります。
 
 1. **クライアント 2 VM** に接続し、**Microsoft Teams Web クライアント (https://teams.microsoft.com/)** を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
-2. 左側のナビゲーション ウィンドウから **[Calender]** を選択します。
-3. 右上にあるボタン **[Meet now]** > [**Start meeting**] を選択します。
-4. **[Join now]** を選択して会議を開始します。
+2. 左側のナビゲーション ウィンドウから **[Calender(カレンダー)]** を選択します。
+3. 右上にあるボタン **[Meet now(今すぐ会議)]** > [**Start meeting(会議を開始)**] を選択します。
+4. **[Join now(今すぐ参加)]** を選択して会議を開始します。
 5. 閉じる [ユーザー**をウィンドウに招待する**] には、右上隅の **[X**] を選択します (メッセージが表示されたら)。
-6. 会議ウィンドウで、**[...]** (More) をクリックします。
-7. **[Record and transcribe]** を選択し、「Start recording」 と「Start transcription」のオプションががグレーアウトして選択できないことに注意してください。
+6. 会議ウィンドウで、**[...]** More(その他) をクリックします。
+7. **[Record and transcribe(レコーディングと文字起こし)]** を選択し、「Start recording(レコーディングを開始)」 と「Start transcription(文字起こしの開始)」のオプションががグレーアウトして選択できないことに注意してください。
 8.  **[Leave]** の赤いボタンを選択して会議を終了します。
 
 #### タスク 3 - 会議設定を構成し、匿名ユーザーの会議への参加を制限する
@@ -72,7 +72,7 @@ Contoso Ltd. は複数の外部パートナーと連携しており、ユーザ�
 1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 2. Teams 管理センターの左側のナビゲーションで、[会議] > **[会議設定**] を選択します。
 3. **[会議設定**] ページで、[参加者] セクションの [**匿名ユーザーが会議に参加できます**] オプションを**オフ** にします。
-4. [**保存**して**確認**] を選択します。
+4.  **[保存]**  を選択し、 **[確認]** を選択します。
 
 テナント内のすべてのユーザーの会議設定が正常変更され、会議への匿名アクセスが無効になりました。変更がユーザーに適用されるまでには時間がかかるため、次のタスクに進み、このラボの最後に構成済みの設定をテストします。
 
@@ -80,7 +80,7 @@ Contoso Ltd. は複数の外部パートナーと連携しており、ユーザ�
 
 Contoso Ltd. は、ビデオと会議のコンテンツを多数のオンライン視聴者にブロードキャストしたいと考えています。Teams 管理者は、ライブ イベントの作成やライブ イベント ポリシーの構成など、ライブ イベント機能を評価する必要があります。Contoso Ltd. のビジネス要件に従って、会議の参加者の録画オプションを制限し、ユーザーを管理するための録画オプションのみを許可する必要があります。ライブ イベントの開催者のみが会議を記録できる必要があります。
 
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として **[Microsoft Teams 管理センター (https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com/)** を参照します。
+1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として **Microsoft Teams 管理センター (https://admin.teams.microsoft.com)** を参照します。
 2. Teams 管理センターの左側のナビゲーションで、[**会議**] > **[ライブ イベント ポリシー**] を選択します。
 3. **[ポリシーの管理]** タブで **[+ 追加**] を選択します。
 4. [**ライブ イベント ポリシー\追加**] ページで、次の情報を入力します。
@@ -101,48 +101,48 @@ Contoso Ltd. は、ビデオと会議のコンテンツを多数のオンライ�
 
 IT 部門は、新しい報告システムに関する従業員の質問に答えるために、全社会議を開催したいと考えています。Teams 管理者は、従業員が会議の前に質問を送信できるウェビナーを作成します。
 
-1. **クライアント 1 VM** に接続しMicrosoft Teams **Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Microsoft Teams Web クライアント (https://teams.microsoft.com/)を参照します。
+1. **クライアント 1 VM** に接続しs **Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Microsoft Teams Web クライアント (https://teams.microsoft.com/)を参照します。
 
-2. 左のナビゲーションの [・・・] から **Calendar** を探して選択します。
+2. 左のナビゲーションから **Calendar(カレンダー)** を探して選択します。
 
-3. Calendar画面右上の **[+ New meeting]** ドロップダウン メニューから、[**Webinar**] を選択します。
+3. Calendar画面右上の **[+ New meeting(新しい会議)]** ドロップダウン メニューから、[**Webinar(ウェビナー)**] を選択します。
 
-4. **[Basic Info]** を以下のように入力した後、**[Save and send invites]** を選択します。
+4. **[Basic Info(基本情報)]** を以下のように入力した後、**[Save and send invites(招待を保存して発送する)]** を選択します。
 
-   - **Title** :IT Office Hour
-   - **Start date / End date** :現在の時刻に近い時刻を選択します
-   - **Description** :Company-wide meeting to answer questions regarding the new reporting system.
-   - **Co-organizers** :Diego Siciliani
-   - **Presenters from your org** :Patti Fernandez, Allan Deyoung
-   - **Event Access**: Your organization
+   - **Title(タイトル)** :IT Office Hour
+   - **Start date(開始日) / End date(終了日)** :現在の時刻に近い時刻を選択します
+   - **Description(説明)** :Company-wide meeting to answer questions regarding the new reporting system.
+   - **Co-organizers(共同開催者)** :Diego Siciliani
+   - **Presenters from your org(組織の発表者)** :Patti Fernandez, Allan Deyoung
+   - **Event Access(イベント アクセス)**: Your organization(あなたの組織)
 
    **注**: イベントを保存すると、プレゼンターと共同開催者に招待状が自動的に送信されます。
 
-5. 左側のナビゲーションで、**[Registration]**  を展開し、**[Configuration]** を選択します。次の情報を入力し、 [**保存**] を選択します。
+5. 左側のナビゲーションで、**[Registration(登録フォーム)]**  を展開し、**[Configuration(構成)]** を選択します。次の情報を入力した後、 [**保存**] を選択します。
 
-   - **Capacity** :1000名
+   - **Capacity(定員)** :1000名
 
-   - [**Form**] で [**+ Add field**] > **[Custom question]** > **[Text input]** を選択し、[Custom question] の下のテキストボックスに次のように入力します。
+   - [**Form(フォーム)**] で [**+ Add field(フィールドを追加)**] > **[Custom question(カスタムの質問))** > **[Text input(テキスト入力)]** を選択し、テキストボックスに次のように入力します。
 
      **What is your question about the new reporting system?**
 
-6. 画面右上の方にある [**View draft**] ボタンを選択して、登録サイトをプレビューします(サインインを要求された場合、 Joni Shermanの資格情報を使用してください)。登録ページのプレビューがブラウザーの新しいタブで開きます。サイトを確認したら、タブを閉じます。
+6. 画面右上の方にある [**View draft(下書きサイトを表示する)**] ボタンを選択して、登録サイトをプレビューします(サインインを要求された場合、 Joni Shermanの資格情報を使用してください)。登録ページのプレビューがブラウザーの新しいタブで開きます。サイトを確認したら、タブを閉じます。(作成してすぐに下書きサイトが表示されないことがあります。前の手順に間違いがなさそうであれば、いったん先にすすめてください。)
 
 7. 登録サイトを公開し、リンクを共有します。
 
-   1. IT Office Hour 画面の右上にある **[Publish site]** ボタンを選択し、 **[Save and publish]** を選択してウェビナー登録サイトをアクティブ化します。
-   2. [**Share link] リンク**をコピーし、[All set and ready to share] ウィンドウを閉じます。
-   3. 左側のナビゲーションで **[Teams**] に戻ります。
-   4. 左側のナビゲーション ウィンドウで、**IT-Department**下の **[General]** を選択します。**[Start a post**] を選択し、コピーした登録リンクをテキスト ボックスに貼り付けて、**[Post]** を選択します。
+   1. IT Office Hour 画面の右上にある **[Publish site(サイトの発行)]** ボタンを選択し、 **[Save and publish(公開)]** を選択してウェビナー登録サイトをアクティブ化します。
+   2. [**Share link(リンクを共有)] リンク**をコピーし、[All set and ready to share(すべて設定され、共有する準備ができました)] ウィンドウを閉じます。
+   3. 左側のナビゲーションで **[Teams(チーム)**] に戻ります。
+   4. 左側のナビゲーション ウィンドウで、**IT-Department**下の **[General(一般)]** を選択します。**[Start a post(投稿を開始する)**] を選択し、コピーした登録リンクをテキスト ボックスに貼り付けて、**[Post()投稿]** を選択します。
    5. サインアウトして、すべてのブラウザー ウィンドウを閉じます。
 
 8. 会議の登録をテストします。
 
    1. **クライアント 1 VM** にとどまり **MOD 管理者** としてMicrosoft Teams Web クライアント(https://teams.microsoft.com/)を参照します。
-   2. **IT-Department**チームの **General** チャネルに移動し、投稿した登録リンクを選択します。サインインを要求されたら、MOD 管理者の資格情報を使用してください。
-   3. 登録ページで **[Register]** を選択します。
-   4. MOD 管理者の名前と電子メールが入力されていることを確認し、画面下のMicrosoft Event Term and Conditionsに同意する チェック ボックスをオンにして、**[Register]** を選択します。
-   5. 新しいブラウザタブを開き、 **[MOD管理者のメール(https://outlook.office.com/mail/)](https://outlook.office.com/mail/)** を参照し、件名のメールを表示します:**ITオフィスアワーに登録されています**。
+   2. **IT-Department**チームの **General(一般)** チャネルに移動し、投稿した登録リンクを選択します。サインインを要求されたら、MOD 管理者の資格情報を使用してください。
+   3. 登録ページで **[Register(登録)]** を選択します。
+   4. MOD 管理者の名前と電子メールが入力されていることを確認し、画面下のMicrosoft Event Term and Conditions(Microsoft イベントの使用条件)に同意する チェック ボックスをオンにして、**[Register()]** を選択します。
+   5. 新しいブラウザタブを開き、 **MOD管理者のメール(https://outlook.office.com/mail/)** を参照し、件名のメールを表示します:**IT Office Hour に登録されました**。
    6. サインアウトして、すべてのブラウザー ウィンドウを閉じます。
 
 これで、カスタム登録フォームを使用したウェビナーが正常に作成されました。
