@@ -41,7 +41,7 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 
 ## **ラボのセットアップ**
 
-- **所要時間:** 100 分
+- **所要時間:** 90 分
 
 ## **指示**
 
@@ -353,6 +353,7 @@ Teams デスクトップ クライアントから新しいチームを正常に�
   1. **クライアント 1 VM** に接続し、グローバル管理者 - MOD 管理者 (admin@YourTenant.onmicrosoft.com) として **Microsoft 365 管理センター** (https://admin.microsoft.com/) を参照します。
   2. Microsoft 365 管理センターで、[**チームとグループ(Teams & Group)**] > **[アクティブなチームとグループ(Active Teams and groups)]** を選択します。
   3. セキュリティ グループを作成します。
+
     - [**セキュリティ グループ(Security Groups)**] タブに移動します。
     - [**+ セキュリティ グループを追加(Add a security group)**] ボタンを選択します。
 
