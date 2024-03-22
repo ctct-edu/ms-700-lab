@@ -41,17 +41,17 @@ Microsoft Teams でのコラボレーションの管理では、チーム設定�
 Contoso のパイロット プロジェクトの一環として、以前のラボで作成した **IT 部門の** Microsoft 365 グループを変更し、Teams 機能を追加する必要があります。
 
 1. 提供された資格情報を使用して**クライアント 1 VM** に接続します。
-2. タスク バーの Teams アイコンを選択して **Teams** デスクトップ クライアントを起動し、**Joni Sherman** (JoniS@YourTenant.OnMicrosoft.com)でサインインします。「Stay signed in to all your apps」のウィンドウでは **「No,sign in to this app only」** をクリックします。
-3. 左側のナビゲーション ウィンドウで、[**Teams**] を選択し、画面上の方に表示される **[+]** を選択し、ウィンドウの中央から [**Create Team**] を選択します。
-4. [Create Team] 画面の左側にあるで、 **[From group]** を選択します。
-5.  **[Which Microsoft 365 group do you want to use?]** ダイアログで、グループ "**IT-Department"** を選択し、**[Add team]** を選択します。**「Creating the team...」** プロセスが完了するまで待ちます。
-6. 左側のウィンドウで新しい"**IT-Department"**チーム名の右に表示されるから 3 つのドット (**...**) を選択し、[**Manage team**] を選択します。
+2.  Teams Web クライアントを起動し、**Joni Sherman** (JoniS@YourTenant.OnMicrosoft.com)でサインインします。
+3. 左側のナビゲーション ウィンドウで、[**Teams(チーム)**] を選択し、画面上の方に表示される **[+]** を選択し、ウィンドウの中央から [**Create Team(チームを作成)**] を選択します。
+4. [Create Team] 画面の左側に表示される **[From group(グループから)]** を選択します。
+5.  **[Which Microsoft 365 group do you want to use?(どの Microsoft 365 グループを使用しますか?)]** ダイアログで、グループ "**IT-Department"** を選択し、**[Add team(チームを追加)]** を選択します。**「Creating the team(チームを作成しています)...」** プロセスが完了するまで待ちます。
+6. 左側のウィンドウで新しい"**IT-Department"**チーム名の右に表示されるから 3 つのドット (**...**) を選択し、[**Manage team(チームを管理)**] を選択します。
 7. チームの所有者とメンバーを確認します。
    - オーナー: **Joni Sherman**
-   - メンバーとゲスト:　**Allan Deyoung** , **MOD Administrator** and **Patti Fernandezr**
-8. Teams デスクトップ クライアントを開いたままにして、次のタスクに進みます。
+   - メンバーとゲスト:　**Allan Deyoung** , **MOD Administrator** と **Patti Fernandezr**
+8. Teams Web クライアントを開いたままにして、次のタスクに進みます。
 
-既存の Microsoft 365 グループを使用して、Teams デスクトップ クライアントで新しいチームを正常に作成しました。Teams クライアントを開いたままにして、次のタスクに進みます。
+既存の Microsoft 365 グループを使用して、Teams デスクトップ クライアントで新しいチームを正常に作成しました。次のタスクに進みます。
 
 #### タスク 2 - PowerShell を使用してチームを作成する
 
