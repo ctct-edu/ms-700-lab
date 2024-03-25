@@ -123,7 +123,7 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
    - **[Teams 管理者(Teams Administrator)**] チェック ボックスをオンにし、[**変更の保存(Save Changes)**] を選択します。ウィンドウの上部に管理者の役割が更新された旨のメッセージが表示され、更新が確認されます。 **ウィンドウの右上にある [X] ボタンを選択** して、[管理者ロールの管理(Manage admin roles) ]ウィンドウを閉じます。
 
 4. **Teams デバイス管理者**ロールを **Patti Fernandez** に割り当てるには
-   - 上記と同じ手順を繰り返し、[**アクティブ ユーザー] の一覧**で Patti Fernandez を検索して選択し、**Teams デバイス管理者(Teams Device Administrator)** ロールを **Patti Fernandez** に割り当てます。
+   - 上記と同じ手順を繰り返し、[アクティブなユーザー] の一覧で **Patti Fernandez** を検索して選択し、**Teams デバイス管理者(Teams Device Administrator)** ロールを Patti Fernandez に割り当てます。
 
 5. **Teams のコミュニケーション サポート エンジニア**の役割を **Allan Deyoung** に割り当てるには
    - 上記と同じ手順を繰り返し、**Teams 通信サポート エンジニア(Teams Communication Supprt Engineer)** の役割を **Allan Deyoung** に割り当てます。
