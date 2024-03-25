@@ -32,8 +32,7 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
   - Teams 管理センターとそのメニューを理解する
   - Teams PowerShell モジュールをインストールし、そのコマンドレットを調べる
   - M365 管理センターから Microsoft 365 グループを作成する
-  - Teams デスクトップ クライアントを使用して新しいチームを作成する
-  - Teams Web クライアントを使用して新しいチームを作成するCreate new teams using the Teams web client
+  - Teams Web クライアントを使用して新しいチームを作成する
   - 有効期限ポリシーの構成
   - 新しいチームの作成をセキュリティ グループのメンバーに制限する
   - 名前付けポリシーを作成する
