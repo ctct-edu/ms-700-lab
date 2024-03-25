@@ -262,9 +262,9 @@ Microsoft Teams PowerShell モジュールを使用して Teams に接続し、�
      - **Add(1)** を選択し、**次へ** を選択します。
    - メンバー：
      - [**+ メンバーの追加**] を選択し、次のユーザーを追加します。
-       - Allan Deyoung
-       - MOD Administrator
-       - Patti Fernandez
+       - **Allan Deyoung**
+       - **MOD Administrator**
+       - **Patti Fernandez**
      - **Add(3)** を選択し、**次へ** を選択します。
    - 設定の編集：
      - [グループのメールアドレス] に **「IT-Department」** と入力します。
@@ -310,8 +310,8 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
 1. 左上の **[+]**  ボタンを選択します。
 2. **[Create Team(チームを作成)] > > [From scratch(最初から)] > > [Private(プライベート)] **と 選択します。チーム名に**[Sales]**と入力し、**[Create(作成)]** を選択します。
-3. **[Add membtes to Teams Rollout]**  ウィンドウで、次の名前を入力します。
-   - Alex Wilber
+3. [Add membtes to Teams Rollout]  ウィンドウで、次の名前を入力します。
+   - **Alex Wilber**
 4. **[Add]** を選択します。
 
 新しく作成されたチームがチームのリストに表示されます。Teams Web クライアントで新しいチームが正常に作成されました。
