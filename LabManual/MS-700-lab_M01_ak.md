@@ -196,22 +196,21 @@ Teams 管理センターから、テナントでチームを管理し、ポリ�
 3. **Microsoft Teams PowerShell モジュール**をインストールする
 
    - PowerShell ウィンドウで、次のコマンドレットを入力し、**Enter キーを押します。**
-     - ```
-       Install-Module -Name MicrosoftTeams
-       ```
      
-   - **「Y**」と入力し、**Enter** キーを 2 回押して、NuGet プロバイダーと信頼されていないリポジトリのインストールを確認します。
-   
+     `Install-Module -Name MicrosoftTeams`
+     
+     **「Y**」と入力し、**Enter** キーを 2 回押して、NuGet プロバイダーと信頼されていないリポジトリのインストールを確認します。
+
 4. テナントに接続します。
 
    - PowerShell ウィンドウに次のコマンドレットを入力し、**Enter** キーを押します。
-     - ```
-       Connect-MicrosoftTeams
-       ```
      
-   - [サインイン] ウィンドウで、Teams 管理者 - Joni Sherman (JoniS@YourTenant.onmicrosoft.com) としてサインインします。
+     `Connect-MicrosoftTeams`
+     
+     [サインイン] ウィンドウで、Teams 管理者 - Joni Sherman (JoniS@YourTenant.onmicrosoft.com) としてサインインします。
+     
    - サインインが成功すると、サインインしているユーザーとテナントに関するいくつかの情報が表示されます。
-   
+
 5. **Microsoft Teams PowerShell モジュール**の詳細
 
    - MicrosoftTeams モジュールが正しく読み込まれていることを確認するには、次のコマンドレットを入力して **Enter** キーを押し、使用可能なすべての PowerShell モジュールを表示します。
