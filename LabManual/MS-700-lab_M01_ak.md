@@ -123,8 +123,9 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
    - **[Teams 管理者(Teams Administrator)**] チェック ボックスをオンにし、[**変更の保存(Save Changes)**] を選択します。ウィンドウの上部に管理者の役割が更新された旨のメッセージが表示され、更新が確認されます。 **ウィンドウの右上にある [X] ボタンを選択** して、[管理者ロールの管理(Manage admin roles) ]ウィンドウを閉じます。
 
 4. **Teams デバイス管理者**ロールを **Patti Fernandez** に割り当てるには
+   
    - 上記と同じ手順を繰り返し、[アクティブなユーザー] の一覧で **Patti Fernandez** を検索して選択し、**Teams デバイス管理者(Teams Device Administrator)** ロールを Patti Fernandez に割り当てます。
-
+   
 5. **Teams の通信 サポート エンジニア**の役割を **Allan Deyoung** に割り当てるには
    
    - 上記と同じ手順を繰り返し、**Teams 通信サポート エンジニア(Teams Communication Supprt Engineer)** の役割を Allan Deyoung に割り当てます。
@@ -195,13 +196,21 @@ Teams 管理センターから、テナントでチームを管理し、ポリ�
 3. **Microsoft Teams PowerShell モジュール**をインストールする
 
    - PowerShell ウィンドウで、次のコマンドレットを入力し、**Enter キーを押します。**
-     - Install-Module -Name MicrosoftTeams
+     - ```
+       Install-Module -Name MicrosoftTeams
+       ```
+     
+       
    - **「Y**」と入力し、**Enter** キーを 2 回押して、NuGet プロバイダーと信頼されていないリポジトリのインストールを確認します。
 
 4. テナントに接続します。
 
    - PowerShell ウィンドウに次のコマンドレットを入力し、**Enter** キーを押します。
-     - Connect-MicrosoftTeams
+     - ```
+       Connect-MicrosoftTeams
+       ```
+     
+       
    - [サインイン] ウィンドウで、Teams 管理者 - Joni Sherman (JoniS@YourTenant.onmicrosoft.com) としてサインインします。
    - サインインが成功すると、サインインしているユーザーとテナントに関するいくつかの情報が表示されます。
 
