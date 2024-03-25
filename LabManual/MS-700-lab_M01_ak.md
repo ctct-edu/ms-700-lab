@@ -125,8 +125,9 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 4. **Teams デバイス管理者**ロールを **Patti Fernandez** に割り当てるには
    - 上記と同じ手順を繰り返し、[アクティブなユーザー] の一覧で **Patti Fernandez** を検索して選択し、**Teams デバイス管理者(Teams Device Administrator)** ロールを Patti Fernandez に割り当てます。
 
-5. **Teams のコミュニケーション サポート エンジニア**の役割を **Allan Deyoung** に割り当てるには
-   - 上記と同じ手順を繰り返し、**Teams 通信サポート エンジニア(Teams Communication Supprt Engineer)** の役割を **Allan Deyoung** に割り当てます。
+5. **Teams の通信 サポート エンジニア**の役割を **Allan Deyoung** に割り当てるには
+   
+   - 上記と同じ手順を繰り返し、**Teams 通信サポート エンジニア(Teams Communication Supprt Engineer)** の役割を Allan Deyoung に割り当てます。
 
 これで、Teams 管理者ロールが正常に割り当てられました。
 
