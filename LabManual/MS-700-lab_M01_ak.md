@@ -118,7 +118,7 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 
    - 左上のナビゲーション メニューを選択し、その下から [**ユーザー(Users)**] と [**アクティブ ユーザー(Active users)**] を選択します。
    - [アクティブ ユーザー(Active users)] の一覧で、 **[Joni Sherman**] を検索して選択し、右側の設定ウィンドウを開きます。
-   - [アカウント(Account)] タブの下の設定で、[**ロールの管理(Manage roles)**] を選択します。
+   - [アカウント(Account)] タブの下の設定で、[**役割の管理(Manage roles)**] を選択します。
    - [**管理者ロールの管理(Manage admin roles)**] ウィンドウで、[**管理センターのアクセス(Admin center access)**] を選択し、下にスクロールして [**カテゴリ別にすべて表示(Show all by category)**] を展開し、使用可能なすべてのロールを表示します。
    - **[Teams 管理者(Teams Administrator)**] チェック ボックスをオンにし、[**変更の保存(Save Changes)**] を選択します。ウィンドウの上部に管理者の役割が更新された旨のメッセージが表示され、更新が確認されます。 **ウィンドウの右上にある [X] ボタンを選択** して、[管理者ロールの管理(Manage admin roles) ]ウィンドウを閉じます。
 
