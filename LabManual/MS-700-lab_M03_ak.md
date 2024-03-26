@@ -353,7 +353,7 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
    4. これで、**Sales** グループを含むすべての削除されたグループが表示されます。
    5. **Sales** グループの左側にあるチェック ボックスをオンにし、ウィンドウ上部の [**グループの復元**] ボタンを選択します。[削除済みのグループを復元しますか] ダイアログで **[はい**] を選択して確認します。
 5. 復元されたグループを確認します。
-   1. **クライアント 2 VM** に接続し、**Microsoft Teams Web クライアント (https://teams.microsoft.com/)** を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
+   1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)を Alex Wilber  (Alexw@YourTenant.onmicrosoft.com) として参照します。
    2. **Sales** チームがチームの一覧に再び表示されます。必要に応じて、**F5** キーを押してページを更新します。
    3. チーム名から 3 つのドット (...) を選択し、[**Manage teams(チームを管理)**] を選択します。所有者とすべてのメンバーを [**メンバー**] タブで再度確認できます。
 
