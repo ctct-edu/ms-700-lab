@@ -456,10 +456,10 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
       - **名前**: Confidential sales
       - **説明:** 機密のプライベート販売チャネル
       - **種類**: プライベート
-      - **チャンネル所有者**: Lynne Robbins
+      - **チャンネル所有者**: Alex Wilber
 6. [**適用]** を選択します。
 7. プライベートチャネルを確認する
-   1. **クライアント 2 VM** に接続し、**Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として **Teams Web クライアント** [(https://teams.microsoft.com)](https://teams.microsoft.com/) を参照します。
+   1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)を Alex Wilber  (Alexw@YourTenant.onmicrosoft.com) として参照します。
    2. **[チーム**] を選択すると、小さな南京錠のアイコンが付いた新しいプライベート チャネル [**Confidential sales**] が表示されます。
 
 このタスクでは、Microsoft Teams 管理センターでプライベート チャネルを作成する方法と、アクセスを構成および確認する方法について説明しました。
