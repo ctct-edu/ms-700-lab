@@ -344,7 +344,7 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
 
 このタスクでは、前のレッスンで作成したチームの 1 つを削除し、復元する方法を学習します。
 
-1. **クライアント 2 VM** に接続し、**Microsoft Teams Web クライアント (https://teams.microsoft.com/)** を Lynne Robbins (LynneR@YourTenant.onmicrosoft.com) として参照します。
+1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)を Alex Wilber  (Alexw@YourTenant.onmicrosoft.com) として参照します。
 2. Teams Web クライアントの左側のナビゲーション ウィンドウで、**Sales** チームから 3 つのドット (...) を選択し、一覧から **[Delete team(チームを削除)]** を選択します。
 3. **I understand that everything will be deleted(すべてが削除されることを理解しています)** のチェックボックスをオンにして、 **[Delete team(チームを削除)]** を選択します。
 4. グループの回復
