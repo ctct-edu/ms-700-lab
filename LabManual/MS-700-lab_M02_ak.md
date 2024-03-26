@@ -113,10 +113,17 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 4. アクセス レビューを確認し、ゲスト ユーザーを承認します。
 
    1. **クライアント 2 VM** に接続し、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) として **Outlook.com** (https://outlook.office.com/) を参照します。InPrivate ウィンドウを開くことができます。
+   
    2. 件名が **「Action required: Review group access」** のメールを確認します。
-   3.  **[Start review]** を選択します。
+   
+   3. **[Start review]** を選択します。
+   
+      ※「We can't check the safety of this website right now. Please try again later.」の画面が出た場合は、再度 [Start review] を選択してみてください。
+   
    4. [マイ アクセス ([Https://myaccess.microsoft.com](https://myaccess.microsoft.com/))] ページで、[**Microsoft 365 グループ間のゲスト アクセスをレビューする**] を選択します。
+   
    5. [Microsoft 365 グループ間のゲスト アクセスをレビューする] ページで、 **ゲスト アカウントを選択** し、**[承認する(Approve)]** を選択します。
+   
    6. 理由(Reason)欄に「**Approved**」と入力します。 **[Submit]** を選択します
 
 アクセス レビューが正常に作成され、テナント内のゲスト ユーザーが承認されました。
