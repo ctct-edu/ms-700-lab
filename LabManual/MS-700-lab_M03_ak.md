@@ -95,7 +95,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
    
 
-9. 次のコマンドレットを使用して、**CA-Office** チームで**チャネル Support** を作成します。
+9. 次のコマンドレットを使用して、**CA-Office** チームでチャネル **Support** を作成します。
 
    ```
    Get-Team -Displayname "CA-Office" | New-TeamChannel -DisplayName "Support"
@@ -111,7 +111,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
     
 
-11. 次のコマンドレットを使用して、**CA-Office** チームでプライベート チャネル**管理**を作成します。
+11. 次のコマンドレットを使用して、**CA-Office** チームでプライベート チャネル **Administration** を作成します。
 
     ```
     Get-Team -Displayname "CA-Office" | New-TeamChannel -DisplayName "Administration" -MembershipType Private
