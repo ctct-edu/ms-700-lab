@@ -324,7 +324,7 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
    2. [**SharePoint サイトをチーム メンバーに対して読み取り専用にする**] チェック ボックスをオンにし、[**アーカイブ**] を選択します。
    3. [ステータス] 列が [アーカイブ済み] に変わり、オレンジ色で表示されます。ブラウザを開いたままにして続行します。**Sales**チームに問題がある場合は、別のチームをアーカイブします(このアクションはアーカイブ解除手順で元に戻すことができます)。
 4. アーカイブされたチームを確認する
-   1. ###### クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)を Alex Wilber  (Alexw@YourTenant.onmicrosoft.com) として参照します。
+   1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)を Alex Wilber  (Alexw@YourTenant.onmicrosoft.com) として参照します。
    2. 左のメニューから **[Teams(チーム)]**  を選択し、上の方の[Teams(チーム)] の右にある **[...]** を選択して、[**Manage teams(チームを管理)**] をクリックします。
    3. **[Archived(アーカイブ)]** セクションを展開し、[**Sales**] を選択します。
    4. 「This Team was archived, so you can't post any more messages.(このチームはアーカイブ済みのため、追加のメッセージを投稿することはできません。)」と画面下の方に表示され、[Start a post(投稿を開始する)]でメッセージが送信できないことを確認します。
@@ -332,7 +332,7 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
    1. **クライアント 1 VM** に再度接続し、**Joni Sherman** として Teams 管理センターを参照します。
    2. **[Sales**] の左側にあるチェックボックスをもう一度選択し、上部のメニューから [**アーカイブを解除**] を選択します。[**状態**] フィールドが再び **[アクティブ**] に変わります。
 6. アーカイブされていないチームを確認する
-   1. **クライアント 2 VM** に接続し、[**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**](https://teams.microsoft.com/) を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
+   1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)を Alex Wilber  (Alexw@YourTenant.onmicrosoft.com) として参照します。
    2. 左側にある **[Team(チーム)**]を選択します。
    3. Sales チームと**General(一般)** チャネルのテキストはしばらくすると通常に戻りますが、チームは非表示になっています。
    4. Sales チーム名の右にある 3 つのドット **(...)** を選択し、**Show(表示)** を選択します。
