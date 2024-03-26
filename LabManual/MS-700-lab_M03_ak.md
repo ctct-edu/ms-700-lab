@@ -133,7 +133,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 15. すべてのブラウザー ウィンドウと Teams Web クライアントを閉じます。
 
-これで、Alex Wilber と Allan Deyoung というメンバーからなる **CA-Office** という名前のチームが作成されました。ジョニ・シャーマンは唯一のチームオーナーです。PowerShell コマンドレットで所有者を指定しておらず、Joni のコンテキストで実行されたため、Joni が自動的に所有者として追加されたことに注意してください。さらに、**「Support」** と **「Recruiting」** という名前のパブリックチャンネルと、 **「Administration」** という名前のプライベートチャンネルを作成しました。
+これで、Alex Wilber と Allan Deyoung というメンバーからなる **CA-Office** という名前のチームが作成されました。ジョニ・シャーマンは唯一のチームオーナーです。PowerShell コマンドレットで所有者を指定しておらず、Joni のコンテキストで実行されたため、Joni が自動的に所有者として追加されたことに注意してください。さらに、**「Support」** と **「Recruiting」** という名前のパブリックチャンネルと、 **「Administration」** という名前のプライベートチャネルを作成しました。
 
 #### タスク 3 - Graph API を使用してチームを作成する
 
@@ -143,7 +143,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 2. Microsoft Edge を開き、ブラウザーを最大化して、次の **Graph エクスプローラー**に移動します https://developer.microsoft.com/graph/graph-explorer
 
-3. ページの右上にある人の形のアイコンをを選択し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) としてサインインします。
+3. ページの右上にある人の形のアイコンを選択し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) としてサインインします。
 
 4. Graph エクスプローラーに初めてアクセスすると、 **[アクセス許可が要求されました(Permissions requested)]** ページが表示されます。 **[同意する(Accept)]** を選択します。
 
@@ -307,7 +307,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 16. ページの右上にある **[Run query]** を選択します。
 
-17. しばらくすると、チェックマークが付いた緑色のバーが表示され、再び **[承認済み**] が表示されます。
+17. しばらくすると、チェックマークが付いた緑色のバーが表示され、再び **[Accepted]** が表示されます。
 
 18. Teams Web アプリを開き、左側のウィンドウから **[Teams(チーム)**] を選択し、新しく作成されたチーム "**Early Adopters**" と "**Tech Meetings**" を調べます。
 
@@ -324,7 +324,7 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
    2. [**SharePoint サイトをチーム メンバーに対して読み取り専用にする**] チェック ボックスをオンにし、[**アーカイブ**] を選択します。
    3. [ステータス] 列が [アーカイブ済み] に変わり、オレンジ色で表示されます。ブラウザを開いたままにして続行します。**Sales**チームに問題がある場合は、別のチームをアーカイブします(このアクションはアーカイブ解除手順で元に戻すことができます)。
 4. アーカイブされたチームを確認する
-   1. ###### **クライアント 2 VM** に接続し、**Microsoft Teams Web クライアント (https://teams.microsoft.com/)**を Lynne Robbins (LynneR@YourTenant.onmicrosoft.com) として参照します。
+   1. ###### クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)を Alex Wilber  (Alexw@YourTenant.onmicrosoft.com) として参照します。
    2. 左のメニューから **[Teams(チーム)]**  を選択し、上の方の[Teams(チーム)] の右にある **[...]** を選択して、[**Manage teams(チームを管理)**] をクリックします。
    3. **[Archived(アーカイブ)]** セクションを展開し、[**Sales**] を選択します。
    4. 「This Team was archived, so you can't post any more messages.」と画面下の方に表示され、[Start a post(投稿を開始する)]でメッセージが送信できないことを確認します。
