@@ -164,7 +164,7 @@ Teams 管理センターを調べたので、最初の設定を構成します�
    Connect-AzureAD
    ```
 
-   ※ 'Connect-AzureAD' がコマンドレットとして認識されない旨のエラーメッセージが表示された場合は、ラボ01の演習4タスク2手順4.にある通り
+   ※ 'Connect-AzureAD' がコマンドレットとして認識されない旨のエラーメッセージが表示された場合は、ラボ01にある
 
     Install-Module -Name AzureADPreview
 
