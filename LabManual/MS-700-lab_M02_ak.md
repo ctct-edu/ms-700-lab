@@ -68,7 +68,7 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 **注**: この演習には Outlook アカウントが必要です。Outlook アカウントをお持ちでない場合は、[**https://outlook.com**](https://outlook.com/) から新しいアカウントを作成できます。
 
 1. **クライアント 2 VM** に接続し、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) として **Teams Web クライアント** (https://teams.microsoft.com/) を開きます。
-2. ゲストをチームに追加します**Group_Afterwork_**。
+2. ゲストをチームに追加します。
    - **[Teams(チーム)]** を選択し>**Group_Afterwork_** チームの横にある **[...**] を選択します。
    -  **[Add member(メンバーを追加)]** を選択し、Outlook アカウントを入力します。
    -  「Add< Outlook アカウント> as a guest ? (< Outlook アカウント>をゲストとして追加しますか？)」 のメッセージが表示されます。メッセージを選択し、[**Add(追加)**] を選択 します。「Done(完了)」のウィンドウが表示されたら、右上の **[X]** をクリックして閉じます。
@@ -76,10 +76,10 @@ Teams 管理センターを調べたので、最初の設定を構成します�
    - **新しい InPrivate ウィンドウ**を開き、**Outlook Web ポータル** (https://outlook.live.com/owa/) にMicrosoft Teams で Contoso にゲストとして追加された **Outlookアカウントでサインインします。**
    - 「You have been added as a guest to Contoso in Microsoft Teams」という件名のメールから **[Open Microsoft Teams]** をクリックします。サインイン ページにリダイレクトされ、アクセス許可の同意が要求されます。
    - **[Accept(承諾)]** を選択します。その後[Use the web app instead(代わりにwebアプリを使用)] をクリックして、Outlook アカウントで Teams Web クライアントにサインインします。
-   - Teams Web クライアントから **[Teams**] を選択すると、チーム **Group_Afterwork_** が表示されます。
+   - Teams Web クライアントから **[Teams**] を選択すると、チーム **Group_Afterwork_** が表示されます。(「チームを見つけることができません」と表示される場合は時間がかかりますので、時間を置いてからTeams Web クライアントへの再サインインを試行してください。)
 4. ゲスト アクセスをテストする
-   - チームの **Group_Afterwork_United [状態**] で、 [**General**チャネル] を選択し、 [**Start a post**] を選択して、次のメッセージを送信します: **Hello!**
-   - 投稿したメッセージの **[...]** を選択します。[**Delete**] オプションがないことに注意してください。
+   - Group_Afterwork_チームの **[一般(General)]** チャネルを選択し、 [**(投稿を開始する)Start a post**] を選択して、次のメッセージを送信します: **Hello!**
+   - 投稿したメッセージの **[...]** を選択します。[**削除(Delete)**] オプションがないことに注意してください。
 
 ゲストをチームに招待し、前のタスクのゲスト アクセス設定を検証しました。
 
