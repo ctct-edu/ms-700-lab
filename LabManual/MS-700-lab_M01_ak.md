@@ -282,21 +282,23 @@ Teams のセルフサービス機能をテストするために、このタス�
 
 2. Edgeブラウザーを起動し、 **Microsoft Teams Web クライアント(https://teams.microsoft.com/)** を参照し 、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) としてサインインします。
 
-   **注**: 「今すぐ切り替え」ボタンをクリックして、最新の Teams  クライアントに切り替えてください。
+3. 左側のメニューで **チーム(Teams)** を選択し、上の **[+]ボタン**  - **[チームを作成(Create Team)]** を選択します。
 
-5. 左上の **[+]**  ボタンを選択します。
+4. 以下の通り設定し **[作成(Create)]** を選択します。
 
-6.  **[Create Team(チームを作成)]**  > >  **[From scratch(最初から)]** > > **[Public(パブリック)]** と 選択します。チーム名に「**Teams Rollout**」と入力し、 **[Create(作成)]** を選択します。
+   チーム名(Team name)  **Teams Rollout**
 
-7. [Add membtes to Teams Rollout(Teams Rolloutにメンバーを追加)] ウィンドウで、次の名前を入力します。
+   チームの種類(Team type)  **パブリック(Public)**
+
+5. [Teams Rolloutにメンバーを追加(Add membtes to Teams Rollout)] ウィンドウで、次の名前を入力します。
 
    - **Joni Sherman**
    - **Lynne Robbins**
    - **Diego Siciliani**
 
-8. [Joni Sherman] の横にあるドロップダウン メニューを選択し、 **[Member(メンバー)] から[Owner(所有者)]** に切り替えます。
+6. [Joni Sherman] の横にあるドロップダウン メニューを選択し、 **[メンバー(Member)] から[所有者(Owner)]** に切り替えます。
 
-9.  **[Add]** を選択します。
+7. **[追加(Add)]** を選択します。
 
 Teams デスクトップ クライアントから新しいチームを正常に作成し、プロジェクト チーム メンバーを追加し、Joni Sherman をチーム所有者にしました。
 
@@ -304,11 +306,20 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
 このタスクでは、**Alex Wilber** は、Teams Web クライアントを使用して **Sales** という名前の別のチームを作成することで、Teams のセルフサービス機能のテストを続行します。また、**アレックス・ウィルバー**もメンバーとして加わります。
 
-1. 左上の **[+]**  ボタンを選択します。
-2. **[Create Team(チームを作成)] > > [From scratch(最初から)] > > [Private(プライベート)] **と 選択します。チーム名に**[Sales]**と入力し、**[Create(作成)]** を選択します。
-3. [Add membtes to Sales (Salesにメンバーを追加)]  ウィンドウで、次の名前を入力します。
+1.  **[+]ボタン**  - **[チームを作成(Create Team)]** を選択します。
+2. 以下の通り設定し **[作成(Create)]** を選択します。
+
+   チーム名(Team name)  **Sales**
+
+   チームの種類(Team type)  **プライベート(Private)**
+
+3. [Teams Rolloutにメンバーを追加(Add membtes to Teams Rollout)] ウィンドウで、次の名前を入力します。
+
    - **Alex Wilber**
-4. **[Add]** を選択します。
+
+4. [Joni Sherman] の横にあるドロップダウン メニューを選択し、 **[メンバー(Member)] から[所有者(Owner)]** に切り替えます。
+
+5. **[追加(Add)]** を選択します。
 
 新しく作成されたチームがチームのリストに表示されます。Teams Web クライアントで新しいチームが正常に作成されました。
 
