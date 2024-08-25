@@ -41,13 +41,13 @@ Microsoft Teams でのコラボレーションの管理では、チーム設定�
 Contoso のパイロット プロジェクトの一環として、以前のラボで作成した **IT 部門の** Microsoft 365 グループを変更し、Teams 機能を追加する必要があります。
 
 1. 提供された資格情報を使用して**クライアント 1 VM** に接続します。
-2. Microsoft 365 管理センター(https://admin.microsoft.com)に、**Joni Sherman** (JoniS@YourTenant.OnMicrosoft.com)でサインインします。
+2. Microsoft 365 管理センター( https://admin.microsoft.com )に、**Joni Sherman** (JoniS@YourTenant.OnMicrosoft.com)でサインインします。
 3. 左側のナビゲーション ウィンドウで、[**チームとグループ**] - [ **アクティブなチームとグループ** ] を選択し、 [**IT-Department**] グループを選択します。
 4. [このグループに ‎Microsoft Teams‎ を追加しますか?] というメッセージの右に表示される **[Teams を追加]** を選択します。
 5. [このグループに ‎Microsoft Teams‎ を追加しますか?] ダイアログで**[Teams を追加]** を選択します。
 6. Microsoft 365 管理センターをサインアウトします。
 
-既存の Microsoft 365 グループを使用して新しいチームをしました。次のタスクに進みます。
+既存の Microsoft 365 グループを使用して新しいチームを作成しました。次のタスクに進みます。
 
 #### タスク 2 - PowerShell を使用してチームを作成する
 
@@ -125,7 +125,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 13. PowerShell ウィンドウを閉じます。
 
-14. Teams Web クライアントを開きます。すべてのチームの左側のペインで、Joni は新しい **CA-Office** チームのメンバーであり、その下に "Administration" という名前のプライベート チャネルが表示されます。
+14. Teams Web クライアント( https://teams.microsoft.com )に、**Joni Sherman** (JoniS@YourTenant.OnMicrosoft.com)でサインインします。すべてのチームの左側のペインで、Joni は新しい **CA-Office** チームのメンバーであり、その下に "Administration" という名前のプライベート チャネルが表示されます。
 
 15. すべてのブラウザー ウィンドウと Teams Web クライアントを閉じます。
 
@@ -145,13 +145,13 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 5. ページの上の方にある **[GET]** ボタンを選択し、ドロップダウンメニューから **[POST]** を選択します。
 
-6. 真ん中のボックスから**v1.0**を変更しないでください。
+6. 真ん中のボックスで **v1.0** を変更しないでください。
 
 7. ページの中央上の方にあるテキスト ボックス ([POST]の右]) に次のように入力します。
 
    - **https://graph.microsoft.com/v1.0/teams**
 
-8. 上部のウィンドウから [**Modify permissions]** を選択します。
+8. 入力したテキストボックスのすぐ下にある [**Modify permissions]** を選択します。
 
    [![Graphical user interface, text, application, email Description automatically generated](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/raw/master/Instructions/Labs/media/MS-700-lab_M03_ak_image1.png)](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/blob/master/Instructions/Labs/media/MS-700-lab_M03_ak_image1.png)
 
@@ -159,11 +159,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
 10. 別の **[アクセス許可が要求されました(Permissions requested)]** ページが表示されます。 **[同意する(Accept)]** を選択します。
 
-    ※ もしMicrosoft Developers サイトにリダイレクトされた場合は、次のURLから **Graph エクスプローラー**に戻ります。
-
-    ​     https://developer.microsoft.com/graph/graph-explorer
-
-12. [**Request body**] タブを選択し、次のコードを入力します。(ラボ環境に転記時に余計な文字が入ることがあるため、転記方法は講師の指示に従ってください。ラボ内のブラウザーに本手順のURLを転記して開き、ラボ内でコピー＆ペーストする等の手段が考えられます。)
+12. [**Request body**] タブを選択し、次のコードを入力します。(ラボ環境に転記する場合はに余計な文字が入ることがあるため、転記方法は講師の指示に従ってください。ラボ内のブラウザーに本手順のURLを転記して開き、ラボ内でコピー＆ペーストする等の手段が考えられます。)
 
     ```
     {
