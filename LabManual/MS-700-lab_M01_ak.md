@@ -286,9 +286,9 @@ Teams のセルフサービス機能をテストするために、このタス�
 
 4. 以下の通り設定し **[作成(Create)]** を選択します。
 
-   チーム名(Team name)  **Teams Rollout**
+   チーム名(Team name)：  **Teams Rollout**
 
-   チームの種類(Team type)  **パブリック(Public)**
+   チームの種類(Team type)：  **パブリック(Public)**
 
 5. [Teams Rolloutにメンバーを追加(Add membtes to Teams Rollout)] ウィンドウで、次の名前を入力します。
 
@@ -309,9 +309,9 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 1.  **[+]ボタン**  - **[チームを作成(Create Team)]** を選択します。
 2. 以下の通り設定し **[作成(Create)]** を選択します。
 
-   チーム名(Team name)  **Sales**
+   チーム名(Team name)：  **Sales**
 
-   チームの種類(Team type)  **プライベート(Private)**
+   チームの種類(Team type)：  **プライベート(Private)**
 
 3. [Teams Rolloutにメンバーを追加(Add membtes to Teams Rollout)] ウィンドウで、次の名前を入力します。
 
