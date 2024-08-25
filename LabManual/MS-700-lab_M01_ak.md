@@ -304,22 +304,23 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
 #### **タスク 3 - Sales チームを作成する**
 
-このタスクでは、**Alex Wilber** は、Teams Web クライアントを使用して **Sales** という名前の別のチームを作成することで、Teams のセルフサービス機能のテストを続行します。また、**アレックス・ウィルバー**もメンバーとして加わります。
+ **Lynne Robbins** は、Teams Web クライアントを使用して **Sales** という名前の別のチームを作成することで、Teams のセルフサービス機能のテストを続行します。また、**アレックス・ウィルバー**もメンバーとして加わります。
 
-1.  **[+]ボタン**  - **[チームを作成(Create Team)]** を選択します。
-2. 以下の通り設定し **[作成(Create)]** を選択します。
+1.  Alex Wilber をサインアウトMicrosoft Teams Web クライアント(https://teams.microsoft.com/)** で 、**Lynne Robbins**  (Lynner@YourTenant.onmicrosoft.com) としてサインインします。
+2.  **[+]ボタン**  - **[チームを作成(Create Team)]** を選択します。
+3. 以下の通り設定し **[作成(Create)]** を選択します。
 
    チーム名(Team name)：  **Sales**
 
    チームの種類(Team type)：  **プライベート(Private)**
 
-3. [Teams Rolloutにメンバーを追加(Add membtes to Teams Rollout)] ウィンドウで、次の名前を入力します。
+4. [Teams Rolloutにメンバーを追加(Add membtes to Teams Rollout)] ウィンドウで、次の名前を入力します。
 
    - **Alex Wilber**
 
-4. [Joni Sherman] の横にあるドロップダウン メニューを選択し、 **[メンバー(Member)] から[所有者(Owner)]** に切り替えます。
+5. [Joni Sherman] の横にあるドロップダウン メニューを選択し、 **[メンバー(Member)] から[所有者(Owner)]** に切り替えます。
 
-5. **[追加(Add)]** を選択します。
+6. **[追加(Add)]** を選択します。
 
 新しく作成されたチームがチームのリストに表示されます。Teams Web クライアントで新しいチームが正常に作成されました。
 
