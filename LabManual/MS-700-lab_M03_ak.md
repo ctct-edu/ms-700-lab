@@ -497,13 +497,9 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
 
    [![Graphical user interface, application Description automatically generated](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/raw/master/Instructions/Labs/media/MS-700-lab_M03_ak_image5.png)](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/blob/master/Instructions/Labs/media/MS-700-lab_M03_ak_image5.png)
 
-4. 検索結果で **[Google Analytics]** を選択して開きます。
+4. 検索結果で **[Google Analytics]** 選択して開きます。
 
-5. 画面右上の **[アクション]** を選択します。
-
-6. [**アプリをブロック]** を選択します。
-
-   ※「一部の機能を使用できないように、新しいアプリ管理エクスペリエンスを設定しています。これには最大で 30 分かかる場合があります。」と表示される場合は設定する前に時間を置く必要があるため、演習４を先に実施して、その後本手順に戻って設定してください。
+5. 画面上の **「状態」のスライドバークリック** して、「許可済み」から [ブロック済み] に変更します。
 
 **注**: 設定が有効になるまでには、最長で 24 時間ほどかかることがあります。
 
