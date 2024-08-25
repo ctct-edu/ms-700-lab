@@ -118,10 +118,10 @@ IT 部門は、新しい報告システムに関する従業員の質問に答�
 
    - **タイトル(Title)** :IT Office Hour
    - **開始日(Start date) / 終了日(End date)** :現在の時刻に近い時刻を選択します
-   - **説明(Description** :Company-wide meeting to answer questions regarding the new reporting system.
-   - **共同開催者(Co-organizers** :Diego Siciliani
-   - **組織の発表者(Presenters from your org** :Patti Fernandez, Allan Deyoung
-   - **イベント アクセス(Event Access**: Your organization(あなたの組織)
+   - **説明(Description)** :Company-wide meeting to answer questions regarding the new reporting system.
+   - **共同開催者(Co-organizers)** :Diego Siciliani
+   - **組織の発表者(Presenters from your org)** :Patti Fernandez, Allan Deyoung
+   - **イベント アクセス(Event Access)**: Your organization(あなたの組織)
 
    **注**: イベントを保存すると、プレゼンターと共同開催者に招待状が自動的に送信されます。
 
