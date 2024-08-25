@@ -466,26 +466,7 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
 
 ### **演習 3: アプリの設定を管理する**
 
-#### タスク 1 - サード・パーティー・ストレージ・プロバイダーの無効化
-
-これまで、ユーザーはサードパーティのストレージプロバイダーを含むさまざまな場所にデータを保存していました。最近、同社はすべてのユーザーにOneDriveを導入し、すべてのファイルコラボレーションの代替手段としてBoxを使用して、SharePointとOneDriveを主要なデータストレージの場所として使用するようにユーザーをガイドしたいと考えています。Teams 管理者は、方向に合わせて、Microsoft Teams の Box を除くすべてのサードパーティ ストレージ プロバイダーを非アクティブ化するように求められます。
-
-1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
-2. Teams 管理センターの左側のナビゲーションで、[チーム] > **[Teams の設定**] を選択します。
-3. **[Teams の設定**] ページで、[**ファイル**] セクションに移動します。
-4. 次のファイル共有とクラウドファイルストレージのオプションを設定します。
-   -  **Citrix files:** オフ
-   -  **DropBox:** オフ
-   -  **Box：** **オン**
-   -  **Googleドライブ:** オフ
-   -  **Egnyte:** オフ
-5. 下にスクロールして [**保存**] を選択します。
-
-**注**: 設定が有効になるまでには、24 時間ほどかかることがあります。
-
-このタスクでは、テナント全体に対してサードパーティのストレージプロバイダーを有効または無効にする方法を学習しました。
-
-#### タスク 2 - 組織レベルでアプリをブロックする
+#### タスク 1 - 組織レベルでアプリをブロックする
 
 このタスクでは、すべてのテナントに対して Google アナリティクス アプリをブロックします
 
@@ -578,17 +559,13 @@ Teams 管理者は、ユーザーにとって最も重要なアプリを強調�
 
 1. **クライアント 2 VM** に接続し、**Microsoft Teams Web クライアント (https://teams.microsoft.com/)** を **Lynne Robbins** (LynneR@YourTenant.onmicrosoft.com) として参照します。
 
-2. 左側のナビゲーション ウィンドウで、[**Chat**] > **[New chat]** アイコンを選択します。
-
-   [![Graphical user interface, application Description automatically generated with medium confidence](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/raw/master/Instructions/Labs/media/MS-700-lab_M03_ak_image8.png)](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/blob/master/Instructions/Labs/media/MS-700-lab_M03_ak_image8.png)
-
-3. メイン ウィンドウで、「**Joni Sherman**」と入力して会話を開始します。
+2. 左側のナビゲーション ウィンドウで、[**チャット(Chat)**] > **[新しいチャット(New chat)]** アイコンを選択しして会話を開始します。
 
 4. **giphy**、**ステッカー**のアイコンがないことに注意してください。(「ミーム」はステッカーの中の１つのカテゴリです)
 
-   ※設定反映に時間がかかるため、すぐに表示されない場合は後で改めて確認してください。
+   ※設定反映に時間がかかることがあります。
 
-#### タスク 2 – ブロックされたアプリとストレージ プロバイダーをテストする
+#### タスク 2 – ブロックされたアプリをテストする
 
 このタスクでは、ブロックされたアプリをテストします。
 
@@ -601,10 +578,6 @@ Teams 管理者は、ユーザーにとって最も重要なアプリを強調�
 4. 検索結果で **[Google Analytics]** を選択します。南京錠のアイコンと「Request」ボタンに注意してください。
 
    ![](./media/MS-700-lab_M03_ak_image9.png)
-
-5. (オプション : クラシックTeamsクライアント向け) 左側のナビゲーション ウィンドウで、**Teams(チーム)** を選択し、**Sales**チームの **General** チャネルに移動します。クラシックTeamsであれば、[ファイル] タブを選択後、[...]の [クラウドストレージの追加]を選択すると、時間がたちポリシーが適用されていれば、オプションとして SharePoint と Box のみが表示され、Teams 設定のクラウド ファイル ストレージ設定が期待どおりに機能したことが確認できます。
-
-   (新しいTeamsでは[クラウドストレージの追加]がなくなり、Teams App Storeから直接サード パーティのストレージ アプリを追加するかたちになりました。)
 
 6. Teams からサインアウトし、開いているウィンドウをすべて閉じます。
 
