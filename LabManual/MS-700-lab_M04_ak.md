@@ -114,33 +114,33 @@ IT 部門は、新しい報告システムに関する従業員の質問に答�
 
 3. Calendar画面右上の **[+ 新しい会議(New meeting)]** ドロップダウン メニューから、[**ウェビナー(Webinar)**] を選択します。
 
-4. **[基本情報(Basic Info)]** を以下のように入力した後、**[招待を保存して発送する(Save and send invites)]** を選択します。
+4. [基本情報(Basic Info)] を以下のように入力した後、**[招待を保存して発送する(Save and send invites)]** を選択します。
 
-   - **タイトル(Title)** :IT Office Hour
-   - **開始日(Start date) / 終了日(End date)** :現在の時刻に近い時刻を選択します
-   - **説明(Description)** :Company-wide meeting to answer questions regarding the new reporting system.
-   - **共同開催者(Co-organizers)** :Diego Siciliani
-   - **組織の発表者(Presenters from your org)** :Patti Fernandez, Allan Deyoung
-   - **イベント アクセス(Event Access)**: Your organization(あなたの組織)
+   - タイトル(Title) :IT Office Hour
+   - 開始日(Start date) / 終了日(End date) :現在の時刻に近い時刻を選択します
+   - 説明(Description) :Company-wide meeting to answer questions regarding the new reporting system.
+   - 共同開催者(Co-organizers) :Diego Siciliani
+   - 組織の発表者(Presenters from your org) :Patti Fernandez, Allan Deyoung
+   - イベント アクセス(Event Access): あなたの組織(Your organization)
 
    **注**: イベントを保存すると、プレゼンターと共同開催者に招待状が自動的に送信されます。
 
 5. 左側のナビゲーションで、**[登録フォーム(Registration]**  を展開し、**[構成(Configuration)]** を選択します。次の情報を入力した後、 [**保存**] を選択します。
 
-   - **定員(Capacity)** :1000名
+   - 定員(Capacity) :1000名
 
-   - [**フォーム(Form**] で [**+ フィールドを追加(Add field)**] > **[カスタムの質問(Custom question())** > **[テキスト入力(Text input)]** を選択し、テキストボックスに次のように入力します。
+   - [フォーム(Form)] で [**+ フィールドを追加(Add field)**] > **[カスタムの質問(Custom question())** > **[テキスト入力(Text input)]** を選択し、テキストボックスに次のように入力します。
 
      **What is your question about the new reporting system?**
 
-6. 画面右上の方にある [**下書きサイトを表示する(View draft)**] ボタンを選択して、登録サイトをプレビューします(サインインを要求された場合、 Joni Shermanの資格情報を使用してください)。登録ページのプレビューがブラウザーの新しいタブで開きます。サイトを確認したら、タブを閉じます。(作成してすぐの場合、「リンクが壊れているか、イベントが削除された可能性があります」といったメッセージが表示され、下書きサイトが表示されないことがあります。前の手順に間違いがなさそうであれば、いったんそのまま先にすすめてください。下書きサイトが表示されなくても、サイトの発行、公開できることがあります)
+6. 画面右上の方にある [**下書きサイトを表示する(View draft)**] ボタンを選択して、登録サイトをプレビューします(サインインを要求された場合、 Joni Shermanの資格情報を使用してください)。登録ページのプレビューがブラウザーの新しいタブで開きます。サイトを確認したら、タブを閉じます。
 
 7. 登録サイトを公開し、リンクを共有します。
 
-   1. IT Office Hour 画面の右上にある **[Publish site(サイトの発行)]** ボタンを選択し、 **[Save and publish(保存して公開)]** を選択してウェビナー登録サイトをアクティブ化します。
-   2. [**Share link(リンクを共有)] リンク**をコピーし、[All set and ready to share(すべて設定され、共有する準備ができました)] ウィンドウを閉じます。
-   3. 左側のナビゲーションで **[Teams(チーム)**] に戻ります。
-   4. 左側のナビゲーション ウィンドウで、**IT-Department**下の **[General(一般)]** を選択します。**[Start a post(投稿を開始する)**] を選択し、コピーした登録リンクをテキスト ボックスに貼り付けて、**[Post(投稿)]** を選択します。
+   1. IT Office Hour 画面の右上にある **[サイトの発行(Publish site)]** ボタンを選択し、 **[保存して公開(Save and publish)]** を選択してウェビナー登録サイトをアクティブ化します。
+   2. **[リンクを共有(Share link)]** リンクをコピーし、[All set and ready to share(すべて設定され、共有する準備ができました)] ウィンドウを閉じます。
+   3. 左側のナビゲーションで **[チーム(Teams)**] に戻ります。
+   4. 左側のナビゲーション ウィンドウで、**IT-Department**下の **[一般(General)]** を選択します。**[投稿を開始する(Start a post**] を選択し、コピーした登録リンクをテキスト ボックスに貼り付けて、**[投稿(Post)]** を選択します。
    5. サインアウトして、すべてのブラウザー ウィンドウを閉じます。
 
 8. 会議の登録をテストします。
