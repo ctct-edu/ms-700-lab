@@ -232,7 +232,15 @@ Teams 管理センターから、テナントでチームを管理し、ポリ�
 
      `Disconnect-MicrosoftTeams`
 
-6. PowerShell ウィンドウを閉じて、次のタスクに進みます。
+6. **Azure AD プレビュー モジュール**のインストール
+
+   PowerShell ウィンドウで、次のコマンドレットを入力し、**Enter** キーを押します。**「Y**」と入力して **Enter** キーを押し、信頼できないリポジトリのインストールを確認します。
+
+   - ```
+     Install-Module -Name AzureADPreview
+     ```
+
+7. PowerShell ウィンドウを閉じて、次のタスクに進みます。
 
 Microsoft Teams PowerShell モジュールを使用して Teams に接続し、使用可能なコマンドレットを調べました。
 
@@ -362,158 +370,7 @@ Teams デスクトップ クライアントから新しいチームを正常に�
 
   新しい有効期限ポリシーが正常に作成され、90 日後に期限切れになるように **Teams ロールアウト** チームが構成されました。90 日が経過してもチームに所有者がいない場合、Joni Sherman に有効期限が通知されます。
 
-  #### タスク 2 - グループ作成ポリシーの構成
-
-  あなたはチームの組織の管理者です。Microsoft 365 グループを作成できるユーザーを制限する必要があります。グループのメンバーのみが Microsoft 365 グループを作成できる **GroupCreators** という名前のセキュリティ グループを作成します。
-
-  1. **クライアント 1 VM** に接続し、グローバル管理者 - MOD 管理者 (admin@YourTenant.onmicrosoft.com) として **Microsoft 365 管理センター** (https://admin.microsoft.com/) を参照します。
-
-  2. Microsoft 365 管理センターで、[**チームとグループ(Teams & Group)**] > **[アクティブなチームとグループ(Active Teams and groups)]** を選択します。
-
-  3. セキュリティ グループを作成します。
-
-       [**セキュリティ グループ(Security Groups)**] タブに移動します。
-
-       [**+ セキュリティ グループを追加(Add a security group)**] ボタンを選択します。
-
-  - 次の情報を入力します。
-    - 基本設定(Basics):
-      
-      - 名前(Name): **GroupCreators**
-      - 説明(Description): **Users who can create Microsoft 365 Groups for new teams**
-      
-    - 設定の編集(Edit Settings)： **「次へ(Next)」** を選択します。
-    
-    - 確認とグループの追加の完了(Review and finish adding group): [**グループを作成(Create Group)**] を選択し、[**閉じる(Close)**] を選択します
-    
-    - **[アクティブなチームとグループ(Active Teams and groups)]** ページに戻り、[**セキュリティ グループ(Security Groups)**] タブを選択し、先ほど作成したセキュリティ グループ **GroupCreators** を選択します。(少し待って画面更新をしないと、 GroupCreators が表示されないことがあります。)
-    
-    - [**メンバー(Members)**] タブを選択して、**所有者**と**メンバー**を構成します。
-      
-      - 所有者(Owner): [**すべての所有者の表示と管理(View all and manage owners)**] を選択し、 [**+ 所有者の追加(Add owners)**] を選択し、次のユーザーを追加します。
-      
-          - MOD Administrator
-      
-        メンバー(Member): [**すべてのメンバーの表示と管理(View all and manage members)**] > **[+ メンバーの追加(Add members)**] を選択し、次のユーザーを追加します。
-      
-        - Joni Sherman
-        - Alex Wilber
-
-4. Microsoft 365 グループの作成をセキュリティ グループに制限します。
-
-   - **Windows PowerShell** を開き、管理者として実行します。
-
-
-   - **Azure AD プレビュー モジュール**のインストール
-
-      PowerShell ウィンドウで、次のコマンドレットを入力し、**Enter** キーを押します。**「Y**」と入力して **Enter** キーを押し、信頼できないリポジトリのインストールを確認します。
-
-      - ```
-        Install-Module -Name AzureADPreview
-        ```
-
-
-   - AAD テナントに接続します。
-
-      PowerShell ウィンドウに次のコマンドレットを入力し、**Enter** キーを押します。[サインイン] ウィンドウで、グローバル管理者 - MOD Administrator(admin@YourTenant.onmicrosoft.com) としてサインインします。
-
-      ```
-      Connect-AzureAD
-      ```
-
-
-   - 次のコマンドレットを使用して、Azure AD 統合グループ テンプレートを読み込みます。
-
-      ```
-      $Template = Get-AzureADDirectorySettingTemplate | Where {$_.DisplayName -eq "Group.Unified"}
-      ```
-
-
-   - Azure AD 設定が既に存在するかどうかを確認し、存在する場合は読み込みます。そうでない場合は、空の Azure AD 設定オブジェクトを作成します。次のコマンドレットを実行して、"$Setting" 変数を設定します。
-
-      ```
-      if(!($Setting = Get-AzureADDirectorySetting | Where {$_.TemplateId -eq $Template.Id})) {$Setting = $Template.CreateDirectorySetting()}
-      ```
-
-
-   - 次のコマンドレットを実行して、"EnableGroupCreation" 属性を持つテナントのグループ作成設定を変更します。
-
-      ```
-      $Setting["EnableGroupCreation"] = "False"
-      ```
-
-
-   - 次のコマンドレットを実行して、作成したセキュリティ グループ **GroupCreators** を許可されたグループとして追加し、ObjectID でグループを作成します。
-
-      ```
-      $Setting["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -SearchString "GroupCreators").objectid
-      ```
-
-
-   - 次のコマンドで構成した変更を確認します。
-
-      ```
-      $Setting.Values
-      ```
-
-
-   - 変更を保存し、設定を適用します。
-
-      ```
-      New-AzureADDirectorySetting -DirectorySetting $Setting
-      ```
-
-      **手記：** これは新しいテナントであるため、テナントにはまだディレクトリ設定オブジェクトがありません。ディレクトリ設定オブジェクトを初めて作成する場合に、 `New-AzureADDirectorySetting`を使用する必要があります。
-
-5. 新しく構成した設定をテストします。
-
-   - 提供された資格情報を使用して**クライアント 2 VM** に接続します。
-
-
-   - **Teams Web クライアント** (https://teams.microsoft.com/)から **Alex Willber** としてサインインし、Team(チーム)をクリックし画面左上の  **[+] ‐ [Join team(チームに参加)]** を選択すると、 [Join a team with a code(コードを使用してチームに参加します)] および[Create a new team(新しいチームを作成)]の2つのオプションがあることに注意してください。
-
-
-   - **Teams Web クライアント** (https://teams.microsoft.com/)から **Lynne Robbins** としてサインインし、画面左上の  **[+] ‐ [Join team(チームに参加)]** を選択すると、 [Join a team with a code] のみを使用できます。
-
-      **手記：** 新しいチームを作成できる場合は、新しい構成がユーザーに反映されるまで数分待ちます。
-
-6. ユーザーが新しいチームを作成できるようにするための変更を元に戻します。
-
-   - **Windows PowerShell** が開いている**クライアント 1 VM** に接続します。
-
-
-   - 次のコマンドレットを使用して、Azure AD 統合グループ テンプレートを読み込みます。
-
-      ```
-      $Template = Get-AzureADDirectorySettingTemplate | Where {$_.DisplayName -eq "Group.Unified"}
-      ```
-
-
-   - 空の Azure AD テナント設定オブジェクトを作成します。
-
-      ```
-      $Setting = $Template.CreateDirectorySetting()
-      ```
-
-
-   - 構成した設定を適用して、以前の変更を元に戻します。
-
-      ```
-      Set-AzureADDirectorySetting -Id (Get-AzureADDirectorySetting | where {$_.DisplayName -eq "Group.Unified"}).id -DirectorySetting $Setting
-      ```
-
-
-7. PowerShell ウィンドウで次のコマンドレットを入力して、現在のセッションを Azure Active Directory テナントから切断します。
-
-```
-Disconnect-AzureAD
-```
-
-8. PowerShell ウィンドウを閉じて、次のタスクに進みます。
-
-  このタスクでは、新しいセキュリティ グループを正常に作成し、新しいグループの作成をこのグループのメンバーのみに制限するように Azure AD 設定を構成しました。タスクの最後に、新しいグループ作成制限のテストは完了です。
-
-  #### タスク 3 - 新しい名前付けポリシーの構成
+  #### タスク 2 - 新しい名前付けポリシーの構成
 
   Teams 計画プロジェクトの一環として、新しい各 Microsoft 365 グループまたはチームがオブジェクトの名前付けに関する組織の規制に準拠する必要がある名前付けポリシーを構成します。各グループ名は、**Group** という文字で始まり、所有者の場所の **Country** 属性で終わる必要があります。さらに、チーム名に**CEO**、**Payroll**、**HR**などの特定のキーワードを使用することを禁止する社内規制があります。
 
