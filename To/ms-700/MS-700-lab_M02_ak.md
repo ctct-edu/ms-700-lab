@@ -28,7 +28,7 @@
 
 ポリシーを最初から作成します。テンプレートを使用する代わりに、カスタムルールとアクションを使用してルールを直接構成します。
 
-1. **クライアント 1 VM** に接続し、**MOD 管理者**として Microsoft Purview ポータル (https://compliance.microsoft.com/) を参照します。
+1. **クライアント 1 VM** に接続し、**Holly**として Microsoft Purview ポータル (https://compliance.microsoft.com/) を参照します。
 
 2. Microsoft Purview ポータルの左側のナビゲーションで、[ソリューション] の [**データ損失防止]**  > **[ポリシー]** を選択します。
 
