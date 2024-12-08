@@ -460,7 +460,8 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
 6. [**適用]** を選択します。
 7. プライベートチャネルを確認する
    1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)を Alex Wilber  (Alexw@YourTenant.onmicrosoft.com) として参照します。
-   2. **[チーム**] を選択すると、小さな南京錠のアイコンが付いた新しいプライベート チャネル [**Confidential sales**] が表示されます。
+   2. **[チーム**] を選択します。Salesチームが非表示の場合は、Sales チーム名の右にある 3 つのドット **(...)** を選択し、**表示** を選択します。
+   3. Salesチームに、小さな南京錠のアイコンが付いた新しいプライベート チャネル [**Confidential sales**] が表示されます。
 
 このタスクでは、Microsoft Teams 管理センターでプライベート チャネルを作成する方法と、アクセスを構成および確認する方法について説明しました。
 
@@ -472,7 +473,7 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
 
 1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 
-2. Teams 管理センターの左側のナビゲーションで、[**Teams のアプリ**] > [**アプリを管理**] を選択します。
+2. Teams 管理センターの左側のナビゲーションで、[**Teams のアプリ**] > [**アプリを管理**] を選択します。「アプリのアクセス許可の管理方法を変更する」が表示された場合は **[x]** をクリックして閉じます。
 
 3. [**アプリの管理**] ページで、検索ボックスに「**Google**」と入力します。
 
@@ -573,11 +574,7 @@ Teams 管理者は、ユーザーにとって最も重要なアプリを強調�
 
 2. 左側のナビゲーションで **[Apps(アプリ)**] を選択します。
 
-3. 検索ボックスから**Google**を検索します。
-
-4. 検索結果で **[Google Analytics]** を選択します。南京錠のアイコンと「Request」ボタンに注意してください。
-
-   ![](./media/MS-700-lab_M03_ak_image9.png)
+3. 検索ボックスから**Google**を検索します。検索結果で **[Google Analytics]** が見つからないことを確認します。(「Google Analytics Insights」は異なるアプリです。)
 
 6. Teams からサインアウトし、開いているウィンドウをすべて閉じます。
 
