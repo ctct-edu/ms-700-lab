@@ -44,7 +44,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 2. Microsoft 365 管理センター( https://admin.microsoft.com )に、**Joni Sherman** (JoniS@YourTenant.OnMicrosoft.com)でサインインします。
 3. 左側のナビゲーション ウィンドウで、[**チームとグループ**] - [ **アクティブなチームとグループ** ] を選択し、 [**IT-Department**] グループを選択します。
 4. [このグループに ‎Microsoft Teams‎ を追加しますか?] というメッセージの右に表示される **[Teams を追加]** を選択します。
-5. [このグループに ‎Microsoft Teams‎ を追加しますか?] ダイアログで**[Teams を追加]** を選択します。
+5. [このグループに ‎Microsoft Teams‎ を追加しますか?] ダイアログで **[Teams を追加]** を選択します。
 6. Microsoft 365 管理センターをサインアウトします。
 
 既存の Microsoft 365 グループを使用して新しいチームを作成しました。次のタスクに進みます。
