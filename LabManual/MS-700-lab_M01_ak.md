@@ -399,7 +399,7 @@ Teams のセルフサービス機能をテストするために、このタス�
 
      - **[連絡先情報]** の横の鉛筆アイコンを選択します。
 
-       ![](./media/MS-700-lab_M01_ak_image1.png)(https://github.com/ctct-edu/ms-900-lab/blob/main/LabManual/OptionalLab/media/MS-700-lab_M01_ak_image1.png)
+       ![](./media/MS-700-lab_M01_ak_image1.png)
 
      - **[国または地域]** に**Canada** と入力します。
 
