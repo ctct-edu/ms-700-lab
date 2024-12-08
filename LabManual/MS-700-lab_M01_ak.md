@@ -451,6 +451,8 @@ Teams のセルフサービス機能をテストするために、このタス�
 
    チームの種類(Team type)：  **パブリック(Public)**
 
+   最初のチャネルに名前を付けてください(Name the first channel)： **一般**
+
 4. [Teams Rolloutにメンバーを追加(Add membtes to Teams Rollout)] ウィンドウで、[スキップ] を選択します。
 
 6. 新しく作成したチームの名前を確認します。
