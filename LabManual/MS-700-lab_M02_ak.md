@@ -430,9 +430,9 @@ Teams の保持設定は、会社データのライフサイクルを管理す�
 
         [![Graphical user interface, text, application Description automatically generated](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/raw/master/Instructions/Labs/media/MS-700-lab_M02_ak_image8.png)](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/blob/master/Instructions/Labs/media/MS-700-lab_M02_ak_image8.png)
 
-   3. 「ユーザー通知」の下に、
+   3. 「ユーザー通知」の下で以下の通り設定します。
 
-      - スライダーを **[オン]** に選択します
+      - 「通知を使用してユーザーに通知し、機密情報の適切な使用についてユーザーを教育します。」の下にあるスライダーを **[オン]** に選択します
       - **[Office 365 サービスのユーザーにポリシー ヒントまたはメール通知を使用して表示する]** を選択します。
       - [**コンテンツを送信、共有、または最後に変更したユーザーに通知する**] を選択します。
       - [**ポリシー ヒントのテキストをカスタマイズします]** を選択します。
