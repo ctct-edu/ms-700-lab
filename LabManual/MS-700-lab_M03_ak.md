@@ -335,8 +335,7 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
 このタスクでは、前のレッスンで作成したチームの 1 つを削除し、復元する方法を学習します。
 
 1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)に Lynne Robbins  (Lynner@YourTenant.onmicrosoft.com) としてサインインします。
-2. 左のメニューから **[チーム]**  を選択すると、非表示のチーム(Hidden teams)にSalesチームがあることが確認できます。
-2. Sales チーム名の右にある 3 つのドット **(...)** を選択し、**表示** を選択します。
+2. 左のメニューから **[チーム]**  を選択すると、Salesチームがあることが確認できます。
 4. Teams Web クライアントの左側のナビゲーション ウィンドウで、**Sales** チームから 3 つのドット (...) を選択し、一覧から **[チームを削除]** を選択します。
 5. **「すべてが削除されることを理解しています」** のチェックボックスをオンにして、 **[チームを削除]** を選択します。
 6. グループの回復
@@ -347,11 +346,10 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
 7. 復元されたグループを確認します。
    1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)を Lynne Robbins  (Lynner@YourTenant.onmicrosoft.com) として参照します。
    2. **Sales** チームがチームの一覧に再び表示されます。必要に応じて、**F5** キーを押してページを更新します。
-   3. チーム名から 3 つのドット (...) を選択し、[**チームを管理(Manage teams)**] を選択します。所有者とすべてのメンバーを [**メンバー**] タブで再度確認できます。
 
 **手記：** チームの削除と復元の完全なプロセスには、最大で 24 時間かかる場合があります。再度表示されない場合は、このラボの後で確認してください。
 
-Teams Web クライアントを使用してチームを正常に削除し、Azure Portal で復元しました。
+Teams Web クライアントを使用してチームを正常に削除し、Entra ID 管理センターで復元しました。
 
 #### タスク 6 - 動的メンバーシップでチーム メンバーを管理する
 
@@ -473,15 +471,19 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
 
 1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 
-2. Teams 管理センターの左側のナビゲーションで、[**Teams のアプリ**] > [**アプリを管理**] を選択します。「アプリのアクセス許可の管理方法を変更する」が表示された場合は **[x]** をクリックして閉じます。
+2. Teams 管理センターの左側のナビゲーションで、[**Teams のアプリ**] > [**アプリを管理**] を選択します。
 
-3. [**アプリの管理**] ページで、検索ボックスに「**Google**」と入力します。
+3. 「アプリのアクセス許可の管理方法を変更する」が表示された場合は、右上の **[x]** をクリックして閉じます。
+
+   ![](./media/MS-700-lab_M03_ak_image10.png)
+
+4. [**アプリの管理**] ページで、検索ボックスに「**Google**」と入力します。
 
    [![Graphical user interface, application Description automatically generated](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/raw/master/Instructions/Labs/media/MS-700-lab_M03_ak_image5.png)](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/blob/master/Instructions/Labs/media/MS-700-lab_M03_ak_image5.png)
 
-4. 検索結果で **[Google Analytics]** 選択して開きます。
+5. 検索結果で **[Google Analytics]** 選択して開きます。
 
-5. 画面上の **「状態」のスライドバークリック** して、「許可済み」から [ブロック済み] に変更します。
+6. 画面上の **「状態」のスライドバークリック** して、「許可済み」から [ブロック済み] に変更します。
 
 **注**: 設定が有効になるまでには、最長で 24 時間ほどかかることがあります。
 
