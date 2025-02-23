@@ -369,7 +369,7 @@ Teams の保持設定は、会社データのライフサイクルを管理す�
 
       - **Yammer ユーザー メッセージ**: オフ
 
-      - **Teams チャネル メッセージ** 行の右の方にある **「含まれる」** 列 (「すべてteams (All teams)」の下) で **編集（Edit））** を選択して、右側のウィンドウを開きます。
+      - **Teams チャネル メッセージ** 行の右の方にある **「含む」** 列 (「すべて 件のteamsが (All teams)」の下) で **編集（Edit））** を選択して、右側のウィンドウを開きます。
 
         [![Graphical user interface, text, application Description automatically generated](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/raw/master/Instructions/Labs/media/MS-700-lab_M02_ak_image3.png)](https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/blob/master/Instructions/Labs/media/MS-700-lab_M02_ak_image3.png)
 
