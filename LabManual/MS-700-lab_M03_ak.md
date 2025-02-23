@@ -75,7 +75,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
    
 
-7. ユーザー **Alex Wilber** をチームに追加するには、次のコマンドレットを入力します (「YourTenant」は提供された Microsoft 365 テナントの名前に置き換えます)。
+7. ユーザー **Alex Wilber** をチームに追加するには、次のコマンドレットを入力します **(「YourTenant」は提供された Microsoft 365 テナントの名前に置き換えます)**。
 
    ```
    Get-Team -Displayname "CA-Office" | Add-TeamUser -User AlexW@YourTenant.OnMicrosoft.com
@@ -83,7 +83,7 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
 
    
 
-8. ユーザー **Allan Deyoung** をチームに追加するには、次のコマンドレットを入力します  (「YourTenant」は提供された Microsoft 365 テナントの名前に置き換えます)。
+8. ユーザー **Allan Deyoung** をチームに追加するには、次のコマンドレットを入力します  **(「YourTenant」は提供された Microsoft 365 テナントの名前に置き換えます)**。
 
    ```
    Get-Team -Displayname "CA-Office" | Add-TeamUser -User AllanD@YourTenant.onmicrosoft.com
