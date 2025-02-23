@@ -25,7 +25,7 @@
 
 ## **ラボのセットアップ**
 
-- **所要時間:** 60 分
+- **所要時間:** 75 分
 
 ## **指示**
 
@@ -222,7 +222,7 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 
 グループの秘密度ラベルをアクティブ化した後、3 つの秘密度ラベルを作成します。このタスクでは、**General**、**Internal**、**Confidential**の 3 つの秘密度ラベルを作成および更新します。それぞれについて、適切なユーザーと管理者の説明を作成します。
 
-1. **クライアント 1 VM** に接続し、**MOD 管理者**として Microsoft Purview ポータル https://compliance.microsoft.com/) を参照します。
+1. **クライアント 1 VM** に接続し、**MOD 管理者**として Microsoft Purview ポータル (https://compliance.microsoft.com/) を参照します。
 
 2. Microsoft Purview コンプライアンス ポータルの左側のナビゲーションで、**[ソリューション]**　>  **[Microsoft Information Protection**] と選択します。
 
