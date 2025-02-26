@@ -52,8 +52,8 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 
   このコースのラボでは、次の 2 つの仮想マシンを使用します。
 
-  - クライアント 1 VM: Microsoft Teams がプレインストールされたスタンドアロンの Windows 10 クライアント仮想マシン。
-  - クライアント 2 VM: Microsoft Teams がプレインストールされたスタンドアロンの Windows 10 クライアント仮想マシン。
+  - クライアント 1 VM: スタンドアロンの Windows 10 クライアント仮想マシン。
+  - クライアント 2 VM: スタンドアロンの Windows 10 クライアント仮想マシン。
 
   **手記：** ラボ仮想マシンのサインイン手順は、インストラクターから提供されます。
 
@@ -69,7 +69,7 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 
   2 つの VM に加えて、次のハイライトを備えた Microsoft 365 テナントも提供されます。
 
-  - Office 365 E5 と Enterprise Mobility + Security E5。
+  - Microsoft 365 E5 と Teams Enterprise。
 
   - 合計 15 ライセンス、15 ライセンスのうち 5 ライセンスが利用可能 (10 ライセンスを使用)。
 
