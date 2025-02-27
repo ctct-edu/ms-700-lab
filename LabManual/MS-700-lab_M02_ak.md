@@ -601,7 +601,7 @@ Microsoft Teams 展開の計画段階にあります。組織に Microsoft Teams
 
 4. アドバンスト・クライアント・テスト・アプリケーションのダウンロード後にプロンプトが表示されたら、「**ファイルを開く(Open file)**」を選択します。
 
-   **注**: アプリケーションには .NET Core がインストールされている必要があります。.NET Core のインストールを求められたら、 [**Yes**] を選択します。[**Run desktop apps**] セクションで **[Download x64**] を選択し、インストール手順に従います。
+   **注**: アプリケーションには .NET Desktop Runtime がインストールされている必要があります。.NET Desktop Runtime のインストールを求められた場合は、 [**Download it now**] を選択し、**windowsdesktop-runtime-X.X.XX-win-x64.exe** を **ファイルを開く(Open file)** をクリックする等の手段で実行してインストールします。
 
 5. 高度なテスト クライアント アプリケーション (**Office 365 Network Onboarding Advanced Tests**) を起動します。
 
