@@ -374,7 +374,7 @@ Microsoft Teams で機能を呼び出すためのパイロット プロジェク
 
    - Microsoft **Edge** を開き、グローバル管理者資格情報 ( **MOD 管理者** : admin@YourTenant.onmicrosoft.com) を使用して [**https://admin.microsoft.com/**](https://admin.microsoft.com/) の **Microsoft 365 管理センター**を参照します。
 
-2. **Teams 管理者**ロールを **Joni Sherman** に割り当てるには
+2. **ユーザー 管理者**ロールを **Joni Sherman** に割り当てるには
    - 左上のナビゲーション メニューを選択し、その下から [**ユーザー(Users)**] と [**アクティブなユーザー(Active users)**] を選択します。
    - [アクティブ ユーザー(Active users)] の一覧で、 **[Joni Sherman**] を検索して選択し、右側の設定ウィンドウを開きます。
    - [アカウント(Account)] タブの下の設定で、[**役割の管理(Manage roles)**] を選択します。
