@@ -145,7 +145,7 @@ IT 部門は、新しい報告システムに関する従業員の質問に答�
 8. 会議の登録をテストします。
 
    1. **クライアント 1 VM** にとどまり **MOD 管理者** としてMicrosoft Teams Web クライアント( https://teams.microsoft.com/ )を参照します。
-   2. **IT-Department**チームの **General(一般)** チャネルに移動し、投稿した登録リンクを選択します。サインインを要求されたら、MOD 管理者の資格情報を使用してください。
+   2. **Contoso** チームの **General(一般)** チャネルに移動し、投稿した登録リンクを選択します。サインインを要求されたら、MOD 管理者の資格情報を使用してください。
    3. 登録ページで **[Register(登録)]** を選択します。
    4. MOD 管理者の名前と電子メールが入力されていることを確認し、画面下のMicrosoft Event Term and Conditions(Microsoft イベントの使用条件)に同意する チェック ボックスをオンにして、**[Register(登録)]** を選択します。
    5. 新しいブラウザタブを開き、 **MOD管理者のメール(https://outlook.office.com/mail/)** を参照し、件名のメールを表示します:**IT Office Hour に登録されました**。
