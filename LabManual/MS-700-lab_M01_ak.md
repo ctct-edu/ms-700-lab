@@ -454,19 +454,19 @@ Teams のセルフサービス機能をテストするために、このタス�
 
   1. **クライアント 2 VM** に接続し、**Alex Wilber** (AlexW@YourTenant.onmicrosoft.com) として **Teams Web クライアント** (https://teams.microsoft.com/) を開きます。
 
-  2. 左側のメニューで **チーム(Teams)** を選択し、上の **[+]ボタン**  - **[チームを作成(Create Team)]** を選択します。
+  2. 左側のメニューで **新しいチーム** を選択し、上の **下向き矢印(新しいアイテム)**  - **[新しいチーム]** を選択します。
 
-3. 以下の通り設定し **[作成(Create)]** を選択します。
+3. 以下の通り設定し **[作成]** を選択します。
 
    チーム名(Team name)：  **Afterwork**
 
    ※ 入力した名前の下に、新しいチーム用に設定されたプレフィックスとサフィックスが表示されます。
 
-   チームの種類(Team type)：  **パブリック(Public)**
+   チームの種類(Team type)：  **パブリック**
 
    最初のチャネルに名前を付けてください(Name the first channel)： **一般**
 
-4. [Teams Rolloutにメンバーを追加(Add membtes to Teams Rollout)] ウィンドウで、[スキップ] を選択します。
+4. [Group_Afterwork_Canada にメンバーを追加(Add membtes to Teams Rollout)] ウィンドウで、[スキップ] を選択します。
 
 6. 新しく作成したチームの名前を確認します。
 
