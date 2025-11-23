@@ -468,9 +468,9 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
 
 1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Teams 管理センター ([https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)) を参照します。
 
-2. Teams 管理センターの左側のナビゲーションで、[**Teams のアプリ**] > [**アプリを管理**] を選択します。
+2. Teams 管理センターの左側のナビゲーションで、[**Teams のアプリ**] > [**アプリの管理**] を選択します。
 
-3. 「アプリのアクセス許可の管理方法を変更する」が表示された場合は、右上の **[x]** をクリックして閉じます。
+3. 「アプリのアクセス許可の管理方法を変更する」が表示された場合は、右上の **[x]** をクリックして閉じます。(表示されない場合は次のステップに進んでください）
 
    ![](./media/MS-700-lab_M03_ak_image10.png)
 
