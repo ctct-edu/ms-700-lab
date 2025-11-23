@@ -356,7 +356,7 @@ Teams のセルフサービス機能をテストするために、このタス�
 
   2. 「アカウントをセキュリティで保護しましょう」画面が表示されます。「次へ」をクリックします。
 
-     [![module04-19](C:\Users\z2115023\Documents\GitHub\sc-300-lab\LabManual\media\module04-19.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19.BMP)
+     [![module04-19](./media/module04-19.BMP)](https://github.com/ctct-edu/Azure-Active-Directory-for-Beginners/blob/main/LabManual/media/module04-19.BMP)
 
 3. 「Microsoft Authenticator のインストール」画面で「次へ」をクリックします。
 
