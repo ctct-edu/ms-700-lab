@@ -107,13 +107,13 @@ Contoso Ltd. は、ビデオと会議のコンテンツを多数のオンライ�
 
 IT 部門は、新しい報告システムに関する従業員の質問に答えるために、全社会議を開催したいと考えています。Teams 管理者は、従業員が会議の前に質問を送信できるウェビナーを作成します。
 
-1. **クライアント 1 VM** に接続しs **Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として Microsoft Teams Web クライアント (https://teams.microsoft.com/)を参照します。
+1. **クライアント 1 VM** に接続し **Lynner Robbins** (Lynner@YourTenant.onmicrosoft.com) として Microsoft Teams Web クライアント (https://teams.microsoft.com/)を参照します。
 
 2. 左のナビゲーションから **カレンダー(Calednar)** を探して選択します。
 
 3. Calendar画面右上の **[+ 新しい会議(New meeting)]** ドロップダウン メニューから、[**ウェビナー(Webinar)**] を選択します。
 
-4. [基本情報(Basic Info)] を以下のように入力した後、**[招待を保存して発送する(Save and send invites)]** を選択します。
+4. [基本情報(Basic Info)] を以下のように入力した後、**[保存して招待を送信する(Save and send invites)]** を選択します。
 
    - タイトル(Title) :IT Office Hour
    - 開始日(Start date) / 終了日(End date) :現在の時刻に近い時刻を選択します
@@ -126,13 +126,13 @@ IT 部門は、新しい報告システムに関する従業員の質問に答�
 
 5. 左側のナビゲーションで、**[登録フォーム(Registration]**  を展開し、**[構成(Configuration)]** を選択します。次の情報を入力した後、 [**保存**] を選択します。
 
-   - 定員(Capacity) :1000名
+   - イベントの容量(Capacity) :1000名
 
    - [フォーム(Form)] で [**+ フィールドを追加(Add field)**] > **[カスタムの質問(Custom question())** > **[テキスト入力(Text input)]** を選択し、テキストボックスに次のように入力します。
 
      **What is your question about the new reporting system?**
 
-6. 画面右上の方にある [**下書きサイトを表示する(View draft)**] ボタンを選択して、登録サイトをプレビューします(サインインを要求された場合、 Joni Shermanの資格情報を使用してください)。登録ページのプレビューがブラウザーの新しいタブで開きます。サイトを確認したら、タブを閉じます。
+6. 画面右上の方にある [**下書きサイトを表示する(View draft)**] ボタンを選択して、登録サイトをプレビューします(サインインを要求された場合、 Lynner Robbins の資格情報を使用してください)。登録ページのプレビューがブラウザーの新しいタブで開きます。サイトを確認したら、タブを閉じます。
 
 7. 登録サイトを公開し、リンクを共有します。
 
