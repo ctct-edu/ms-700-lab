@@ -201,7 +201,7 @@ Teams 管理者は、組織内の Teams デバイスの設定と機能を管理�
 3. Teams Rooms アカウントにライセンスを割り当てます。
    1. 左側のナビゲーション ウィンドウから **Microsoft 365 管理センターで**、[ユーザー] を選択し、[**アクティブなユーザー**] を選択します。
    2. NY-TeamsRoom1@YourTenant.onmicrosoft.com アカウントを選択し、[**ライセンスとアプリ**] タブを選択します。
-   3. [NY-TeamsRoom1@YourTenant.onmicrosoft.com ページの [**ライセンスとアプリ**] タブで、[**Microsoft Teams 電話リソースアカウント**] を選択し、[**変更の保存**] を選択します。
+   3. [NY-TeamsRoom1@YourTenant.onmicrosoft.com ページの [**ライセンスとアプリ**] タブで、[**Microsoft Teams Rooms Pro**] を選択し、[**変更の保存**] を選択します。
 4. サインアウトして、開いているすべてのウィンドウを閉じます。
 
 Microsoft Teams Room システムを展開するための前提条件である Microsoft Teams Room サービス アカウントの作成、構成、およびライセンスが正常に完了しました。
