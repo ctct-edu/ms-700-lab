@@ -368,10 +368,6 @@ Teams 管理者は、通話キューを作成し、最大キュー サイズ、�
 
 1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として [**https://admin.teams.microsoft.com/**](https://admin.teams.microsoft.com/) の **Teams 管理センター**を参照します。
 
-2. 以下のリンク先にジャンプし、ダウンロードアイコン（下向き矢印）をクリックして、 **Alarm03.wav**ファイルをダウンロードし、ダウンロードフォルダに保存します。
-
-   https://github.com/MicrosoftLearning/MS-700-Managing-Microsoft-Teams/blob/master/Instructions/Labs/media/Alarm03.wav
-
 3. **Teams 管理センター**を参照します。左側のナビゲーション ウィンドウで [**音声**] を選択して展開し、 **[通話キュー]** を選択します。
 
 4. 上部のウィンドウから [**+ 追加**] を選択します。
