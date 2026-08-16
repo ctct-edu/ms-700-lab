@@ -107,11 +107,7 @@ Microsoft World-Wide Learning チームは、このような変更が通知さ�
 
    - Microsoft **Edge** を開き、グローバル管理者資格情報 ( **MOD 管理者** : admin@YourTenant.onmicrosoft.com) を使用して [**https://admin.microsoft.com/**](https://admin.microsoft.com/) の **Microsoft 365 管理センター**を参照します。
 
-     「You need to set up multifactor authentication」の画面で多要素認証の設定を求められた場合は、可能であれば「Skip for now」を選択してスキップしてください。
-     
-     ![](./media/lab1-1.png)
-     
-     もし「Skip for now」が表示されない場合は、「Set up now」を選択して、Microsoft Authenticatorによる多要素認証の設定を実施することもできます。
+     「You need to set up multifactor authentication」の画面で多要素認証の設定を求められたら、「Set up now」を選択して、Microsoft Authenticatorによる多要素認証の設定を実施してください。
 
 2. 画面右上の歯車をクリックし、Microsoft 365 管理センターを日本語表記に変更してください。（詳細は別紙）
 
