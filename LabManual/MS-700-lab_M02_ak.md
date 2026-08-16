@@ -167,22 +167,22 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 
 2. **Windows PowerShell** を開き、管理者として実行します。
 
-3. AAD テナントに接続します。
+3. Microsoft Entra IDテナントに接続します。
 
    PowerShell ウィンドウに次のコマンドレットを入力し、**Enter** キーを押します。[サインイン] ウィンドウで、グローバル管理者 - MOD Administrator(admin@YourTenant.onmicrosoft.com) としてサインインします。
 
    ```
-   Connect-AzureAD
+   Connect-MgGraph -Scopes "Directory.ReadWrite.All"
    ```
 
-   ※ 'Connect-AzureAD' がコマンドレットとして認識されない旨のエラーメッセージが表示された場合は、
+   ※ 'Connect-MgGraph' がコマンドレットとして認識されない旨のエラーメッセージが表示された場合は、
 
-   　ラボ01にある　 Install-Module -Name AzureADPreview　コマンドを実行してみてください。
+   　ラボ01にある　 Microsoft.Graph　コマンドを実行してみてください。
 
-4. Azure AD 組織の現在のグループ設定をフェッチする
+4. 組織の現在のグループ設定をフェッチする
 
    ```
-   $Setting = Get-AzureADDirectorySetting -Id (Get-AzureADDirectorySetting | where -Property DisplayName -Value "Group.Unified" -EQ).id
+   $Setting = Get-MgBetaDirectorySetting | Where-Object { $_.TemplateId -eq (Get-MgBetaDirectorySettingTemplate | Where-Object { $_.DisplayName -eq "Group.Unified" }).Id }
    ```
 
    
@@ -190,7 +190,13 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 5. 構成で Microsoft Identity Protection (MIP) サポートを有効にします。
 
    ```
-   $Setting["EnableMIPLabels"] = "True"
+     $params = @{
+          Values = @(
+              @{ Name = "EnableMIPLabels"; Value = "True" }
+          )
+      }
+     Update-MgBetaDirectorySetting -DirectorySettingId $Setting.Id @params
+   
    ```
 
    
@@ -198,7 +204,7 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 6. 新しい構成を確認するには、次のコマンドレットを実行します。
 
    ```
-   $Setting.Values
+   (Get-MgBetaDirectorySetting -DirectorySettingId $Setting.Id).Values
    ```
 
    
@@ -209,14 +215,14 @@ Teams 管理センターを調べたので、最初の設定を構成します�
    Set-AzureADDirectorySetting -Id $Setting.Id -DirectorySetting $Setting
    ```
 
+   **EnableMIPLabels** が **True** であることを確認しましょう。
+
    
 
-   **手記：** テナントにディレクトリ設定オブジェクトがまだない場合。ディレクトリ設定オブジェクトを初めて作成する場合に、 `New-AzureADDirectorySetting` を使用する必要があります。
-
-8. 現在のセッションを Azure Active Directory テナントから切断し、PowerShell ウィンドウを閉じます。
+8. 現在のセッションをMicrosoft Graphから切断し、PowerShellウィンドウを閉じます。
 
    ```
-   Disconnect-AzureAD
+   Disconnect-MgGraph
    ```
 
    
