@@ -248,7 +248,7 @@ Microsoft Teams PowerShell モジュールを使用して Teams に接続し、�
 
 1. **クライアント 1 VM** に接続し、**Joni Sherman** (JoniS@YourTenant.onmicrosoft.com) として **Microsoft 365 管理センター** (https://admin.microsoft.com/) を参照します。
 
-   ※「多要素認証を設定する必要があります」と表示された場合 **今は行わない** を選択して進めて構いません。
+   ※「多要素認証を設定する必要があります」と表示された場合 **今すぐ設定** を選択して、Microsoft Authenticatorによる多要素認証の設定を実施してください。
 
 2. Microsoft 365 管理センターで、**[チームとグループ]** > **[アクティブなチームとグループ**] を選択します。
 
