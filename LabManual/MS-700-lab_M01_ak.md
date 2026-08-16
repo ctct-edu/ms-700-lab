@@ -232,10 +232,13 @@ Teams 管理センターから、テナントでチームを管理し、ポリ�
 
 6. **Azure AD プレビュー モジュール**のインストール
 
-   PowerShell ウィンドウで、次のコマンドレットを入力し、**Enter** キーを押します。**「Y**」と入力して **Enter** キーを押し、信頼できないリポジトリのインストールを確認します。
+   PowerShell ウィンドウで、次のコマンドレットを実行します。**「Y**」と入力して **Enter** キーを押し、信頼できないリポジトリのインストール確認を求めるメッセージが表示された場合は、「はい」の「**Y**」と入力します。
 
    - ```
-     Install-Module -Name AzureADPreview
+     Install-Module -name Microsoft.Graph
+     
+     Install-module -name Microsoft.Graph.Beta
+     
      ```
 
 7. PowerShell ウィンドウを閉じて、次のタスクに進みます。
