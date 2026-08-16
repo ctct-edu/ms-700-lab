@@ -61,6 +61,8 @@ Contoso のパイロット プロジェクトの一環として、以前のラ�
    Connect-MicrosoftTeams
    ```
 
+   ※ 上記コマンド実行後「[Sign in to all apps～]ページが 表示された場合は、 [No, this app only] をクリックします。 ([OK]ボタンをクリックしないでください。)
+
 4. **[サインイン**] ダイアログ ボックスが開きます。提供された **Joni Sherman** の資格情報の **UPN** (例: JoniS@YourTenant.onmicrosoft.com) を入力し、[**次へ**] を選択します。
 
 5. [**パスワードの入力**] ダイアログ ボックスで、提供された **Joni Sherman** の資格情報の**パスワード**を入力し、[**サインイン**] を選択します。
