@@ -202,6 +202,10 @@ Teams 管理センターから、テナントでチームを管理し、ポリ�
      
      [サインイン] ウィンドウで、Teams 管理者 - Joni Sherman (JoniS@YourTenant.onmicrosoft.com) としてサインインします。
      
+     [Sign in to all apps～]ページが 表示された場合は、 [No, this app only] をクリックします。 ([OK]ボタンをクリックしないでください。)
+     
+     ![](C:\Users\z2115023\Documents\GitHub\ms-700-lab\LabManual\media\lab1-21.png)
+     
    - サインインが成功すると、サインインしているユーザーとテナントに関するいくつかの情報が表示されます。
 
 5. **Microsoft Teams PowerShell モジュール**の詳細
