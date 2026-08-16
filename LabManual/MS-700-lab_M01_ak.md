@@ -234,14 +234,16 @@ Teams 管理センターから、テナントでチームを管理し、ポリ�
 
    PowerShell ウィンドウで、次のコマンドレットを実行します。**「Y**」と入力して **Enter** キーを押し、信頼できないリポジトリのインストール確認を求めるメッセージが表示された場合は、「はい」の「**Y**」と入力します。
 
-   - ```
-     Install-Module -name Microsoft.Graph
-     
-     Install-module -name Microsoft.Graph.Beta
-     
-     ```
+   ```
+   Install-Module -name Microsoft.Graph
+   ```
 
-7. PowerShell ウィンドウを閉じて、次のタスクに進みます。
+   ```
+   Install-module -name Microsoft.Graph.Beta
+   ```
+
+   PowerShell ウィンドウを閉じて、次のタスクに進みます。
+
 
 Microsoft Teams PowerShell モジュールを使用して Teams に接続し、使用可能なコマンドレットを調べました。
 
