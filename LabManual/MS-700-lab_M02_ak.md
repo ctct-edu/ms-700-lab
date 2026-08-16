@@ -76,12 +76,12 @@ Teams 管理センターを調べたので、最初の設定を構成します�
    -  **[メンバーを追加]** を選択し、Outlook アカウントを入力します。
    -  「Add< Outlook アカウント> as a guest ? (< Outlook アカウント>をゲストとして追加しますか？)」 のメッセージが表示されます。メッセージを選択し、[**追加**] を選択 します。「Done(完了)」のウィンドウが表示されたら、右上の **[X]** をクリックして閉じます。
    
-3. ゲストの招待を承諾する
+3. (オプション)ゲストの招待を承諾する(オプション)
    - **新しい InPrivate ウィンドウ**を開き、**Outlook Web ポータル** (https://outlook.live.com/owa/) にMicrosoft Teams で Contoso にゲストとして追加された **Outlookアカウントでサインインします。**
    - 「You have been added as a guest to Contoso in Microsoft Teams」という件名のメールから **[Open Microsoft Teams]** をクリックします。サインイン ページにリダイレクトされ、アクセス許可の同意が要求されます。
    - **[承諾]** を選択します。その後 **[Use the web app instead (代わりにwebアプリを使用)]**  をクリックして、Outlook アカウントで Teams Web クライアントにサインインします。
    
-4. ゲスト アクセスをテストする
+4. (オプション)ゲスト アクセスをテストする
    - Teams Web クライアントでチーム **Group_Afterwork_** が表示されます。(見つけることができない場合は、時間をおいてから、ブラウザーの更新等をお試しください。)
    
    - Group_Afterwork_チームの **[一般]** チャネルを選択し、 **[チャネルで投稿]** を選択して、次のメッセージを送信します: **Hello!**
@@ -175,9 +175,15 @@ Teams 管理センターを調べたので、最初の設定を構成します�
    Connect-MgGraph -Scopes "Directory.ReadWrite.All"
    ```
 
-   ※ 'Connect-MgGraph' がコマンドレットとして認識されない旨のエラーメッセージが表示された場合は、
+   ※ 上記コマンド実行後「Microsoft account」「Work or school account」の選択画面が出たら、「Work or school account」を選択して進めてください。
 
-   　ラボ01にある　 Microsoft.Graph　コマンドを実行してみてください。
+   ※  上記コマンド実行後「Permissions requested」画面が出たら、「Consent on behalf of your organization」 のチェックボックスをオンにして「Accept」を選択してください。
+
+   ※ 上記コマンド実行後「[Sign in to all apps～]ページが 表示された場合は、 [No, this app only] をクリックします。 ([OK]ボタンをクリックしないでください。)
+
+   ![](./media/lab1-21.png)
+
+   ※ 'Connect-MgGraph' がコマンドレットとして認識されない旨のエラーメッセージが表示された場合は、　ラボ01にある　 Microsoft.Graph　コマンドを実行してみてください。
 
 4. 組織の現在のグループ設定をフェッチする
 
@@ -205,14 +211,6 @@ Teams 管理センターを調べたので、最初の設定を構成します�
 
    ```
    (Get-MgBetaDirectorySetting -DirectorySettingId $Setting.Id).Values
-   ```
-
-   
-
-7. 次に、変更を保存し、設定を適用します。
-
-   ```
-   Set-AzureADDirectorySetting -Id $Setting.Id -DirectorySetting $Setting
    ```
 
    **EnableMIPLabels** が **True** であることを確認しましょう。

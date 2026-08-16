@@ -204,7 +204,7 @@ Teams 管理センターから、テナントでチームを管理し、ポリ�
      
      [Sign in to all apps～]ページが 表示された場合は、 [No, this app only] をクリックします。 ([OK]ボタンをクリックしないでください。)
      
-     ![](C:\Users\z2115023\Documents\GitHub\ms-700-lab\LabManual\media\lab1-21.png)
+     ![](./media/lab1-21.png)
      
    - サインインが成功すると、サインインしているユーザーとテナントに関するいくつかの情報が表示されます。
 
