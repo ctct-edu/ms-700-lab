@@ -242,6 +242,8 @@ Teams 管理センターから、テナントでチームを管理し、ポリ�
    Install-module -name Microsoft.Graph.Beta
    ```
 
+   上記コマンドは実行が完了するまで5分以上かかることがあるため、少し休憩して頂いても構いません。
+
    PowerShell ウィンドウを閉じて、次のタスクに進みます。
 
 Microsoft Teams PowerShell モジュールを使用して Teams に接続し、使用可能なコマンドレットを調べました。
