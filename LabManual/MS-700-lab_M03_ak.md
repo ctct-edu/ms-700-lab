@@ -318,7 +318,7 @@ Graph API を使用して 2 つのチームを正常に作成しました。グ�
    3. [状態] 列が [アーカイブ] に変わり、オレンジ色で表示されます。ブラウザを開いたままにして続行します。**Sales**チームに問題がある場合は、別のチームをアーカイブします(このアクションはアーカイブ解除手順で元に戻すことができます)。
 4. アーカイブされたチームを確認する
    1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント ( https://teams.microsoft.com/ )を Lynne Robbins  (Lynner@YourTenant.onmicrosoft.com) として参照します。
-   2. 左のメニューから **[チーム]**  を選択し、上のにある **[...]** を選択して、[ **あなたのチームとチャネル** ] をクリックします。
+   2. 上の方にある **[...]** を選択して、[ **あなたのチームとチャネル** ] をクリックします。
    3. [**Sales**] が表示されることを確認します。アーカイブされているため、チャネル投稿などはできません。
 5. Salesチームのアーカイブを解く
    1. **クライアント 1 VM** に再度接続し、**Joni Sherman** として Teams 管理センターを参照します。
@@ -457,7 +457,7 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
       - **チャンネル所有者**: Alex Wilber
 6. [**適用]** を選択します。
 7. プライベートチャネルを確認する
-   1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント (https://teams.microsoft.com/)を Alex Wilber  (Alexw@YourTenant.onmicrosoft.com) として参照します。
+   1. クライアント 2 VM に接続し、Microsoft Teams Web クライアント ( https://teams.microsoft.com/ )を Alex Wilber  (Alexw@YourTenant.onmicrosoft.com) として参照します。
    2. **[チーム**] を選択します。Salesチームが非表示の場合は、Sales チーム名の右にある 3 つのドット **(...)** を選択し、**表示** を選択します。
    3. Salesチームに、小さな南京錠のアイコンが付いた新しいプライベート チャネル [**Confidential sales**] が表示されます。
 
@@ -477,7 +477,7 @@ Contoso の Teams 管理者は、一部のチーム メンバーのみがアク�
 
    ![](./media/MS-700-lab_M03_ak_image10.png)
 
-4. [**アプリの管理**] ページで、検索ボックスに「**Google**」と入力します。検索結果で **[Google Analytics Insight]** 選択して開きます。
+4. [**アプリの管理**] ページで、検索ボックスに「**Google**」と入力します。検索結果で **[Google Analytics Insights]** を選択して開きます。
 
 5. 画面上の **「状態」のスライドバークリック** して、「許可済み」から [ブロック済み] に変更します。
 
